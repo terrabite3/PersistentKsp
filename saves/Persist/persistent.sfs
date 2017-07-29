@@ -730,7 +730,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.2.2
-		UT = 522501070.62510264
+		UT = 522502563.61571079
 		activeVessel = 8
 		mapViewFiltering = -1026
 		commNetUIModeTracking = Network
@@ -5797,21 +5797,21 @@ GAME
 			pid = 61f57a99ddba464e951b28f3379e170b
 			name = Comm Tester
 			type = Probe
-			sit = PRELAUNCH
+			sit = LANDED
 			landed = True
-			landedAt = LaunchPad
+			landedAt = KSC_LaunchPad_Platform
 			splashed = False
-			met = 0
-			lct = 522501070.62510264
-			lastUT = 522501070.62510264
+			met = 1491.030610024929
+			lct = 522501072.56510079
+			lastUT = 522502563.61571079
 			root = 0
-			lat = -0.097207780862941615
-			lon = -74.557678344076251
-			alt = 85.559748388128355
-			hgt = 13.1334858
-			nrm = 0.000894576311,0.999999583,-0.000107139349
-			rot = -0.700950801,-0.0921190605,-0.0972601399,0.700515926
-			CoM = 0.00145578384,-7.65200233,2.28881836E-05
+			lat = -0.097207110475332592
+			lon = -74.557679389439443
+			alt = 85.603641160181724
+			hgt = 13.1335087
+			nrm = -1.88946724E-05,1.00000012,3.93390656E-06
+			rot = -0.701096117,-0.0929970965,-0.0964986458,0.700359821
+			CoM = 0.000116825104,-7.67426443,3.33786011E-06
 			stg = 5
 			prst = False
 			ref = 1859866854
@@ -5821,13 +5821,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 300821.33280949516
-				ECC = 0.9947983813064476
-				INC = 0.097207862663025654
-				LPE = 90
-				LAN = 334.4391000660392
-				MNA = 3.1415926535897887
-				EPH = 522501070.62510264
+				SMA = 300821.34343477024
+				ECC = 0.9947983827454604
+				INC = 0.09720711202440542
+				LPE = 90.007965507733061
+				LAN = 359.3727088493888
+				MNA = -3.1415926002892922
+				EPH = 522502563.61571079
 				REF = 1
 			}
 			PART
@@ -5854,8 +5854,8 @@ GAME
 				attN = top, 35
 				mass = 0.100000001
 				shielded = True
-				temp = 308.87369182826319
-				tempExt = 308.87369182826319
+				temp = 296.22774844776546
+				tempExt = 295.74338640884019
 				tempExtUnexp = 308.87369182826319
 				expt = 0
 				state = 0
@@ -6031,6 +6031,7 @@ GAME
 					Log
 					{
 						flight = 0
+						0 = Land,Kerbin
 					}
 					UPGRADESAPPLIED
 					{
@@ -6072,8 +6073,8 @@ GAME
 				attN = top, 0
 				mass = 0.0199999996
 				shielded = True
-				temp = 308.87369182826319
-				tempExt = 308.87369182826319
+				temp = 292.38217337003994
+				tempExt = 293.38859214721145
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -6189,6 +6190,21 @@ GAME
 				MODULE
 				{
 					name = ModuleKerbalKrashSystem_Repair
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = KJRDecouplerReinforcementModule
 					isEnabled = True
 					stagingEnabled = True
 					EVENTS
@@ -6226,8 +6242,8 @@ GAME
 				attN = bottom, 3
 				mass = 0.00999999978
 				shielded = True
-				temp = 308.87369182826319
-				tempExt = 308.87369182826319
+				temp = 287.14487853061047
+				tempExt = 288.14642663159026
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -6294,7 +6310,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 199.98571428603441
+					amount = 155.55146727268621
 					maxAmount = 200
 					flowState = True
 					isTweakable = True
@@ -6327,8 +6343,8 @@ GAME
 				attN = top, 2
 				mass = 0.100000001
 				shielded = True
-				temp = 308.87369182826319
-				tempExt = 308.87369182826319
+				temp = 286.92459353048287
+				tempExt = 287.20652736661259
 				tempExtUnexp = 308.87369182826319
 				expt = 0
 				state = 0
@@ -6504,6 +6520,7 @@ GAME
 					Log
 					{
 						flight = 0
+						0 = Land,Kerbin
 					}
 					UPGRADESAPPLIED
 					{
@@ -6512,7 +6529,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 9.9992857143016778
+					amount = 7.7775733636250193
 					maxAmount = 10
 					flowState = True
 					isTweakable = True
@@ -6545,8 +6562,8 @@ GAME
 				attN = top, 3
 				mass = 0.0199999996
 				shielded = True
-				temp = 308.87369182826319
-				tempExt = 308.87369182826319
+				temp = 286.50075095810126
+				tempExt = 286.67303424912586
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -6662,6 +6679,21 @@ GAME
 				MODULE
 				{
 					name = ModuleKerbalKrashSystem_Repair
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = KJRDecouplerReinforcementModule
 					isEnabled = True
 					stagingEnabled = True
 					EVENTS
@@ -6699,8 +6731,8 @@ GAME
 				attN = bottom, 6
 				mass = 0.00999999978
 				shielded = True
-				temp = 308.87369182826319
-				tempExt = 308.87369182826319
+				temp = 285.92392122723447
+				tempExt = 285.99318795514597
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -6767,7 +6799,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 199.98571428603441
+					amount = 155.55146727268621
 					maxAmount = 200
 					flowState = True
 					isTweakable = True
@@ -6800,8 +6832,8 @@ GAME
 				attN = top, 5
 				mass = 0.100000001
 				shielded = True
-				temp = 308.87369182826319
-				tempExt = 308.87369182826319
+				temp = 285.51759820609243
+				tempExt = 285.47844754246103
 				tempExtUnexp = 308.87369182826319
 				expt = 0
 				state = 0
@@ -6977,6 +7009,7 @@ GAME
 					Log
 					{
 						flight = 0
+						0 = Land,Kerbin
 					}
 					UPGRADESAPPLIED
 					{
@@ -6985,7 +7018,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 9.9992857143016778
+					amount = 7.7775733636250193
 					maxAmount = 10
 					flowState = True
 					isTweakable = True
@@ -7018,8 +7051,8 @@ GAME
 				attN = top, 6
 				mass = 0.0199999996
 				shielded = True
-				temp = 308.87369182826291
-				tempExt = 308.87369182826319
+				temp = 284.85559907180965
+				tempExt = 284.90559213305505
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -7135,6 +7168,21 @@ GAME
 				MODULE
 				{
 					name = ModuleKerbalKrashSystem_Repair
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = KJRDecouplerReinforcementModule
 					isEnabled = True
 					stagingEnabled = True
 					EVENTS
@@ -7172,8 +7220,8 @@ GAME
 				attN = bottom, 9
 				mass = 0.00999999978
 				shielded = True
-				temp = 308.87369182819231
-				tempExt = 308.8736918282579
+				temp = 283.96804836965663
+				tempExt = 284.07557535845314
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -7240,7 +7288,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 199.98571428603441
+					amount = 155.55146727268621
 					maxAmount = 200
 					flowState = True
 					isTweakable = True
@@ -7273,8 +7321,8 @@ GAME
 				attN = top, 8
 				mass = 0.100000001
 				shielded = True
-				temp = 308.87369182579727
-				tempExt = 308.87369182761319
+				temp = 283.21262110495582
+				tempExt = 283.1349884047068
 				tempExtUnexp = 308.87369182826319
 				expt = 0
 				state = 0
@@ -7450,6 +7498,7 @@ GAME
 					Log
 					{
 						flight = 0
+						0 = Land,Kerbin
 					}
 					UPGRADESAPPLIED
 					{
@@ -7458,7 +7507,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 9.9992857143016778
+					amount = 7.7775733636250193
 					maxAmount = 10
 					flowState = True
 					isTweakable = True
@@ -7491,8 +7540,8 @@ GAME
 				attN = top, 9
 				mass = 0.0199999996
 				shielded = True
-				temp = 308.87369128324025
-				tempExt = 308.87369177447556
+				temp = 282.31210552717675
+				tempExt = 282.35643531078568
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -7620,6 +7669,21 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KJRDecouplerReinforcementModule
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -7645,8 +7709,8 @@ GAME
 				attN = bottom, 12
 				mass = 0.00999999978
 				shielded = True
-				temp = 308.87362575426846
-				tempExt = 308.87368645581449
+				temp = 281.10942978654367
+				tempExt = 281.20980975220687
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -7713,7 +7777,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 199.98571428603441
+					amount = 155.55146727268621
 					maxAmount = 200
 					flowState = True
 					isTweakable = True
@@ -7746,8 +7810,8 @@ GAME
 				attN = top, 11
 				mass = 0.100000001
 				shielded = True
-				temp = 308.87293103044408
-				tempExt = 308.87357638457007
+				temp = 280.36007260533825
+				tempExt = 280.54563220028155
 				tempExtUnexp = 308.87369182826319
 				expt = 0
 				state = 0
@@ -7923,6 +7987,7 @@ GAME
 					Log
 					{
 						flight = 0
+						0 = Land,Kerbin
 					}
 					UPGRADESAPPLIED
 					{
@@ -7931,7 +7996,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 9.9992857143016778
+					amount = 7.7775733636250193
 					maxAmount = 10
 					flowState = True
 					isTweakable = True
@@ -7964,8 +8029,8 @@ GAME
 				attN = top, 12
 				mass = 0.0149999997
 				shielded = True
-				temp = 308.8024829925352
-				tempExt = 308.86909536831689
+				temp = 279.25719868412853
+				tempExt = 280.07849083676888
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -8093,6 +8158,21 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KJRDecouplerReinforcementModule
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -8130,9 +8210,9 @@ GAME
 				attN = bottom, 15
 				mass = 0.252638251
 				shielded = False
-				temp = 299.19730562447847
-				tempExt = 306.9705430294988
-				tempExtUnexp = 307.05066777868524
+				temp = 262.81771294731266
+				tempExt = 262.78925928233042
+				tempExtUnexp = 262.79728867211134
 				expt = 0.5
 				state = 0
 				attached = True
@@ -8510,9 +8590,9 @@ GAME
 				attN = bottom, 16
 				mass = 0.0318507701
 				shielded = False
-				temp = 95.446370887409472
-				tempExt = 147.38546041903072
-				tempExtUnexp = 145.55082853547984
+				temp = 262.04772727360398
+				tempExt = 225.89715814528452
+				tempExtUnexp = 225.8976778622864
 				expt = 0.5
 				state = 0
 				attached = True
@@ -8582,7 +8662,7 @@ GAME
 					type = Default
 					utilization = 86
 					mass = 0.0318507701
-					partPrevTemperature = 95.446370887409472
+					partPrevTemperature = 262.04772727360398
 					stagingEnabled = True
 					volume = 1000
 					EVENTS
@@ -8602,7 +8682,7 @@ GAME
 						temperature = 90.1500015
 						fillable = True
 						techRequired = 
-						amount = 623.05862884319788
+						amount = 616.02590418707643
 						maxAmount = 623.05912017822266
 					}
 					TANK
@@ -9295,7 +9375,7 @@ GAME
 				RESOURCE
 				{
 					name = LqdOxygen
-					amount = 623.05862884319788
+					amount = 616.02590418707643
 					maxAmount = 623.05912017822266
 					flowState = True
 					isTweakable = True
@@ -9328,9 +9408,9 @@ GAME
 				attN = bottom, 17
 				mass = 0.0450000018
 				shielded = False
-				temp = 278.79676534281407
-				tempExt = 302.23762055855536
-				tempExtUnexp = 302.64016459788752
+				temp = 267.34416133876795
+				tempExt = 271.67107131967589
+				tempExtUnexp = 271.67451127229612
 				expt = 0.5
 				state = 0
 				attached = True
@@ -9384,11 +9464,11 @@ GAME
 					{
 						UllageSim
 						{
-							ullageHeightMin = 0.89999432115012601
-							ullageHeightMax = 1
-							ullageRadialMin = 9.4647497899629726E-06
-							ullageRadialMax = 1
-							UT = 522501070.62510264
+							ullageHeightMin = 0.89999522455116154
+							ullageHeightMax = 0.99999978455123251
+							ullageRadialMin = 7.2732813400088193E-06
+							ullageRadialMax = 0.99999999952372176
+							UT = 522502563.61571079
 						}
 					}
 					UPGRADESAPPLIED
@@ -9566,9 +9646,9 @@ GAME
 				attN = top, 16
 				mass = 0.0500000007
 				shielded = False
-				temp = 308.36121146289344
-				tempExt = 308.52478206717865
-				tempExtUnexp = 308.55950382278769
+				temp = 286.43652480400169
+				tempExt = 287.69244367215788
+				tempExtUnexp = 287.69326233862273
 				expt = 0.5
 				state = 0
 				attached = True
@@ -9695,6 +9775,21 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KJRDecouplerReinforcementModule
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -9720,9 +9815,9 @@ GAME
 				attN = top, 17
 				mass = 1.22000003
 				shielded = False
-				temp = 308.87359458717589
-				tempExt = 308.90270357865916
-				tempExtUnexp = 308.9022825948233
+				temp = 290.91905997774035
+				tempExt = 291.7049395208852
+				tempExtUnexp = 291.70514093765365
 				expt = 0.5
 				state = 0
 				attached = True
@@ -9965,8 +10060,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.00499999989
 				shielded = True
-				temp = 308.87368793498831
-				tempExt = 308.87368771572471
+				temp = 280.49088205311483
+				tempExt = 280.53759835467264
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -10060,8 +10155,8 @@ GAME
 				srfN = srfAttach, 12
 				mass = 0.00499999989
 				shielded = True
-				temp = 308.87362780513558
-				tempExt = 308.87368657434848
+				temp = 280.43761601807029
+				tempExt = 280.5106292649117
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -10119,8 +10214,8 @@ GAME
 				srfN = srfAttach, 11
 				mass = 0.0175000001
 				shielded = True
-				temp = 308.8736916049603
-				tempExt = 308.87369180511399
+				temp = 281.93770220746802
+				tempExt = 281.7599636669006
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -10144,7 +10239,7 @@ GAME
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 522501070.62510264
+					launchUT = 522501072.56510079
 					currentRotation = (-0.5, -0.5, -0.5, 0.5)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 1
@@ -10228,8 +10323,8 @@ GAME
 				srfN = srfAttach, 11
 				mass = 0.0175000001
 				shielded = True
-				temp = 308.8736916049603
-				tempExt = 308.87369180511399
+				temp = 281.93770220746802
+				tempExt = 281.7599636669006
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -10253,7 +10348,7 @@ GAME
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 522501070.62510264
+					launchUT = 522501072.56510079
 					currentRotation = (-0.5, -0.5, -0.5, 0.5)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 1
@@ -10336,8 +10431,8 @@ GAME
 				srfN = srfAttach, 9
 				mass = 0.075000003
 				shielded = True
-				temp = 308.87369182820237
-				tempExt = 308.87369182825967
+				temp = 283.28910594194014
+				tempExt = 283.30180019990718
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -10461,8 +10556,8 @@ GAME
 				srfN = srfAttach, 9
 				mass = 0.00499999989
 				shielded = True
-				temp = 308.87369182819083
-				tempExt = 308.87369182825779
+				temp = 283.28920130356011
+				tempExt = 283.30189549710462
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -10520,8 +10615,8 @@ GAME
 				srfN = srfAttach, 8
 				mass = 0.0175000001
 				shielded = True
-				temp = 308.87369182826308
-				tempExt = 308.87369182826319
+				temp = 284.58538036990365
+				tempExt = 284.47549292080816
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -10545,7 +10640,7 @@ GAME
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 522501070.62510264
+					launchUT = 522501072.56510079
 					currentRotation = (-0.5, -0.5, -0.5, 0.5)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 1
@@ -10629,8 +10724,8 @@ GAME
 				srfN = srfAttach, 8
 				mass = 0.0175000001
 				shielded = True
-				temp = 308.87369182826308
-				tempExt = 308.87369182826319
+				temp = 284.58538036990365
+				tempExt = 284.47549292080816
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -10654,7 +10749,7 @@ GAME
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 522501070.62510264
+					launchUT = 522501072.56510079
 					currentRotation = (-0.5, -0.5, -0.5, 0.5)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 1
@@ -10737,8 +10832,8 @@ GAME
 				srfN = srfAttach, 6
 				mass = 0.00499999989
 				shielded = True
-				temp = 308.87369182826319
-				tempExt = 308.87369182826319
+				temp = 285.5693931866839
+				tempExt = 285.58299891788204
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -10795,8 +10890,8 @@ GAME
 				srfN = srfAttach, 6
 				mass = 0.0500000007
 				shielded = True
-				temp = 308.87369182826319
-				tempExt = 308.87369182826319
+				temp = 285.58308595336933
+				tempExt = 285.59670338329818
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -10921,8 +11016,8 @@ GAME
 				srfN = srfAttach, 5
 				mass = 0.0175000001
 				shielded = True
-				temp = 308.87369182826319
-				tempExt = 308.87369182826319
+				temp = 286.33345712351309
+				tempExt = 286.30772732869838
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -10946,7 +11041,7 @@ GAME
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 522501070.62510264
+					launchUT = 522501072.56510079
 					currentRotation = (-0.5, -0.5, -0.5, 0.5)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 1
@@ -11030,8 +11125,8 @@ GAME
 				srfN = srfAttach, 5
 				mass = 0.0175000001
 				shielded = True
-				temp = 308.87369182826319
-				tempExt = 308.87369182826319
+				temp = 286.33345712351309
+				tempExt = 286.30772732869838
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -11055,7 +11150,7 @@ GAME
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 522501070.62510264
+					launchUT = 522501072.56510079
 					currentRotation = (-0.5, -0.5, -0.5, 0.5)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 1
@@ -11138,8 +11233,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.00499999989
 				shielded = True
-				temp = 308.87369182826319
-				tempExt = 308.87369182826319
+				temp = 286.96524858845675
+				tempExt = 287.12271962992713
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -11196,8 +11291,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.0149999997
 				shielded = True
-				temp = 308.87369182826319
-				tempExt = 308.87369182826319
+				temp = 287.01474531222129
+				tempExt = 287.14419723912357
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -11261,8 +11356,8 @@ GAME
 				srfN = srfAttach, 2
 				mass = 0.0175000001
 				shielded = True
-				temp = 308.87369182826319
-				tempExt = 308.87369182826319
+				temp = 290.69639390876432
+				tempExt = 290.43307858274886
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -11286,7 +11381,7 @@ GAME
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 522501070.62510264
+					launchUT = 522501072.56510079
 					currentRotation = (-0.5, -0.5, -0.5, 0.5)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 1
@@ -11370,8 +11465,8 @@ GAME
 				srfN = srfAttach, 2
 				mass = 0.0175000001
 				shielded = True
-				temp = 308.87369182826319
-				tempExt = 308.87369182826319
+				temp = 290.69639390876432
+				tempExt = 290.43307858274886
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -11395,7 +11490,7 @@ GAME
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 522501070.62510264
+					launchUT = 522501072.56510079
 					currentRotation = (-0.5, -0.5, -0.5, 0.5)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 1
@@ -11480,8 +11575,8 @@ GAME
 				attN = bottom, 0
 				mass = 0.00999999978
 				shielded = True
-				temp = 308.873691827816
-				tempExt = 308.87369182826319
+				temp = 296.28374506031275
+				tempExt = 296.53767641875157
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -11580,8 +11675,8 @@ GAME
 				srfN = srfAttach, 35
 				mass = 0.0175000001
 				shielded = True
-				temp = 308.87369182826109
-				tempExt = 308.87369182826319
+				temp = 299.61423132568427
+				tempExt = 297.3165660579599
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -11605,7 +11700,7 @@ GAME
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 522501070.62510264
+					launchUT = 522501072.56510079
 					currentRotation = (-0.5, -0.5, -0.5, 0.5)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 1
@@ -11689,8 +11784,8 @@ GAME
 				srfN = srfAttach, 35
 				mass = 0.0175000001
 				shielded = True
-				temp = 308.87369182826109
-				tempExt = 308.87369182826319
+				temp = 299.61423132568427
+				tempExt = 297.3165660579599
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
@@ -11714,7 +11809,7 @@ GAME
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 522501070.62510264
+					launchUT = 522501072.56510079
 					currentRotation = (-0.5, -0.5, -0.5, 0.5)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 1
@@ -11798,9 +11893,9 @@ GAME
 				attN = bottom, 35
 				mass = 0.100000001
 				shielded = False
-				temp = 308.87367955169583
-				tempExt = 308.85915954300981
-				tempExtUnexp = 308.85976659020872
+				temp = 301.14989208688019
+				tempExt = 301.98408330261231
+				tempExtUnexp = 301.98330559955576
 				expt = 0.5
 				state = 0
 				attached = True
@@ -11893,8 +11988,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.00499999989
 				shielded = True
-				temp = 308.87369182826319
-				tempExt = 308.87369182826319
+				temp = 296.25391395112831
+				tempExt = 296.11458698064206
 				tempExtUnexp = 308.87369182826319
 				expt = 0.5
 				state = 0
