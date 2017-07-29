@@ -11,7 +11,7 @@ GAME
 	scene = 5
 	editor = None
 	flag = Squad/Flags/minimalistic
-	launchID = 3
+	launchID = 4
 	modded = True
 	envInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe -single-instance - 
 	versionFull = 1.2.2.1622 (WindowsPlayer x64)
@@ -165,6 +165,47 @@ GAME
 		scene = 7, 8, 5
 		Progress
 		{
+			FirstLaunch
+			{
+				completedUnmanned = 522462250.633551
+			}
+			RecordsAltitude
+			{
+				completed = 522462387.15650958
+				record = 70000
+			}
+			RecordsDepth
+			{
+				reached = 522462769.08037591
+				record = 0.97400498064234853
+			}
+			RecordsSpeed
+			{
+				reached = 522462546.14270771
+				record = 1327.4352018588195
+			}
+			RecordsDistance
+			{
+				completed = 522462524.37128288
+				record = 100000
+			}
+			ReachedSpace
+			{
+				completedUnmanned = 522462387.19650954
+				vessel
+				{
+					name = Comm K1
+					flag = Squad/Flags/minimalistic
+				}
+			}
+			Kerbin
+			{
+				reached = 522462769.06037593
+				Splashdown
+				{
+					completedUnmanned = 522462769.06037593
+				}
+			}
 		}
 	}
 	SCENARIO
@@ -680,7 +721,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.2.2
-		UT = 522462240.7735604
+		UT = 522462787.62035823
 		activeVessel = 0
 		mapViewFiltering = -1026
 		commNetUIModeTracking = Network

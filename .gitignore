@@ -10,6 +10,7 @@
 !GameData/ModuleManager.TechTree
 !GameData/BetterTimeWarp/PluginData/BetterTimeWarp.cfg
 !GameData/RealPlume/GlobalSettings.cfg
+!GameData/RealFuels/RealSettings.cfg
 
 !saves/Persist/*
 !saves/Persist/Ships/*/*
