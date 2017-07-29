@@ -1,0 +1,30 @@
+Remember you cannot revert!
+
+    VAB
+Check yo' staging!!!
+Have Kerbal Engineer part!!
+Set up science action groups (including storage collection)!
+Check that the correct crew is onboard!
+Close service bays, landing struts, ladders!!
+Check for hitchiking monopropellant
+Have enough parachutes +1
+Have comms and backup comms on every stage!!
+Solar panels on every stage
+Check that all fuel tanks are topped off
+Check fuel flow
+Check that TWR > 1.5 on landing body
+Add launch stabilizers
+Minimize thrust torque
+
+
+    Launch
+Advance time to real-time
+Check staging again
+Check crew again
+Check that any parts required for contracts are detected by the contract info 
+Check that all hatches are accessible
+Check the alignment of your desired target
+
+    In flight
+Check for counter-orbitst
+Check that control vessel is correct after docking

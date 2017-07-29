@@ -3,12 +3,13 @@
 !/buildID*.txt
 !/Physics.cfg
 !/settings.cfg
+!/Preflight checklist.txt
 
 !CKAN/installed-default.ckan
 
 !GameData/ModuleManager.Physics
 !GameData/ModuleManager.TechTree
-!GameData/BetterTimeWarp/PluginData/BetterTimeWarp.cfg
+# !GameData/BetterTimeWarp/PluginData/BetterTimeWarp.cfg
 !GameData/RealPlume/GlobalSettings.cfg
 !GameData/RealFuels/RealSettings.cfg
 
