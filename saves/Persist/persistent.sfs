@@ -1,0 +1,1588 @@
+GAME
+{
+	version = 1.2.2
+	Title = Persist (SANDBOX)
+	Description = No description available.
+	linkURL = 
+	linkCaption = 
+	Mode = SANDBOX
+	Status = 1
+	Seed = 1873108747
+	scene = 5
+	editor = None
+	flag = Squad/Flags/minimalistic
+	launchID = 2
+	modded = True
+	envInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe -single-instance - 
+	versionFull = 1.2.2.1622 (WindowsPlayer x64)
+	versionCreated = 1.2.2.1622 (WindowsPlayer x64)
+	PARAMETERS
+	{
+		preset = Custom
+		FLIGHT
+		{
+			CanQuickSave = True
+			CanQuickLoad = False
+			CanAutoSave = True
+			CanUseMap = True
+			CanSwitchVesselsNear = True
+			CanSwitchVesselsFar = True
+			CanTimeWarpHigh = True
+			CanTimeWarpLow = True
+			CanEVA = True
+			CanIVA = True
+			CanBoard = True
+			CanRestart = False
+			CanLeaveToEditor = False
+			CanLeaveToTrackingStation = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = True
+		}
+		EDITOR
+		{
+			CanSave = True
+			CanLoad = True
+			CanStartNew = True
+			CanLaunch = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = False
+			startUpMode = 0
+			craftFileToLoad = 
+		}
+		TRACKINGSTATION
+		{
+			CanFlyVessel = True
+			CanAbortVessel = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = False
+		}
+		SPACECENTER
+		{
+			CanGoInVAB = True
+			CanGoInSPH = True
+			CanGoInTrackingStation = True
+			CanLaunchAtPad = True
+			CanLaunchAtRunway = True
+			CanGoToAdmin = True
+			CanGoToAstronautC = True
+			CanGoToMissionControl = True
+			CanGoToRnD = True
+			CanSelectFlag = True
+			CanLeaveToMainMenu = True
+		}
+		DIFFICULTY
+		{
+			AutoHireCrews = False
+			MissingCrewsRespawn = False
+			RespawnTimer = 7200
+			BypassEntryPurchaseAfterResearch = True
+			AllowStockVessels = False
+			IndestructibleFacilities = False
+			ResourceAbundance = 1
+			ReentryHeatScale = 1
+			EnableCommNet = True
+		}
+		CAREER
+		{
+			TechTreeUrl = GameData\ModuleManager.TechTree
+			StartingFunds = 25000
+			StartingScience = 0
+			StartingReputation = 0
+			FundsGainMultiplier = 1
+			RepGainMultiplier = 1
+			ScienceGainMultiplier = 1
+			FundsLossMultiplier = 1
+			RepLossMultiplier = 1
+			RepLossDeclined = 1
+		}
+		CommNetParams
+		{
+			requireSignalForControl = True
+			plasmaBlackout = True
+			rangeModifier = 1
+			DSNModifier = 1
+			occlusionMultiplierVac = 0.9
+			occlusionMultiplierAtm = 0.75
+			enableGroundStations = False
+		}
+		BTWCustomParams
+		{
+			enabled = True
+			hideButton = False
+			hideButtonInFlight = True
+			hideDropdownButtonInFlight = False
+			lockWindowPosInFlight = True
+			lockWindowPos = True
+		}
+		AdvancedParams
+		{
+			EnableKerbalExperience = True
+			ImmediateLevelUp = True
+			AllowNegativeCurrency = False
+			PressurePartLimits = True
+			GPartLimits = True
+			GKerbalLimits = True
+			KerbalGToleranceMult = 0.51
+			ResourceTransferObeyCrossfeed = False
+			ActionGroupsAlways = False
+			BuildingImpactDamageMult = 0.05
+			PartUpgradesInSandbox = False
+			PartUpgradesInCareer = True
+		}
+	}
+	SCENARIO
+	{
+		name = CommNetScenario
+		scene = 7, 8, 5, 6
+	}
+	SCENARIO
+	{
+		name = PartUpgradeManager
+		scene = 6, 5, 7
+		UPGRADES
+		{
+			Unlocks
+			{
+			}
+			Enableds
+			{
+			}
+		}
+	}
+	SCENARIO
+	{
+		name = ResourceScenario
+		scene = 7, 8, 5, 6
+		RESOURCE_SETTINGS
+		{
+			GameSeed = 1735227897
+			MaxDeltaTime = 21600
+		}
+	}
+	SCENARIO
+	{
+		name = ProgressTracking
+		scene = 7, 8, 5
+		Progress
+		{
+		}
+	}
+	SCENARIO
+	{
+		name = VesselRecovery
+		scene = 5, 7, 8, 6
+	}
+	SCENARIO
+	{
+		name = ScenarioAchievements
+		scene = 7, 8, 5, 6
+	}
+	SCENARIO
+	{
+		name = ScenarioCustomWaypoints
+		scene = 7, 8
+	}
+	SCENARIO
+	{
+		name = ScenarioDestructibles
+		scene = 5, 7, 6, 8
+		SpaceCenter/Administration/Facility/Building
+		{
+			intact = True
+		}
+		SpaceCenter/AstronautComplex/Facility/mainBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/FlagPole/Facility
+		{
+			intact = True
+		}
+		SpaceCenter/LaunchPad/Facility/Flag
+		{
+			intact = True
+		}
+		SpaceCenter/MissionControl/Facility/mainBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/mainBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/ForeverAlone
+		{
+			intact = True
+		}
+		SpaceCenter/SpaceplaneHangar/Facility/Building
+		{
+			intact = True
+		}
+		SpaceCenter/TrackingStation/Facility/building
+		{
+			intact = True
+		}
+		SpaceCenter/TrackingStation/Facility/OuterDish
+		{
+			intact = True
+		}
+		SpaceCenter/VehicleAssemblyBuilding/Facility/VAB2
+		{
+			intact = True
+		}
+		SpaceCenter/VehicleAssemblyBuilding/Facility/ksp_pad_cylTank
+		{
+			intact = True
+		}
+		SpaceCenter/VehicleAssemblyBuilding/Facility/Tank
+		{
+			intact = True
+		}
+		SpaceCenter/VehicleAssemblyBuilding/Facility/mainBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/VehicleAssemblyBuilding/Facility/PodMemorial
+		{
+			intact = True
+		}
+		SpaceCenter/TrackingStation/Facility/dish_array/dish_south
+		{
+			intact = True
+		}
+		SpaceCenter/TrackingStation/Facility/dish_array/dish_north
+		{
+			intact = True
+		}
+		SpaceCenter/TrackingStation/Facility/dish_array/dish_east
+		{
+			intact = True
+		}
+		SpaceCenter/TrackingStation/Facility/MainBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/SpaceplaneHangar/Facility/Tank
+		{
+			intact = True
+		}
+		SpaceCenter/SpaceplaneHangar/Facility/ksp_pad_cylTank
+		{
+			intact = True
+		}
+		SpaceCenter/SpaceplaneHangar/Facility/ksp_pad_waterTower
+		{
+			intact = True
+		}
+		SpaceCenter/SpaceplaneHangar/Facility/mainBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_SE
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_NE
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_NW
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_SW
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/End09
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/End27
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/Section1
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/Section2
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/Section3
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/Section4
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/ksp_pad_cylTank
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/SmallLab
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/CentralBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/MainBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/CornerLab
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/WindTunnel
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/Observatory
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/SideLab
+		{
+			intact = True
+		}
+		SpaceCenter/MissionControl/Facility/building
+		{
+			intact = True
+		}
+		SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_cylTank
+		{
+			intact = True
+		}
+		SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_launchPad
+		{
+			intact = True
+		}
+		SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_sphereTank
+		{
+			intact = True
+		}
+		SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_waterTower
+		{
+			intact = True
+		}
+		SpaceCenter/LaunchPad/Facility/LaunchPadMedium/KSCFlagPoleLaunchPad
+		{
+			intact = True
+		}
+		SpaceCenter/AstronautComplex/Facility/building
+		{
+			intact = True
+		}
+		SpaceCenter/Administration/Facility/mainBuilding
+		{
+			intact = True
+		}
+	}
+	SCENARIO
+	{
+		name = ScenarioDiscoverableObjects
+		scene = 7, 8, 5
+		lastSeed = 1263597248
+		sizeCurve
+		{
+			key = 0 0 1.5 1.5
+			key = 0.3 0.45 0.875 0.875
+			key = 0.7 0.55 0.875 0.875
+			key = 1 1 1.5 1.5
+		}
+	}
+	SCENARIO
+	{
+		name = RFUpgradeManager
+		scene = 6, 5
+	}
+	SCENARIO
+	{
+		name = SCANcontroller
+		scene = 7, 5, 8
+		colours = 0
+		map_markers = True
+		map_flags = True
+		map_waypoints = True
+		map_orbit = True
+		map_asteroids = True
+		map_grid = True
+		map_ResourceOverlay = False
+		projection = 0
+		map_width = 0
+		map_x = 100
+		map_y = 50
+		anomalyMarker = X
+		legend = False
+		scan_background = True
+		timeWarpResolution = 15
+		resourceSelection = Ore
+		dataRebuild = False
+		mainMapVisible = False
+		bigMapVisible = False
+		kscMapVisible = False
+		toolTips = True
+		useStockAppLauncher = True
+		resourceBiomeLock = True
+		useStockBiomes = False
+		biomeTransparency = 40
+		mechJebTargetSelection = False
+		easyModeScanning = True
+		needsNarrowBand = True
+		biomeBorder = True
+		disableStockResource = False
+		hiDetailZoomMap = False
+		planetaryOverlayTooltips = True
+		overlayInterpolation = 8
+		overlayMapHeight = 256
+		overlayBiomeHeight = 512
+		overlayTransparency = 0
+		trueGreyScale = False
+		groundTracks = True
+		groundTrackActiveOnly = True
+		exportCSV = False
+		scanThreshold = 0.899999976
+		useScanThreshold = True
+		slopeCutoff = 1
+		windowScale = 1
+		lowBiomeColor = 0,0.460000008,0.02345098,1
+		highBiomeColor = 0.699999988,0.238823503,0,1
+		lowSlopeColorOne = 0.0047058831,0.600000024,0.378823489,1
+		highSlopeColorOne = 0.97647059,1,0.4627451,1
+		lowSlopeColorTwo = 0.97647059,1,0.4627451,1
+		highSlopeColorTwo = 0.939999998,0.272784293,0.0073725488,1
+		Scanners
+		{
+		}
+		Progress
+		{
+			Body
+			{
+				Name = Kerbin
+				Disabled = False
+				MinHeightRange = -1500
+				MaxHeightRange = 6500
+				ClampHeight = 0
+				PaletteName = Default
+				PaletteSize = 7
+				PaletteReverse = False
+				PaletteDiscrete = False
+				Map = CAABAAAA-----0AHQAAAD0AIBYD0AwACAOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AODNAAEACw__
+			}
+			Body
+			{
+				Name = Sun
+				Disabled = False
+				MinHeightRange = 0
+				MaxHeightRange = 1000
+				PaletteName = Default
+				PaletteSize = 7
+				PaletteReverse = False
+				PaletteDiscrete = False
+				Map = CAABAAAA-----0AHQAAAD0AIBYD0AwACAOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AODNAAEACw__
+			}
+		}
+		SCANResources
+		{
+			ResourceType
+			{
+				Resource = Ore
+				MinColor = 0.241454497,0.120727301,0.829999983,1
+				MaxColor = 0.788862824,0,0.939999998,1
+				Transparency = 20
+				MinMaxValues = 0|2.500|14.000,1|2.500|14.000,2|2.500|14.000,3|2.500|14.000,4|2.500|14.000,5|2.500|14.000,6|2.500|14.000,7|2.500|14.000,8|2.500|14.000,9|2.500|14.000,10|2.500|14.000,11|2.500|14.000,12|2.500|14.000,13|2.500|14.000,14|2.500|14.000,15|2.500|14.000,16|2.500|14.000
+			}
+			ResourceType
+			{
+				Resource = Karbonite
+				MinColor = 0,0.319215685,0.74000001,1
+				MaxColor = 0.75,0.382352889,0,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|6.500,1|1.800|2.200,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500
+			}
+			ResourceType
+			{
+				Resource = Minerals
+				MinColor = 0.4762353,0.0432941206,0.920000017,1
+				MaxColor = 0,0.576470971,0.0745100006,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500
+			}
+			ResourceType
+			{
+				Resource = Substrate
+				MinColor = 0.64188242,0.0138039198,0.879999995,1
+				MaxColor = 0.742823482,0.819999993,0,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500
+			}
+			ResourceType
+			{
+				Resource = Uraninite
+				MinColor = 0,0.839215994,0.76078397,1
+				MaxColor = 1,0.235294104,0.0313725509,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500
+			}
+			ResourceType
+			{
+				Resource = Water
+				MinColor = 0.75999999,0,0.572235286,1
+				MaxColor = 0,0.568784416,0.980000019,1
+				Transparency = 20
+				MinMaxValues = 0|0.500|6.500,1|5.000|45.000,2|0.500|6.500,3|0.500|6.500,4|0.500|6.500,5|0.500|6.500,6|0.500|6.500,7|0.500|6.500,8|0.500|6.500,9|5.000|40.000,10|0.500|6.500,11|0.500|6.500,12|0.500|6.500,13|0.500|6.500,14|0.500|6.500,15|0.500|6.500,16|0.500|6.500
+			}
+			ResourceType
+			{
+				Resource = MetallicOre
+				MinColor = 0.720000029,0.505411804,0,1
+				MaxColor = 0,0.630274475,0.980000019,1
+				Transparency = 20
+				MinMaxValues = 8|1.000|6.500,1|1.000|6.500,0|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500
+			}
+			ResourceType
+			{
+				Resource = MetalOre
+				MinColor = 0.182784304,0.589999974,0,1
+				MaxColor = 0.0865882412,0.894745111,0.920000017,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|7.500,1|1.000|7.500,2|1.000|7.500,3|1.000|7.500,4|1.000|7.500,5|1.000|7.500,6|1.000|7.500,7|1.000|7.500,8|1.000|7.500,9|1.000|7.500,10|1.000|7.500,11|1.000|7.500,12|1.000|7.500,13|1.000|7.500,14|1.000|7.500,15|1.000|7.500,16|1.000|7.500
+			}
+			ResourceType
+			{
+				Resource = Dirt
+				MinColor = 1,0.2196078,0.772548974,1
+				MaxColor = 0.322196096,0.790000021,0,1
+				Transparency = 20
+				MinMaxValues = 0|15.000|35.000,1|15.000|35.000,2|15.000|35.000,3|15.000|35.000,4|15.000|35.000,5|15.000|35.000,6|15.000|35.000,7|15.000|35.000,8|15.000|35.000,9|15.000|35.000,10|15.000|35.000,11|15.000|35.000,12|15.000|35.000,13|15.000|35.000,14|15.000|35.000,15|15.000|35.000,16|15.000|35.000
+			}
+			ResourceType
+			{
+				Resource = ExoticMinerals
+				MinColor = 0.939568579,0.970000029,0,1
+				MaxColor = 0.467882395,0,0.970000029,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500
+			}
+			ResourceType
+			{
+				Resource = Gypsum
+				MinColor = 0.779999971,0.2905882,0,1
+				MaxColor = 0,1,0.807843089,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500
+			}
+			ResourceType
+			{
+				Resource = Hydrates
+				MinColor = 0.172117695,0.769999981,0.39858821,1
+				MaxColor = 0.930000007,0.452235311,0,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500
+			}
+			ResourceType
+			{
+				Resource = RareMetals
+				MinColor = 0,0.49000001,0.351647109,1
+				MaxColor = 1,0,0.223529398,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500
+			}
+			ResourceType
+			{
+				Resource = GeoEnergy
+				MinColor = 0,0.790000021,0.492588311,1
+				MaxColor = 1,0.725490212,0,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|6.500,1|10.000|35.000,2|1.000|35.000,3|1.000|6.500,4|1.000|6.500,5|1.000|35.000,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|35.000,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|35.000
+			}
+			ResourceType
+			{
+				Resource = Alumina
+				MinColor = 0.446470588,0,0.689999998,1
+				MaxColor = 0.0705882385,1,0,1
+				Transparency = 20
+				MinMaxValues = 0|0.700|10.000,1|0.700|14.000,2|2.500|35.000,3|0.700|10.000,4|2.500|35.000,5|0.700|10.000,6|5.000|55.000,7|0.700|10.000,8|0.700|10.000,9|0.700|10.000,10|0.700|10.000,11|0.700|10.000,12|0.700|10.000,13|0.700|10.000,14|0.700|10.000,15|0.700|90.000,16|0.700|10.000
+			}
+			ResourceType
+			{
+				Resource = Borate
+				MinColor = 0.0170588307,0.863176525,0.870000005,1
+				MaxColor = 1,0,0,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|7.500,1|1.000|7.500,2|1.000|7.500,3|1.000|7.500,4|1.000|7.500,5|1.000|7.500,6|1.000|7.500,7|1.000|7.500,8|1.000|7.500,9|1.000|7.500,10|1.000|7.500,11|1.000|7.500,12|1.000|7.500,13|1.000|7.500,14|1.000|7.500,15|1.000|7.500,16|1.000|7.500
+			}
+			ResourceType
+			{
+				Resource = Monazite
+				MinColor = 0.146117598,0.0432941206,0.689999998,1
+				MaxColor = 0,1,0.678431392,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|7.500,1|1.000|15.000,2|1.000|20.000,3|1.000|7.500,4|1.000|7.500,5|1.000|7.500,6|1.000|7.500,7|1.000|7.500,8|1.000|7.500,9|1.000|7.500,10|1.000|7.500,11|1.000|7.500,12|1.000|7.500,13|1.000|7.500,14|1.000|7.500,15|1.000|7.500,16|1.000|7.500
+			}
+			ResourceType
+			{
+				Resource = SaltWater
+				MinColor = 0,0.779999971,0.333411813,1
+				MaxColor = 0.388235301,0.921568573,1,1
+				Transparency = 20
+				MinMaxValues = 0|0.100|1.000,1|0.100|40.000,2|0.100|1.000,3|0.100|1.000,4|0.100|1.000,5|0.100|1.000,6|0.100|1.000,7|0.100|1.000,8|0.100|1.000,9|0.100|1.000,10|0.100|1.000,11|0.100|1.000,12|0.100|1.000,13|0.100|1.000,14|0.100|1.000,15|0.100|1.000,16|0.100|1.000
+			}
+			ResourceType
+			{
+				Resource = Silicates
+				MinColor = 0.769999981,0.721686184,0.262705892,1
+				MaxColor = 0.882352889,0.458823502,1,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|7.500,1|1.000|7.500,2|1.000|7.500,3|1.000|7.500,4|1.000|7.500,5|1.000|7.500,6|1.000|7.500,7|1.000|7.500,8|1.000|7.500,9|1.000|7.500,10|1.000|7.500,11|1.000|7.500,12|1.000|7.500,13|1.000|7.500,14|1.000|7.500,15|1.000|7.500,16|1.000|7.500
+			}
+			ResourceType
+			{
+				Resource = SolarWind
+				MinColor = 0.129882395,0.350117713,0.720000029,1
+				MaxColor = 1,1,0,1
+				Transparency = 20
+				MinMaxValues = 0|0.100|1.000,1|0.100|1.000,2|0.100|1.000,3|0.100|1.000,4|0.500|10.000,5|0.100|1.000,6|0.100|1.000,7|0.100|1.000,8|0.100|1.000,9|0.100|1.000,10|0.100|1.000,11|0.100|1.000,12|0.100|1.000,13|0.100|1.000,14|0.100|1.000,15|0.100|1.000,16|0.100|1.000
+			}
+		}
+	}
+	SCENARIO
+	{
+		name = TRScenario
+		scene = 5
+		reflectionType = REAL
+		isHelmetRemovalEnabled = True
+		isAtmSuitEnabled = True
+		Kerbals
+		{
+			Jebediah Kerman = M GENERIC GENERIC
+			Bill Kerman = M GENERIC GENERIC
+			Bob Kerman = M GENERIC GENERIC
+			Valentina Kerman = F GENERIC GENERIC
+		}
+		ClassSuits
+		{
+		}
+	}
+	SCENARIO
+	{
+		name = KerbalAlarmClockScenario
+		scene = 5, 6, 7, 8
+		KACAlarmListStorage
+		{
+		}
+	}
+	FLIGHTSTATE
+	{
+		version = 1.2.2
+		UT = 522462122.55367315
+		activeVessel = 0
+		mapViewFiltering = -1026
+		commNetUIModeTracking = Network
+		commNetUIModeFlight = Path
+		VESSEL
+		{
+			pid = 659bf0dee4e34166a43df17253981f13
+			name = Ast. VXX-027
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 521776463.29956406
+			lct = 521776463.29956406
+			lastUT = -1
+			root = 0
+			lat = -0.049603873104712023
+			lon = 145.53182730529716
+			alt = 15839313564.171051
+			hgt = -1
+			nrm = 0,1,0
+			rot = 0.503005862,0.262233555,0.636979878,0.52199167
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			ORBIT
+			{
+				SMA = 15430809628.533049
+				ECC = 0.1165179678794028
+				INC = 0.34372912315492987
+				LPE = 306.25763111115339
+				LAN = 250.95396243081541
+				MNA = -0.0026247478608809817
+				EPH = 525037377.42309922
+				REF = 0
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 249193794
+				mid = 249193794
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				expt = 0.100000001
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 521776463.29956406
+				lifetime = 750273.87084960938
+				refTime = 1728000
+				size = 1
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				UllageModule
+				{
+				}
+				SolverFlightSys
+				{
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = bffa370b43c44f7794595f551f012209
+			name = Ast. SLS-337
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 521812790.22210312
+			lct = 521812790.22210312
+			lastUT = -1
+			root = 0
+			lat = -0.40935539349293265
+			lon = 127.77709329791925
+			alt = 16640361903.292349
+			hgt = -1
+			nrm = 0,1,0
+			rot = 0.0906694084,0.610452771,-0.758264482,0.210145921
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			ORBIT
+			{
+				SMA = 15465804173.822798
+				ECC = 0.11896254756564223
+				INC = 0.71502967546068463
+				LPE = 0.32304469592271373
+				LAN = 236.84550989501133
+				MNA = 0.0053455397598262053
+				EPH = 526071428.17376328
+				REF = 0
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 1503881952
+				mid = 1503881952
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				expt = 0.100000001
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 521812790.22210312
+				lifetime = 1034650.7446289063
+				refTime = 1728000
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				UllageModule
+				{
+				}
+				SolverFlightSys
+				{
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = 3b9995d71c2245ad9608af791ce17714
+			name = Ast. ZBQ-848
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 521977631.98835307
+			lct = 521977631.98835307
+			lastUT = -1
+			root = 0
+			lat = -0.9566778763819147
+			lon = -13.82643572315355
+			alt = 16614185194.580757
+			hgt = -1
+			nrm = 0,1,0
+			rot = 0.335137933,0.651685834,-0.305674732,0.607907116
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			ORBIT
+			{
+				SMA = 16370989145.696844
+				ECC = 0.17046929737535563
+				INC = 0.96199334197617425
+				LPE = 13.902514069444553
+				LAN = 183.56002375184516
+				MNA = -0.10137143418173857
+				EPH = 524847874.04157573
+				REF = 0
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 1102798227
+				mid = 1102798227
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				expt = 0.100000001
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 521977631.98835307
+				lifetime = 1376338.8427734375
+				refTime = 1728000
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				UllageModule
+				{
+				}
+				SolverFlightSys
+				{
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = 593b36e7420d45e9bdcf8991a2a1911d
+			name = Ast. XGA-357
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 522045631.98835307
+			lct = 522045631.98835307
+			lastUT = -1
+			root = 0
+			lat = -0.18623497244777934
+			lon = -52.348421129943411
+			alt = 16206901899.581163
+			hgt = -1
+			nrm = 0,1,0
+			rot = 0.757710755,-0.277966499,-0.558220088,0.192351744
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			ORBIT
+			{
+				SMA = 15059000990.610834
+				ECC = 0.095123596182246029
+				INC = 1.6192984651338396
+				LPE = 164.05209239971083
+				LAN = 112.28067536823164
+				MNA = 0.069038906488894519
+				EPH = 527190380.80427104
+				REF = 0
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 336780789
+				mid = 336780789
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				expt = 0.100000001
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 522045631.98835307
+				lifetime = 781692.10510253906
+				refTime = 1728000
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				UllageModule
+				{
+				}
+				SolverFlightSys
+				{
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = 0b91034568ab40e9bd6cf833ce3f65d7
+			name = Ast. EUI-540
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 522123631.98835307
+			lct = 522123631.98835307
+			lastUT = -1
+			root = 0
+			lat = 0.7419126130704311
+			lon = -139.98240562236097
+			alt = 13924101199.832481
+			hgt = -1
+			nrm = 0,1,0
+			rot = 0.197030023,0.774060607,7.00850069E-05,0.601672113
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			ORBIT
+			{
+				SMA = 14550383159.958656
+				ECC = 0.065636093217220554
+				INC = 0.82549447822680011
+				LPE = 187.07904720002733
+				LAN = 327.03684571788483
+				MNA = -0.1610230032466117
+				EPH = 523675442.32160503
+				REF = 0
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 1188239596
+				mid = 1188239596
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				expt = 0.100000001
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 522123631.98835307
+				lifetime = 1479193.7805175781
+				refTime = 1728000
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				UllageModule
+				{
+				}
+				SolverFlightSys
+				{
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = 47763c8c9ba94fe7943db660d7aae3e5
+			name = Ast. WHF-084
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 522133631.98835307
+			lct = 522133631.98835307
+			lastUT = -1
+			root = 0
+			lat = -0.077486518611823527
+			lon = -151.01714919086623
+			alt = 13358648879.539894
+			hgt = -1
+			nrm = 0,1,0
+			rot = -0.347433954,-0.758956313,-0.134581879,0.534006417
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			ORBIT
+			{
+				SMA = 13822285948.24172
+				ECC = 0.029706775812653026
+				INC = 0.07748689551487789
+				LPE = 332.19724612984862
+				LAN = 170.16413494466224
+				MNA = 0.95533867969252495
+				EPH = 525114139.97175151
+				REF = 0
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 1445991750
+				mid = 1445991750
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				expt = 0.100000001
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 522133631.98835307
+				lifetime = 655932.40356445313
+				refTime = 1728000
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				UllageModule
+				{
+				}
+				SolverFlightSys
+				{
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = 3433c71041fa430b86a905b35a67c0da
+			name = Ast. YTH-075
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 522452478.17991042
+			lct = 522452478.17991042
+			lastUT = -1
+			root = 0
+			lat = 0.53399592418763109
+			lon = -16.475176575401669
+			alt = 16000850746.515392
+			hgt = -1
+			nrm = 0,1,0
+			rot = 0.293992519,0.178504869,-0.459473908,0.818894446
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			ORBIT
+			{
+				SMA = 14885836573.22793
+				ECC = 0.09298805612489866
+				INC = 1.2881555298476315
+				LPE = 199.02287000334621
+				LAN = 96.103071801751582
+				MNA = -0.2678366471186503
+				EPH = 527080830.2428987
+				REF = 0
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 1263597248
+				mid = 1263597248
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				expt = 0.100000001
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 522452478.17991042
+				lifetime = 943190.96374511719
+				refTime = 1728000
+				size = 0
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				UllageModule
+				{
+				}
+				SolverFlightSys
+				{
+				}
+			}
+		}
+	}
+	LoaderInfo
+	{
+		ModuleManager.2.7.6 v2.7.6.0 = True
+		MiniAVC v1.0.3.2 = True
+		BetterTimeWarp v2.3.7.4 = True
+		Chatterer v0.9.93.1804 = True
+		DistantObject v1.8.1.12781 = True
+		EasyVesselSwitch v1.2.0.0 / v1.2.0 for KSP v1.2 = True
+		KSPDev_Utils.0.19.0 v0.19.0.0 / v0.19.0 for KSP v1.2 = True
+		MiniAVC v1.0.3.0 = True
+		EngineLight v1.0.0.0 = True
+		Atmosphere v1.2.2.1 = True
+		CelestialShadows v1.2.2.1 = True
+		CityLights v1.2.2.1 = True
+		EVEManager v1.2.2.1 = True
+		PartFX v1.2.2.1 = True
+		PQSManager v1.2.2.1 = True
+		ShaderLoader v1.2.2.1 = True
+		Terrain v1.2.2.1 = True
+		TextureConfig v1.2.2.1 = True
+		Utils v1.2.2.1 = True
+		_BuildManager v1.2.2.1 = True
+		FP_DockingSndFX v2.1.12.27690 = True
+		KerbalEngineer v1.1.2.8 = True
+		KerbalEngineer.Unity v1.0.0.0 = True
+		KerbalJointReinforcement v3.3.2.0 = True
+		KerbalKrashSystem v1.0.0.0 = True
+		KerbalKrashSystem_Leak v1.0.0.0 = True
+		EZ_Particlez v1.0.0.0 = True
+		KerbalKrashSystem_Repair v1.0.0.0 = True
+		KerbalKrashSystem_Science v1.0.0.0 = True
+		KSP-AVC v1.1.6.2 = True
+		ModularFlightIntegrator v1.0.0.0 / v1.2.4.0 = True
+		DockingPortAlignmentIndicator v1.0.0.0 = True
+		DPAI_RPM v1.0.0.0 = True
+		ModuleDockingNodeNamed v1.0.0.0 = True
+		PersistentRotation v1.0.0.0 = True
+		PlanetShine v1.0.6121.34655 = True
+		PreciseManeuver v2.0.0.0 / v / v2.0 = True
+		PreciseManeuver.Unity v1.0.0.0 = True
+		SolverEngines v3.0.0.0 / v3.1.0.0 = True
+		RealFuels v0.12.2.28827 / v0.12.2.1 = True
+		SCANsat v1.6.0.11 / vv16.11 = True
+		scatterer v1.0.6368.34368 = True
+		SmokeScreen v2.7.5.0 = True
+		SurfaceLights v1.3.1.0 / v1.3.1 for KSP v1.2 = True
+		TextureReplacer v2.5.4.0 = True
+		KerbalAlarmClock v3.8.4.0 = True
+		WaypointManager v1.0.0.0 / v2.6.2 = True
+		BetterTimeWarp = True
+		Chatterer = True
+		CommunityResourcePack = True
+		DistantObject = True
+		EasyVesselSwitch = True
+		EngineLight = True
+		EnvironmentalVisualEnhancements = True
+		FP_DPSoundFX = True
+		KerbalEngineer = True
+		KerbalJointReinforcement = True
+		KerbalKrashSystem = True
+		KSP-AVC = True
+		ModularFlightIntegrator = True
+		NavyFish = True
+		PersistentRotation = True
+		PlanetShine = True
+		PreciseManeuver = True
+		RealFuels = True
+		RealFuels-Stockalike = True
+		RealPlume = True
+		RealPlume-RFStockalike = True
+		SCANsat = True
+		scatterer = True
+		SmokeScreen = True
+		SolverEngines = True
+		StockVisualEnhancements = True
+		SurfaceLights = True
+		TextureReplacer = True
+		TriggerTech = True
+		UniversalStorage = True
+		WaypointManager = True
+		zzRFStockalike = True
+		ModuleManager.2.7.6.dll = True
+		ModuleManager.ConfigCache = True
+		ModuleManager.ConfigSHA = True
+		ModuleManager.Physics = True
+		ModuleManager.TechTree = True
+	}
+	ROSTER
+	{
+		KERBAL
+		{
+			name = Jebediah Kerman
+			gender = Male
+			type = Crew
+			trait = Pilot
+			brave = 0.5
+			dumb = 0.5
+			badS = True
+			veteran = True
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 0
+			idx = -1
+			extraXP = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Bill Kerman
+			gender = Male
+			type = Crew
+			trait = Engineer
+			brave = 0.5
+			dumb = 0.800000012
+			badS = False
+			veteran = True
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 0
+			idx = -1
+			extraXP = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Bob Kerman
+			gender = Male
+			type = Crew
+			trait = Scientist
+			brave = 0.300000012
+			dumb = 0.100000001
+			badS = False
+			veteran = True
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 0
+			idx = -1
+			extraXP = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Valentina Kerman
+			gender = Female
+			type = Crew
+			trait = Pilot
+			brave = 0.550000012
+			dumb = 0.400000006
+			badS = True
+			veteran = True
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 0
+			idx = -1
+			extraXP = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+	}
+	MESSAGESYSTEM
+	{
+		flash = False
+	}
+}
