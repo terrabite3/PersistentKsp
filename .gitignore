@@ -12,6 +12,7 @@
 !GameData/RealPlume/GlobalSettings.cfg
 
 !saves/Persist/*
+!saves/Persist/Ships/*/*
 saves/Persist/*.loadmeta
 
 !*/
