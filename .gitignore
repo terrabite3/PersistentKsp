@@ -1,0 +1,16 @@
+*
+!README.md
+!buildID*.txt
+!Physics.cfg
+!settings.cfg
+
+!CKAN/installed-default.ckan
+
+!GameData/ModuleManager*
+!GameData/BetterTimeWarp/PluginData/BetterTimeWarp.cfg
+!GameData/RealPlume/GlobalSettings.cfg
+
+!saves/Persist/*
+
+
+
