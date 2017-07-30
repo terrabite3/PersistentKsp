@@ -15,6 +15,7 @@ Check fuel flow
 Check that TWR > 1.5 on landing body
 Add launch stabilizers
 Minimize thrust torque
+Add RCS for ullage
 
 
     Launch
@@ -26,5 +27,5 @@ Check that all hatches are accessible
 Check the alignment of your desired target
 
     In flight
-Check for counter-orbitst
+Check for counter-orbit
 Check that control vessel is correct after docking
