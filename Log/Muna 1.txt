@@ -2,4 +2,19 @@ Objective:
     Complete a manned mission to orbit the Mun. 
     Nobody dies.
 
- 
+This will be a simple manned Mun lander. After reaching LKO, the rest of the mission will use a single stage.
+
+
+
+Delta-v budget
+
+Landing             aerobrake
+
+Extra               400 m/s      400
+Kerbin intercept    310 m/s      710
+Mun takeoff         580 m/s     1290
+Mun landing         580 m/s     1870
+Mun capture         310 m/s     2180
+Mun intercept       860 m/s     3040
+
+Takeoff            3400 m/s
