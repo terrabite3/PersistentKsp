@@ -2,7 +2,7 @@ ship = Comm K1
 version = 1.2.2
 description = 
 type = VAB
-size = 5.27739334,12.6450005,5.27739429
+size = 5.27739239,12.6450005,5.27739239
 PART
 {
 	part = mk2DroneCore_4294436878
@@ -1486,9 +1486,9 @@ PART
 	{
 		name = ModuleDeployableAntenna
 		isEnabled = True
-		currentRotation = (0.707106769, 2.2476458E-08, 8.42937098E-08, 0.707106888)
+		currentRotation = (0.707106769, 8.65956127E-17, 5.76545146E-24, 0.707106888)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -1872,7 +1872,7 @@ PART
 	resPri = 0
 	dstg = 3
 	sidx = 0
-	sqor = 3
+	sqor = 2
 	sepI = 1
 	attm = 0
 	modCost = 498.816193
@@ -2259,7 +2259,7 @@ PART
 		launchUT = -1
 		currentRotation = (-0.5, -0.5, -0.5, 0.5)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -3421,7 +3421,7 @@ PART
 	resPri = 0
 	dstg = 4
 	sidx = 0
-	sqor = 4
+	sqor = 3
 	sepI = 1
 	attm = 0
 	modCost = 0

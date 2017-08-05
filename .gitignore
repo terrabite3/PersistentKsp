@@ -17,6 +17,8 @@
 !saves/Persist/Ships/*/*
 saves/Persist/*.loadmeta
 
+!Log/*
+
 !*/
 
 

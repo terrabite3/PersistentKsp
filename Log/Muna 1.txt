@@ -1,0 +1,5 @@
+Objective:
+    Complete a manned mission to orbit the Mun. 
+    Nobody dies.
+
+ 
