@@ -13,7 +13,7 @@ Landing             aerobrake
 Extra               400 m/s      400
 Kerbin intercept    310 m/s      710
 Mun takeoff         580 m/s     1290
-Mun landing         580 m/s     1870    2063
+Mun landing         580 m/s     1870    2005 -70 planned
 Mun capture         310 m/s     2180    2289
 Mun intercept       860 m/s     3040
 
