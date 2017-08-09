@@ -13,7 +13,7 @@ Solar panels on every stage
 Check that all fuel tanks are topped off
 Check fuel flow
 Check that TWR > 1.5 on landing body
-Add launch stabilizers
+Add launch stabilizers!
 Minimize thrust torque
 Add RCS for ullage
 
