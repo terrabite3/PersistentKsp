@@ -10,7 +10,7 @@ Delta-v budget
                     Stage       Total   Actual
 Landing             aerobrake
 
-Extra               400 m/s      400
+Extra               400 m/s      400    154
 Kerbin intercept    310 m/s      710    423
 Mun takeoff         580 m/s     1290    1063
 Mun landing         580 m/s     1870    1881
