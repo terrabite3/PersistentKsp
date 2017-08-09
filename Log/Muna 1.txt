@@ -11,8 +11,8 @@ Delta-v budget
 Landing             aerobrake
 
 Extra               400 m/s      400
-Kerbin intercept    310 m/s      710
-Mun takeoff         580 m/s     1290
+Kerbin intercept    310 m/s      710    423
+Mun takeoff         580 m/s     1290    1063
 Mun landing         580 m/s     1870    1881
 Mun capture         310 m/s     2180    2289
 Mun intercept       860 m/s     3040
