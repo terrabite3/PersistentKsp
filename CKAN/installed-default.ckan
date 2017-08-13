@@ -3,7 +3,7 @@
 	"abstract": "A list of modules installed on the default KSP instance",
 	"name": "installed-default",
 	"license": "unknown",
-	"version": "2017.07.29.06.23.29",
+	"version": "2017.08.13.09.04.34",
 	"identifier": "installed-default",
 	"spec_version": "v1.6",
 	"depends": [
@@ -154,6 +154,14 @@
 		{
 			"name": "BetterTimeWarpCont",
 			"version": "2.3.7.4"
+		},
+		{
+			"name": "KWRocketryRedux",
+			"version": "3.1.4"
+		},
+		{
+			"name": "KWRocketryRedux-GraduatedPwr",
+			"version": "3.1.4"
 		}
 	]
 }
