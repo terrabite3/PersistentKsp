@@ -1,0 +1,61 @@
+Objectives:
+    This is a manned mission
+    Survey Eve from orbit
+    Plant a flag on Gilly
+    Return all kerbals to Kerbin alive
+
+
+Kerbin to Eve
+2546 m/s ideal
+
+Departure
+Earliest    Y17 D230    Friday, August 18th 2017
+Latest      Y17 D253    Sunday, September 10th 2017
+
+Arrival
+            Y17 D285    Thursday, October 12th 2017
+
+
+Layover 123 to 127 days
+
+
+Eve to Kerbin
+2814 m/s ideal
+
+Departure
+Earliest    Y18 D42     Sunday, February 11th 2018
+Latest      Y18 D46     Thursday, February 15th 2018
+
+Arrival
+Earliest    Y18 D89     Friday, March 30th 2018
+Latest      Y18 D91     Sunday, April 1st 2018
+
+
+Backup Eve to Kerbin
+2814 m/s ideal
+
+Departure
+Earliest    Y18 D73     Wednesday, March 14th 2018
+Latest      Y18 D74     Thursday, March 15th 2018
+
+Arrival
+Earliest    Y18 D137    Thursday, May 17th 2018
+Latest      Y18 D139    Saturday, May 19th 2018
+
+
+
+
+Delta-v budget
+
+Maneuver            Ideal   Budgeted    Budget Remaining    Actual Remaining
+Takeoff             3400
+
+Kerbin eject        1056    1300        6200
+Eve insertion       1490    1500 +aero  4900
+Gilly intercept       60     300        3400
+Gilly circular       410     500        3100
+Gilly landing         30     100        2600
+Gilly takeoff         30      50        2500
+Gilly escape         410     450        2450
+Eve eject           1708    1900        2000
+Kerbin capture      aero     100         100
