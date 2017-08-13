@@ -18,3 +18,21 @@ Mun capture         310 m/s     2180    2289
 Mun intercept       860 m/s     3040
 
 Takeoff            3400 m/s
+
+
+
+Post-mortem (literally)
+
+Double and triple check times! I thought I was time-synched while approaching re-entry, but I was actually an hour behind. I realized my mistake at 20 minutes before re-entry. The craft exploded because the heat shield was not on the leading edge of the capsule.
+
+Hofstadter's Law - Bring more fuel than you think you will need, even after taking into account Hofstadter's Law. I had barely enough fuel, even after padding each stage and adding 400 m/s extra to the delta-v budget. 
+
+The delta-v budgets from the subway map for landing are especially optimistic. They are probably assuming a suicide burn landing. Without the ability to revert, I am much more conservative about my landing strategy.
+
+Instead of padding each stage and adding a buffer after all stages, add buffers to each stage in a separate column. It was difficult to keep track of how close to the budget I actual was. Put each substantial burn on a separate line.
+
+Add lights to all future craft. It gets really dark in the shadow of a body, and it makes the craft look cooler.
+
+Add everything remotely useful to action buttons. Document them in the mission log.
+
+Avoid landing on a steep slope. Every slope is steeper than it looks from orbit.
