@@ -11,7 +11,7 @@ GAME
 	scene = 5
 	editor = None
 	flag = Squad/Flags/minimalistic
-	launchID = 9
+	launchID = 12
 	modded = True
 	envInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe -single-instance - 
 	versionFull = 1.2.2.1622 (WindowsPlayer x64)
@@ -226,6 +226,15 @@ GAME
 				Splashdown
 				{
 					completedUnmanned = 522462769.06037593
+				}
+				ReturnFromOrbit
+				{
+					completedUnmanned = 523996829.2389341
+					vessel
+					{
+						name = Eve 1
+						flag = Squad/Flags/minimalistic
+					}
 				}
 			}
 			Mun
@@ -513,7 +522,7 @@ GAME
 	{
 		name = ScenarioDiscoverableObjects
 		scene = 7, 8, 5
-		lastSeed = 2129661970
+		lastSeed = 502147699
 		sizeCurve
 		{
 			key = 0 0 1.5 1.5
@@ -968,7 +977,6 @@ GAME
 		isAtmSuitEnabled = True
 		Kerbals
 		{
-			Jebediah Kerman = M GENERIC GENERIC
 			Bill Kerman = M GENERIC GENERIC
 			Bob Kerman = M GENERIC GENERIC
 			Valentina Kerman = F GENERIC GENERIC
@@ -988,11 +996,11 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.2.2
-		UT = 523902615.18741119
-		activeVessel = -1
+		UT = 523996984.53878599
+		activeVessel = 0
 		mapViewFiltering = -1026
 		commNetUIModeTracking = Network
-		commNetUIModeFlight = Path
+		commNetUIModeFlight = Network
 		VESSEL
 		{
 			pid = 08940f0beef6406c9eda793d051d29e3
@@ -1002,17 +1010,17 @@ GAME
 			landed = False
 			landedAt = 
 			splashed = False
-			met = 58497.542341947556
+			met = 1459570.5095487237
 			lct = 522465433.8692956
-			lastUT = 522523931.43163753
+			lastUT = 523925004.37884432
 			root = 0
-			lat = -1.1743331449088636
-			lon = -52.634599966265775
-			alt = 2802409.0577848633
+			lat = -0.88041579594672681
+			lon = -107.16640620115442
+			alt = 2812971.0265344605
 			hgt = -1
-			nrm = -0.00424955599,0.0202669054,0.999785662
-			rot = 0.673797846,0.670375884,0.214209288,0.225182533
-			CoM = 0.000598599436,-0.131442338,-2.96533108E-06
+			nrm = -0.000143858604,-0.363417268,0.931626558
+			rot = 0.706750274,0.706490993,0.0198338572,0.0313245989
+			CoM = 0.000615070341,-0.118548512,6.2584877E-07
 			stg = 0
 			prst = False
 			ref = 0
@@ -1022,13 +1030,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 3433450.1336022438
-				ECC = 0.0090412832458983388
-				INC = 1.1822621583709154
-				LPE = 277.24704345631807
-				LAN = 11.629085901730434
-				MNA = -0.010421665210601087
-				EPH = 522523931.41163754
+				SMA = 3433450.5240455926
+				ECC = 0.0090413289940901084
+				INC = 1.182262234692252
+				LPE = 277.2467353185171
+				LAN = 11.629073040766912
+				MNA = -0.84356425404576341
+				EPH = 523925004.37884432
 				REF = 1
 			}
 			PART
@@ -1055,8 +1063,8 @@ GAME
 				attN = bottom, 2
 				mass = 0.200000003
 				shielded = False
-				temp = 96.117397805762053
-				tempExt = 95.630348787735713
+				temp = 75.515948958599438
+				tempExt = 74.695405086332727
 				tempExtUnexp = 308.98251185949482
 				expt = 0.5
 				state = 0
@@ -1276,8 +1284,8 @@ GAME
 				attN = bottom, 0
 				mass = 0.649999976
 				shielded = False
-				temp = 96.555722999259018
-				tempExt = 96.875421783607123
+				temp = 75.881490818905178
+				tempExt = 76.771922059088524
 				tempExtUnexp = 308.98251185949482
 				expt = 0.5
 				state = 0
@@ -1395,8 +1403,8 @@ GAME
 				attN = bottom, 3
 				mass = 0.0500000007
 				shielded = False
-				temp = 93.921878687657056
-				tempExt = 94.396530516828363
+				temp = 72.513788530145789
+				tempExt = 72.672273399373594
 				tempExtUnexp = 308.98251185949482
 				expt = 0.5
 				state = 0
@@ -1496,9 +1504,9 @@ GAME
 				attN = bottom, 4
 				mass = 0.0159253851
 				shielded = False
-				temp = 91.263869207324447
-				tempExt = 91.02811828959743
-				tempExtUnexp = 213.33905715550591
+				temp = 70.383257086320711
+				tempExt = 70.781856507734361
+				tempExtUnexp = 259.45552847878622
 				expt = 0.5
 				state = 0
 				attached = True
@@ -1568,7 +1576,7 @@ GAME
 					type = Default
 					utilization = 86
 					mass = 0.0159253851
-					partPrevTemperature = 91.263869207324447
+					partPrevTemperature = 70.383257086320711
 					stagingEnabled = True
 					volume = 500
 					EVENTS
@@ -1588,7 +1596,7 @@ GAME
 						temperature = 90.1500015
 						fillable = True
 						techRequired = 
-						amount = 235.33564706444113
+						amount = 203.95883665378827
 						maxAmount = 311.52956008911133
 					}
 					TANK
@@ -2281,7 +2289,7 @@ GAME
 				RESOURCE
 				{
 					name = LqdOxygen
-					amount = 235.33564706444113
+					amount = 203.95883665378827
 					maxAmount = 311.52956008911133
 					flowState = True
 					isTweakable = True
@@ -2314,8 +2322,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.0450000018
 				shielded = False
-				temp = 91.465694643251069
-				tempExt = 91.508989628119963
+				temp = 70.379514081581959
+				tempExt = 70.569634083635208
 				tempExtUnexp = 308.98251185949482
 				expt = 0.5
 				state = 1
@@ -2341,7 +2349,7 @@ GAME
 					ignitions = 1
 					staged = True
 					flameout = False
-					EngineIgnited = True
+					EngineIgnited = False
 					engineShutdown = False
 					currentThrottle = 0
 					thrustPercentage = 51
@@ -2370,11 +2378,11 @@ GAME
 					{
 						UllageSim
 						{
-							ullageHeightMin = 0.23296805007886909
-							ullageHeightMax = 0.96103292675152385
+							ullageHeightMin = 0.050502682785155031
+							ullageHeightMax = 0.95041099146564478
 							ullageRadialMin = 0
-							ullageRadialMax = 0.96416840151427807
-							UT = 522523931.43163753
+							ullageRadialMax = 0.95020750182967439
+							UT = 523925004.37884432
 						}
 					}
 					UPGRADESAPPLIED
@@ -2550,8 +2558,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.0500000007
 				shielded = False
-				temp = 91.602589427371029
-				tempExt = 91.652416873897948
+				temp = 70.504472431401567
+				tempExt = 70.662827848344818
 				tempExtUnexp = 308.98251185949482
 				expt = 0.5
 				state = 0
@@ -2676,8 +2684,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.00499999989
 				shielded = False
-				temp = 91.604513040010659
-				tempExt = 91.691081886859948
+				temp = 70.620796902430556
+				tempExt = 70.725344883000261
 				tempExtUnexp = 308.98251185949482
 				expt = 0.5
 				state = 0
@@ -2756,8 +2764,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.00499999989
 				shielded = False
-				temp = 91.263617606199546
-				tempExt = 91.271809318249979
+				temp = 70.620796902430556
+				tempExt = 70.725344883000261
 				tempExtUnexp = 308.98251185949482
 				expt = 0.5
 				state = 0
@@ -2835,8 +2843,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.0500000007
 				shielded = False
-				temp = 91.26221456648166
-				tempExt = 91.316662145261532
+				temp = 70.357760421460924
+				tempExt = 70.633366935033479
 				tempExtUnexp = 308.98251185949482
 				expt = 0.5
 				state = 0
@@ -2862,7 +2870,7 @@ GAME
 					EfficiencyBonus = 1
 					IsActivated = False
 					stagingEnabled = True
-					lastUpdateTime = 522523931.43163753
+					lastUpdateTime = 523925004.37884432
 					EVENTS
 					{
 					}
@@ -2964,8 +2972,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.00499999989
 				shielded = False
-				temp = 91.26285143421012
-				tempExt = 91.254870187607864
+				temp = 70.633517582133521
+				tempExt = 70.729275448060989
 				tempExtUnexp = 308.98251185949482
 				expt = 0.5
 				state = 0
@@ -3023,8 +3031,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.0175000001
 				shielded = False
-				temp = 99.327255946953997
-				tempExt = 98.815824128368547
+				temp = 74.296233077872188
+				tempExt = 74.669094007126517
 				tempExtUnexp = 308.98251185949482
 				expt = 0.5
 				state = 0
@@ -3049,7 +3057,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 522465433.8692956
-					currentRotation = (0.515257359, 0.511331677, -0.492586941, 0.480008185)
+					currentRotation = (0.506858766, 0.494164348, 0.501259029, -0.497629523)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -3132,8 +3140,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.0175000001
 				shielded = False
-				temp = 95.683750100142518
-				tempExt = 96.469738058110622
+				temp = 78.117869605299646
+				tempExt = 79.329409162255757
 				tempExtUnexp = 308.98251185949482
 				expt = 0.5
 				state = 0
@@ -3158,7 +3166,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 522465433.8692956
-					currentRotation = (0.482371897, 0.492056429, -0.512102723, 0.512785256)
+					currentRotation = (-0.499193728, -0.499747455, -0.495622396, 0.505387545)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -3249,11 +3257,16 @@ GAME
 			FLIGHTPLAN
 			{
 			}
+			TARGET
+			{
+				type = CelestialBody
+				tgtId = Eve
+			}
 			CTRLSTATE
 			{
 				pitch = 0
-				yaw = 0
-				roll = 4.6082809E-07
+				yaw = -1.3479314E-06
+				roll = 2.66266716E-06
 				trimPitch = 0
 				trimYaw = 0
 				trimRoll = 0
@@ -3279,1172 +3292,6 @@ GAME
 		}
 		VESSEL
 		{
-			pid = 962c0bd9e67e440482ad9def99b72fad
-			name = Comm Tester Debris
-			type = Debris
-			sit = LANDED
-			landed = True
-			landedAt = 
-			splashed = False
-			met = 2.3199977874755859
-			lct = 522503496.59162837
-			lastUT = 522503498.91162616
-			root = 0
-			lat = -0.056988923469565966
-			lon = -78.453545368772296
-			alt = 898.30208807752933
-			hgt = 0.721889377
-			nrm = -0.648508847,0.2986058,0.700193465
-			rot = -0.702694595,-0.597105682,-0.275519729,0.271613806
-			CoM = 0.000107788816,-0.326481491,-6.69655637E-05
-			stg = 1
-			prst = False
-			ref = 0
-			ctrl = False
-			cPch = 0
-			cHdg = 0
-			cMod = -1
-			ORBIT
-			{
-				SMA = NaN
-				ECC = 1
-				INC = 0.0569845897029558
-				LPE = 90
-				LAN = 101.04382295810757
-				MNA = 0
-				EPH = 523898820.25318587
-				REF = 1
-			}
-			PART
-			{
-				name = fuelTankSmall
-				cid = 4276025958
-				uid = 2856561394
-				mid = 1719590879
-				launchID = 5
-				parent = 0
-				position = 0,0,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = -1
-				resPri = 0
-				dstg = 12
-				sqor = -1
-				sepI = -1
-				sidx = -1
-				attm = 0
-				srfN = srfAttach, -1
-				attN = top, -1
-				attN = bottom, 1
-				mass = 0.0318507701
-				shielded = False
-				temp = 325.17826367724962
-				tempExt = 321.52633901721981
-				tempExtUnexp = 321.51222183912643
-				expt = 0.5
-				state = 1
-				attached = False
-				autostrutMode = Off
-				rigidAttachment = False
-				flag = Squad/Flags/minimalistic
-				rTrf = fuelTankSmall
-				modCost = 43.890995
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleKerbalKrashSystem_Container
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					Krash
-					{
-						RelativeVelocity.x = 0.778462052
-						RelativeVelocity.y = -56.88134
-						RelativeVelocity.z = -2.40573454
-						ContactPoint.x = 0.141080678
-						ContactPoint.y = 0.889519691
-						ContactPoint.z = -0.555588424
-					}
-					Krash
-					{
-						RelativeVelocity.x = -6.72367811
-						RelativeVelocity.y = -1.78048587
-						RelativeVelocity.z = 6.05429745
-						ContactPoint.x = 0.42963624
-						ContactPoint.y = 0.513589203
-						ContactPoint.z = -0.433452219
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleKerbalKrashSystem_Leak
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleKerbalKrashSystem_Repair
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleFuelTanks
-					isEnabled = True
-					type = Default
-					utilization = 86
-					mass = 0.0318507701
-					partPrevTemperature = 325.17826367724962
-					stagingEnabled = True
-					volume = 1000
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					TANK
-					{
-						name = LqdOxygen
-						note = (lacks insulation)
-						utilization = 1
-						mass = 1.40000002E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 90.1500015
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 623.05912017822266
-					}
-					TANK
-					{
-						name = Kerosene
-						note = 
-						utilization = 1
-						mass = 1.20000004E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 376.94087982177734
-					}
-					TANK
-					{
-						name = LqdHydrogen
-						note = (basic insulation)
-						utilization = 1
-						mass = 1.99999999E-06
-						cost = 0
-						loss_rate = 0
-						temperature = 20.1499996
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = NTO
-						note = 
-						utilization = 1
-						mass = 1.6E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = UDMH
-						note = 
-						utilization = 1
-						mass = 1.6E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = Aerozine50
-						note = 
-						utilization = 1
-						mass = 1.6E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = MMH
-						note = 
-						utilization = 1
-						mass = 1.6E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = HTP
-						note = 
-						utilization = 1
-						mass = 1.6E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = AvGas
-						note = 
-						utilization = 1
-						mass = 7.99999998E-06
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = IRFNA-III
-						note = 
-						utilization = 1
-						mass = 1.99999995E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = NitrousOxide
-						note = (pressurized)
-						utilization = 100
-						mass = 2.99999992E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = Aniline
-						note = 
-						utilization = 1
-						mass = 1.99999995E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = Ethanol75
-						note = 
-						utilization = 1
-						mass = 1.29999999E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = Ethanol90
-						note = 
-						utilization = 1
-						mass = 1.29999999E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = Ethanol
-						note = 
-						utilization = 1
-						mass = 1.29999999E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = LqdAmmonia
-						note = (lacks insulation)
-						utilization = 1
-						mass = 1.20000004E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 237.649994
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = LqdMethane
-						note = (lacks insulation)
-						utilization = 1
-						mass = 1.20000004E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 111.449997
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = ClF3
-						note = 
-						utilization = 1
-						mass = 3.9999999E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = ClF5
-						note = 
-						utilization = 1
-						mass = 3.9999999E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = Diborane
-						note = (lacks insulation)
-						utilization = 1
-						mass = 1.80000006E-05
-						cost = 0
-						loss_rate = 2.3000000000000001E-10
-						temperature = 180.649994
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = Pentaborane
-						note = 
-						utilization = 1
-						mass = 1.80000006E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = Ethane
-						note = (lacks insulation)
-						utilization = 1
-						mass = 1.6E-05
-						cost = 0
-						loss_rate = 2.5000000000000002E-10
-						temperature = 184.649994
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = Ethylene
-						note = (lacks insulation)
-						utilization = 1
-						mass = 1.6E-05
-						cost = 0
-						loss_rate = 3.4999999999999998E-10
-						temperature = 169.449997
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = OF2
-						note = (lacks insulation)
-						utilization = 1
-						mass = 1.80000006E-05
-						cost = 0
-						loss_rate = 1.0000000000000001E-09
-						temperature = 128.399994
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = LqdFluorine
-						note = (lacks insulation)
-						utilization = 1
-						mass = 3.9999999E-05
-						cost = 0
-						loss_rate = 5.4999999999999996E-09
-						temperature = 85.0400009
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = N2F4
-						note = (lacks insulation)
-						utilization = 1
-						mass = 9.99999975E-06
-						cost = 0
-						loss_rate = 1.7000000000000001E-10
-						temperature = 200.149994
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = Methanol
-						note = 
-						utilization = 1
-						mass = 1.20000004E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = Furfuryl
-						note = 
-						utilization = 1
-						mass = 1.40000002E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = UH25
-						note = 
-						utilization = 1
-						mass = 1.6E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = Tonka250
-						note = 
-						utilization = 1
-						mass = 1.6E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = Tonka500
-						note = 
-						utilization = 1
-						mass = 1.6E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = FLOX30
-						note = (lacks insulation)
-						utilization = 1
-						mass = 1.65000001E-05
-						cost = 0
-						loss_rate = 1E-10
-						temperature = 216.149994
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = FLOX70
-						note = (lacks insulation)
-						utilization = 1
-						mass = 3.84999985E-05
-						cost = 0
-						loss_rate = 1E-10
-						temperature = 216.149994
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = FLOX88
-						note = (lacks insulation)
-						utilization = 1
-						mass = 4.84000011E-05
-						cost = 0
-						loss_rate = 1E-10
-						temperature = 216.149994
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = IWFNA
-						note = 
-						utilization = 1
-						mass = 1.99999995E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = IRFNA-IV
-						note = 
-						utilization = 1
-						mass = 1.99999995E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = AK20
-						note = 
-						utilization = 1
-						mass = 1.99999995E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = AK27
-						note = 
-						utilization = 1
-						mass = 1.99999995E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = MON1
-						note = 
-						utilization = 1
-						mass = 1.6E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = MON3
-						note = 
-						utilization = 1
-						mass = 1.6E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = MON10
-						note = 
-						utilization = 1
-						mass = 1.6E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = MON15
-						note = 
-						utilization = 1
-						mass = 1.6E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = MON20
-						note = 
-						utilization = 1
-						mass = 1.6E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = MON25
-						note = 
-						utilization = 1
-						mass = 1.6E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = Hydyne
-						note = 
-						utilization = 1
-						mass = 1.29999999E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = Syntin
-						note = 
-						utilization = 1
-						mass = 1.20000004E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = LiquidFuel
-						note = 
-						utilization = 1
-						mass = 1.6E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = Oxidizer
-						note = 
-						utilization = 1
-						mass = 1.6E-05
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					TANK
-					{
-						name = LeadBallast
-						note = 
-						utilization = 1
-						mass = 0
-						cost = 0
-						loss_rate = 0
-						temperature = 300
-						fillable = True
-						techRequired = 
-						amount = 0
-						maxAmount = 0
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				RESOURCE
-				{
-					name = Kerosene
-					amount = 0
-					maxAmount = 376.94087982177734
-					flowState = True
-					isTweakable = True
-					hideFlow = False
-					isVisible = True
-					flowMode = Both
-				}
-				RESOURCE
-				{
-					name = LqdOxygen
-					amount = 0
-					maxAmount = 623.05912017822266
-					flowState = True
-					isTweakable = True
-					hideFlow = False
-					isVisible = True
-					flowMode = Both
-				}
-			}
-			PART
-			{
-				name = liquidEngineMini
-				cid = 4276062124
-				uid = 2527977902
-				mid = 1719590879
-				launchID = 5
-				parent = 0
-				position = 0,-0.55525016784667969,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 1
-				resPri = 0
-				dstg = 12
-				sqor = 1
-				sepI = -1
-				sidx = 0
-				attm = 0
-				srfN = , -1
-				attN = top, 0
-				attN = bottom, -1
-				mass = 0.0450000018
-				shielded = False
-				temp = 325.86146123320214
-				tempExt = 322.67229261142256
-				tempExtUnexp = 322.66487966849218
-				expt = 0.5
-				state = 1
-				attached = True
-				autostrutMode = Off
-				rigidAttachment = False
-				flag = Squad/Flags/minimalistic
-				rTrf = liquidEngineMini
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleEnginesRF
-					isEnabled = True
-					ignitions = 1
-					staged = True
-					flameout = False
-					EngineIgnited = True
-					engineShutdown = False
-					currentThrottle = 0
-					thrustPercentage = 100
-					manuallyOverridden = False
-					stagingEnabled = True
-					ignited = False
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-						OnAction
-						{
-							actionGroup = None
-						}
-						ShutdownAction
-						{
-							actionGroup = None
-						}
-						ActivateAction
-						{
-							actionGroup = None
-						}
-					}
-					Ullage
-					{
-						UllageSim
-						{
-							ullageHeightMin = 0.44998181411238858
-							ullageHeightMax = 0.55001818588761153
-							ullageRadialMin = 0
-							ullageRadialMax = 0.99998636058429147
-							UT = 522503498.91162616
-						}
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleJettison
-					isEnabled = True
-					isJettisoned = True
-					shroudHideOverride = False
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-						JettisonAction
-						{
-							actionGroup = None
-						}
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleGimbal
-					isEnabled = True
-					gimbalLock = False
-					gimbalLimiter = 100
-					currentShowToggles = False
-					enableYaw = True
-					enablePitch = True
-					enableRoll = True
-					gimbalActive = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-						LockAction
-						{
-							actionGroup = None
-						}
-						FreeAction
-						{
-							actionGroup = None
-						}
-						TogglePitchAction
-						{
-							actionGroup = None
-						}
-						ToggleYawAction
-						{
-							actionGroup = None
-						}
-						ToggleRollAction
-						{
-							actionGroup = None
-						}
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleTestSubject
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = EngineLightEffect
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleKerbalKrashSystem_Engine
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleKerbalKrashSystem_Repair
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleEngineConfigs
-					isEnabled = True
-					configuration = Kerosene+LqdOxygen
-					techLevel = 3
-					thrustRating = maxThrust
-					modded = False
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-			}
-			ACTIONGROUPS
-			{
-				Stage = False, 522502847.39544
-				Gear = False, 0
-				Light = True, 522502866.815422
-				RCS = False, 0
-				SAS = True, 522502912.895378
-				Brakes = False, 0
-				Abort = False, 0
-				Custom01 = True, 522502919.595371
-				Custom02 = False, 0
-				Custom03 = False, 0
-				Custom04 = False, 0
-				Custom05 = False, 0
-				Custom06 = False, 0
-				Custom07 = False, 0
-				Custom08 = False, 0
-				Custom09 = False, 0
-				Custom10 = False, 0
-			}
-			DISCOVERY
-			{
-				state = -1
-				lastObservedTime = 0
-				lifetime = Infinity
-				refTime = Infinity
-				size = 2
-			}
-			FLIGHTPLAN
-			{
-			}
-			CTRLSTATE
-			{
-				pitch = 0
-				yaw = 0
-				roll = 0
-				trimPitch = 0
-				trimYaw = 0
-				trimRoll = 0
-				mainThrottle = 0
-			}
-			VESSELMODULES
-			{
-				ModularFlightIntegrator
-				{
-				}
-				UllageModule
-				{
-				}
-				SolverFlightSys
-				{
-				}
-			}
-		}
-		VESSEL
-		{
 			pid = d2293ac890204f5fbe1c194f38bcf1ee
 			name = Comm Tester
 			type = Probe
@@ -4452,17 +3299,17 @@ GAME
 			landed = False
 			landedAt = 
 			splashed = False
-			met = 384251.83216381073
+			met = 1417384.5379657149
 			lct = 522505700.90270865
-			lastUT = 522889952.73487246
+			lastUT = 523923085.44067436
 			root = 0
-			lat = 4.5762162337007464
-			lon = 35.708631597883162
-			alt = 21117626.897262529
+			lat = 5.6873890378611769
+			lon = 70.890677912288083
+			alt = 16632975.888606254
 			hgt = -1
-			nrm = 0.966351032,-0.221980482,-0.129963756
-			rot = 0.652667761,-0.307188839,0.27415058,0.636004269
-			CoM = 0.000874221325,-1.77927041,-2.38418579E-07
+			nrm = 0.986862659,0.0574152768,-0.151015311
+			rot = 0.598453164,-0.407971799,0.378136784,0.576563537
+			CoM = 0.000906169415,-1.68955696,8.34465027E-07
 			stg = 5
 			prst = False
 			ref = 0
@@ -4472,13 +3319,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 12279979.118897939
-				ECC = 0.81844546401848273
-				INC = 6.8003094362081473
-				LPE = 215.94745216973061
-				LAN = 329.12484723451723
-				MNA = -2.5091501673779764
-				EPH = 522889952.73487246
+				SMA = 12280216.760570312
+				ECC = 0.81844936796169931
+				INC = 6.8003094429412592
+				LPE = 215.9457378690494
+				LAN = 329.12484721554546
+				MNA = -1.3738942823913001
+				EPH = 523923085.44067436
 				REF = 1
 			}
 			PART
@@ -4505,8 +3352,8 @@ GAME
 				attN = top, 33
 				mass = 0.100000001
 				shielded = False
-				temp = 194.10602691534567
-				tempExt = 193.71295979600467
+				temp = 218.03620901101004
+				tempExt = 217.8516667809298
 				tempExtUnexp = 312.16656634695255
 				expt = 0
 				state = 0
@@ -4729,8 +3576,8 @@ GAME
 				attN = top, 0
 				mass = 0.0199999996
 				shielded = False
-				temp = 193.36966309207025
-				tempExt = 193.23284352098224
+				temp = 217.94619196596017
+				tempExt = 217.84614853543891
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -4898,8 +3745,8 @@ GAME
 				attN = bottom, 3
 				mass = 0.00999999978
 				shielded = False
-				temp = 191.64552204866698
-				tempExt = 191.6924348590228
+				temp = 217.50272735320996
+				tempExt = 218.06716792351375
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -4999,8 +3846,8 @@ GAME
 				attN = top, 2
 				mass = 0.100000001
 				shielded = False
-				temp = 191.47365273951752
-				tempExt = 191.30641608581581
+				temp = 217.41719033632307
+				tempExt = 217.39310948849601
 				tempExtUnexp = 312.16656634695255
 				expt = 0
 				state = 0
@@ -5223,8 +4070,8 @@ GAME
 				attN = top, 3
 				mass = 0.0199999996
 				shielded = False
-				temp = 190.78981321104902
-				tempExt = 190.61814743835893
+				temp = 217.29510959360184
+				tempExt = 217.0215786526588
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -5392,8 +4239,8 @@ GAME
 				attN = bottom, 6
 				mass = 0.00999999978
 				shielded = False
-				temp = 189.02367661771416
-				tempExt = 188.98081597107048
+				temp = 217.0922832138541
+				tempExt = 216.12407389691347
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -5493,8 +4340,8 @@ GAME
 				attN = top, 5
 				mass = 0.100000001
 				shielded = False
-				temp = 188.03405504765493
-				tempExt = 187.80933415122348
+				temp = 217.22910069242258
+				tempExt = 216.85414860189607
 				tempExtUnexp = 312.16656634695255
 				expt = 0
 				state = 0
@@ -5717,8 +4564,8 @@ GAME
 				attN = top, 6
 				mass = 0.0199999996
 				shielded = False
-				temp = 185.79788095903353
-				tempExt = 186.03387534113159
+				temp = 217.24668780326817
+				tempExt = 216.93683700351372
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -5886,8 +4733,8 @@ GAME
 				attN = bottom, 9
 				mass = 0.00999999978
 				shielded = False
-				temp = 181.91037605546873
-				tempExt = 182.31510772645288
+				temp = 217.2758518518649
+				tempExt = 216.42663324862352
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -5987,8 +4834,8 @@ GAME
 				attN = top, 8
 				mass = 0.100000001
 				shielded = False
-				temp = 178.95520119908628
-				tempExt = 178.8358892892025
+				temp = 217.4129179241985
+				tempExt = 217.2454629778517
 				tempExtUnexp = 312.16656634695255
 				expt = 0
 				state = 0
@@ -6211,8 +5058,8 @@ GAME
 				attN = top, 9
 				mass = 0.0199999996
 				shielded = False
-				temp = 173.94702547283012
-				tempExt = 176.33049257085088
+				temp = 217.50015122738037
+				tempExt = 217.61619587244408
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -6380,8 +5227,8 @@ GAME
 				attN = bottom, 12
 				mass = 0.00999999978
 				shielded = False
-				temp = 165.64167409637599
-				tempExt = 164.65581390757183
+				temp = 217.61481339144109
+				tempExt = 218.13685920236685
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -6481,8 +5328,8 @@ GAME
 				attN = top, 11
 				mass = 0.100000001
 				shielded = False
-				temp = 160.65417557155499
-				tempExt = 158.26726871552719
+				temp = 217.96824625506184
+				tempExt = 217.85786000928294
 				tempExtUnexp = 312.16656634695255
 				expt = 0
 				state = 0
@@ -6705,8 +5552,8 @@ GAME
 				attN = top, 12
 				mass = 0.0149999997
 				shielded = False
-				temp = 153.16879778623914
-				tempExt = 145.861589188891
+				temp = 217.99960790480222
+				tempExt = 217.96493489893152
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -6886,8 +5733,8 @@ GAME
 				attN = bottom, 15
 				mass = 0.075000003
 				shielded = False
-				temp = 149.42866047904252
-				tempExt = 132.71136630423067
+				temp = 218.04566048156607
+				tempExt = 218.07634345678892
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -7236,8 +6083,8 @@ GAME
 				attN = bottom, 16
 				mass = 0.0318507701
 				shielded = False
-				temp = 147.41440888573007
-				tempExt = 127.53947906763972
+				temp = 218.06227061705695
+				tempExt = 218.19674130447009
 				tempExtUnexp = 71.686446121237196
 				expt = 0.5
 				state = 0
@@ -7308,7 +6155,7 @@ GAME
 					type = Default
 					utilization = 86
 					mass = 0.0318507701
-					partPrevTemperature = 147.41440888573007
+					partPrevTemperature = 218.06227061705695
 					stagingEnabled = True
 					volume = 1000
 					EVENTS
@@ -7328,7 +6175,7 @@ GAME
 						temperature = 90.1500015
 						fillable = True
 						techRequired = 
-						amount = 40.83449139723497
+						amount = 0
 						maxAmount = 623.05912017822266
 					}
 					TANK
@@ -8021,7 +6868,7 @@ GAME
 				RESOURCE
 				{
 					name = LqdOxygen
-					amount = 40.83449139723497
+					amount = 0
 					maxAmount = 623.05912017822266
 					flowState = True
 					isTweakable = True
@@ -8047,15 +6894,15 @@ GAME
 				dstg = 12
 				sqor = 5
 				sepI = 4
-				sidx = 1
+				sidx = 0
 				attm = 0
 				srfN = , -1
 				attN = top, 15
 				attN = bottom, -1
 				mass = 0.0450000018
 				shielded = False
-				temp = 146.74639414609857
-				tempExt = 139.40714047142214
+				temp = 218.08156181992558
+				tempExt = 218.50607040516635
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -8110,11 +6957,11 @@ GAME
 					{
 						UllageSim
 						{
-							ullageHeightMin = 0.053673647511672591
-							ullageHeightMax = 0.95052543324503047
+							ullageHeightMin = 0.050041045124594112
+							ullageHeightMax = 0.9499591661176654
 							ullageRadialMin = 0
-							ullageRadialMax = 0.95334882830344392
-							UT = 522889952.73487246
+							ullageRadialMax = 0.95007393797067541
+							UT = 523923085.44067436
 						}
 					}
 					UPGRADESAPPLIED
@@ -8291,8 +7138,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.00499999989
 				shielded = False
-				temp = 162.18930372327097
-				tempExt = 160.6817525596941
+				temp = 217.91331576191038
+				tempExt = 217.81661891043544
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -8386,8 +7233,8 @@ GAME
 				srfN = srfAttach, 12
 				mass = 0.00499999989
 				shielded = False
-				temp = 161.18905786433672
-				tempExt = 160.53848633939413
+				temp = 217.95877636825611
+				tempExt = 217.81077095015604
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -8445,8 +7292,8 @@ GAME
 				srfN = srfAttach, 11
 				mass = 0.0175000001
 				shielded = False
-				temp = 172.61256922986135
-				tempExt = 175.97857904588054
+				temp = 218.17851609959206
+				tempExt = 219.2136548728883
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -8471,7 +7318,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 522505700.90270865
-					currentRotation = (-0.49486357, -0.49387762, 0.506346464, -0.504785299)
+					currentRotation = (-0.643727779, -0.642230868, 0.294797629, -0.293680876)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -8554,8 +7401,8 @@ GAME
 				srfN = srfAttach, 11
 				mass = 0.0175000001
 				shielded = False
-				temp = 172.62964893661731
-				tempExt = 176.0221885805577
+				temp = 218.21733859196257
+				tempExt = 219.29861880711158
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -8580,7 +7427,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 522505700.90270865
-					currentRotation = (0.5057652, 0.505366564, -0.494869411, 0.49387306)
+					currentRotation = (0.294217736, 0.294206321, -0.643531621, 0.642452836)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -8662,8 +7509,8 @@ GAME
 				srfN = srfAttach, 9
 				mass = 0.075000003
 				shielded = False
-				temp = 179.34023175789639
-				tempExt = 179.39869741568029
+				temp = 217.43227160299213
+				tempExt = 217.51432504179789
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -8686,7 +7533,7 @@ GAME
 				{
 					name = ModuleDeployableAntenna
 					isEnabled = True
-					currentRotation = (4.01638704E-17, -0.999999881, 6.09956168E-17, -0.000495243759)
+					currentRotation = (5.1865753E-17, -1, 6.11933725E-17, -0.000199320304)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 1
 					deployState = RETRACTED
@@ -8787,8 +7634,8 @@ GAME
 				srfN = srfAttach, 9
 				mass = 0.00499999989
 				shielded = False
-				temp = 179.34068264747791
-				tempExt = 179.39943043656393
+				temp = 217.40458905171758
+				tempExt = 217.22262935913039
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -8846,8 +7693,8 @@ GAME
 				srfN = srfAttach, 8
 				mass = 0.0175000001
 				shielded = False
-				temp = 185.2104402355215
-				tempExt = 184.84635102800235
+				temp = 216.71532559544883
+				tempExt = 215.90392523912416
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -8872,7 +7719,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 522505700.90270865
-					currentRotation = (-0.494847953, -0.49389416, 0.506296098, -0.504835069)
+					currentRotation = (-0.643690288, -0.642268777, 0.294754952, -0.293723106)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -8955,8 +7802,8 @@ GAME
 				srfN = srfAttach, 8
 				mass = 0.0175000001
 				shielded = False
-				temp = 185.21046778764648
-				tempExt = 184.8464221050865
+				temp = 216.84887036499148
+				tempExt = 216.24128206461157
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -8981,7 +7828,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 522505700.90270865
-					currentRotation = (0.505833089, 0.505298197, -0.494890988, 0.493851662)
+					currentRotation = (0.294276446, 0.294148475, -0.643577993, 0.642405987)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -9063,8 +7910,8 @@ GAME
 				srfN = srfAttach, 6
 				mass = 0.00499999989
 				shielded = False
-				temp = 188.29858958087803
-				tempExt = 188.21442525936902
+				temp = 217.2162941937205
+				tempExt = 216.92746310735197
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -9121,8 +7968,8 @@ GAME
 				srfN = srfAttach, 6
 				mass = 0.0500000007
 				shielded = False
-				temp = 188.53735980974881
-				tempExt = 188.28848869834275
+				temp = 217.22927215176199
+				tempExt = 216.94205154473246
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -9145,7 +7992,7 @@ GAME
 				{
 					name = ModuleDeployableAntenna
 					isEnabled = True
-					currentRotation = (0.707106709, 0.000138096613, 0.000138096613, 0.707106888)
+					currentRotation = (0.707106769, 5.40470355E-05, 5.40470428E-05, 0.707106888)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 1
 					deployState = RETRACTED
@@ -9247,8 +8094,8 @@ GAME
 				srfN = srfAttach, 5
 				mass = 0.0175000001
 				shielded = False
-				temp = 190.67834094991809
-				tempExt = 190.06909230303614
+				temp = 216.56043860967003
+				tempExt = 215.66446110329443
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -9273,7 +8120,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 522505700.90270865
-					currentRotation = (-0.494893819, -0.493847668, 0.506357491, -0.504774034)
+					currentRotation = (-0.643755734, -0.64220202, 0.294795781, -0.293684632)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -9356,8 +8203,8 @@ GAME
 				srfN = srfAttach, 5
 				mass = 0.0175000001
 				shielded = False
-				temp = 190.67836962270377
-				tempExt = 190.06917800569664
+				temp = 216.56049579176465
+				tempExt = 215.66460020511622
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -9382,7 +8229,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 522505700.90270865
-					currentRotation = (0.505844533, 0.505286932, -0.494898081, 0.493844539)
+					currentRotation = (0.294280142, 0.294142723, -0.643586099, 0.642398894)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -9464,8 +8311,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.00499999989
 				shielded = False
-				temp = 191.55117612370839
-				tempExt = 191.44733216795245
+				temp = 217.41362336877842
+				tempExt = 217.31913268793568
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -9522,8 +8369,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.0149999997
 				shielded = False
-				temp = 191.79077406710789
-				tempExt = 191.52130409999432
+				temp = 217.42513108491471
+				tempExt = 217.36836508149253
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -9587,8 +8434,8 @@ GAME
 				srfN = srfAttach, 2
 				mass = 0.0175000001
 				shielded = False
-				temp = 192.83305425187532
-				tempExt = 192.06535213827095
+				temp = 218.0691819625701
+				tempExt = 219.06750931385969
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -9613,7 +8460,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 522505700.90270865
-					currentRotation = (-0.49485898, -0.493882298, 0.506353676, -0.504778028)
+					currentRotation = (-0.643725038, -0.642233551, 0.29480499, -0.293673515)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -9696,8 +8543,8 @@ GAME
 				srfN = srfAttach, 2
 				mass = 0.0175000001
 				shielded = False
-				temp = 192.83305499538309
-				tempExt = 192.0654179736396
+				temp = 218.07625831993178
+				tempExt = 219.0864670966929
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -9722,7 +8569,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 522505700.90270865
-					currentRotation = (0.505811095, 0.505320609, -0.494909227, 0.493833065)
+					currentRotation = (0.294247955, 0.294174641, -0.643584549, 0.642400563)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -9806,8 +8653,8 @@ GAME
 				attN = bottom, 0
 				mass = 0.00999999978
 				shielded = False
-				temp = 193.8386114079461
-				tempExt = 193.28096565269524
+				temp = 217.55732607055572
+				tempExt = 217.48382583067749
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -9906,8 +8753,8 @@ GAME
 				srfN = srfAttach, 33
 				mass = 0.0175000001
 				shielded = False
-				temp = 193.63142488449992
-				tempExt = 193.05798961880475
+				temp = 217.35286262630214
+				tempExt = 217.46688414265037
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -9932,7 +8779,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 522505700.90270865
-					currentRotation = (-0.494865596, -0.493876368, 0.506291807, -0.50483948)
+					currentRotation = (-0.643701255, -0.642257154, 0.294741511, -0.293737888)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -10015,8 +8862,8 @@ GAME
 				srfN = srfAttach, 33
 				mass = 0.0175000001
 				shielded = False
-				temp = 193.63143428080267
-				tempExt = 193.05801321477884
+				temp = 217.46539165171274
+				tempExt = 217.79547583076337
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -10041,7 +8888,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 522505700.90270865
-					currentRotation = (0.505846262, 0.505285144, -0.494901508, 0.493841082)
+					currentRotation = (0.29428044, 0.294142812, -0.643593132, 0.642391622)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -10124,8 +8971,8 @@ GAME
 				attN = bottom, 33
 				mass = 0.100000001
 				shielded = False
-				temp = 194.08947753294976
-				tempExt = 193.70810770894903
+				temp = 217.99726667367014
+				tempExt = 217.77082246811122
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -10219,8 +9066,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.00499999989
 				shielded = False
-				temp = 194.01302302447942
-				tempExt = 193.77663208439361
+				temp = 218.06703486230836
+				tempExt = 218.04018660197679
 				tempExtUnexp = 312.16656634695255
 				expt = 0.5
 				state = 0
@@ -10285,17 +9132,22 @@ GAME
 			}
 			FLIGHTPLAN
 			{
+				MANEUVER
+				{
+					UT = 524818785.35855025
+					dV = 0,0,89.745095797625893
+				}
 			}
 			TARGET
 			{
 				type = CelestialBody
-				tgtId = Mun
+				tgtId = Eve
 			}
 			CTRLSTATE
 			{
-				pitch = -4.13273665E-06
-				yaw = 1.48636195E-06
-				roll = 2.5456693E-06
+				pitch = 4.10943272E-07
+				yaw = 8.03191995E-07
+				roll = 1.3751017E-07
 				trimPitch = 0
 				trimYaw = 0
 				trimRoll = 0
@@ -12477,105 +11329,6 @@ GAME
 				trimYaw = 0
 				trimRoll = 0
 				mainThrottle = 0
-			}
-			VESSELMODULES
-			{
-				ModularFlightIntegrator
-				{
-				}
-				UllageModule
-				{
-				}
-				SolverFlightSys
-				{
-				}
-			}
-		}
-		VESSEL
-		{
-			pid = d6929b5dec3c4be287c78bb7ab467ad1
-			name = Ast. DUU-106
-			type = SpaceObject
-			sit = ORBITING
-			landed = False
-			landedAt = 
-			splashed = False
-			met = 522527115.25290489
-			lct = 522527115.25290489
-			lastUT = -1
-			root = 0
-			lat = -0.86286242665549728
-			lon = -98.187366130847266
-			alt = 14386706934.033928
-			hgt = -1
-			nrm = 0,1,0
-			rot = -0.714652717,0.557003498,-0.378304154,0.189484745
-			CoM = 0,0,0
-			stg = 0
-			prst = False
-			ref = 0
-			ctrl = False
-			ORBIT
-			{
-				SMA = 14301266738.762047
-				ECC = 0.056298340742536236
-				INC = 1.2136701321645083
-				LPE = 343.72511800683293
-				LAN = 235.76712212764178
-				MNA = 0.41903936881674669
-				EPH = 526293849.26169395
-				REF = 0
-			}
-			PART
-			{
-				name = PotatoRoid
-				cid = 0
-				uid = 781864858
-				mid = 781864858
-				launchID = 0
-				parent = 0
-				position = 0,0,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 0
-				resPri = 0
-				dstg = 0
-				sqor = 0
-				sepI = 0
-				sidx = 0
-				attm = 0
-				srfN = None, -1
-				mass = 150
-				shielded = False
-				temp = -1
-				tempExt = 0
-				tempExtUnexp = 0
-				expt = 0.100000001
-				state = 0
-				attached = True
-				autostrutMode = Off
-				rigidAttachment = False
-				flag = 
-				rTrf = 
-				modCost = 0
-			}
-			ACTIONGROUPS
-			{
-			}
-			DISCOVERY
-			{
-				state = 1
-				lastObservedTime = 522527115.25290489
-				lifetime = 1394910.7360839844
-				refTime = 1728000
-				size = 3
-			}
-			FLIGHTPLAN
-			{
-			}
-			CTRLSTATE
-			{
 			}
 			VESSELMODULES
 			{
@@ -17386,11 +16139,11 @@ GAME
 			{
 				SMA = NaN
 				ECC = 1
-				INC = 0.010181556273195462
-				LPE = 90.000000000000014
-				LAN = 329.13728067079455
+				INC = 0.0046923723503369871
+				LPE = 90
+				LAN = 256.55885357757461
 				MNA = 0
-				EPH = 523898820.25318587
+				EPH = 523996975.21879488
 				REF = 2
 			}
 			PART
@@ -21513,6 +20266,1479 @@ GAME
 				}
 			}
 		}
+		VESSEL
+		{
+			pid = 7a7837ff7d154e45a6b0584a9629bbc9
+			name = Ast. XSJ-515
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 523923085.46067435
+			lct = 523923085.46067435
+			lastUT = -1
+			root = 0
+			lat = -1.8273049955170371
+			lon = -129.10418731791754
+			alt = 13862987322.550165
+			hgt = -1
+			nrm = 0,1,0
+			rot = -0.306552947,-0.60006243,-0.597996891,0.433993161
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			ORBIT
+			{
+				SMA = 14388262430.474842
+				ECC = 0.054009392958676801
+				INC = 2.0959228517968649
+				LPE = 12.426394963011859
+				LAN = 214.12903687961548
+				MNA = -0.11143490604618431
+				EPH = 525616509.67332083
+				REF = 0
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 502147699
+				mid = 502147699
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				expt = 0.100000001
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 523923085.46067435
+				lifetime = 461537.30621337891
+				refTime = 1728000
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				UllageModule
+				{
+				}
+				SolverFlightSys
+				{
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = 33312553f5a346b89bf551a9e029e8f8
+			name = Eve 1 Debris
+			type = Debris
+			sit = SUB_ORBITAL
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 80.039923667907715
+			lct = 523995691.05227554
+			lastUT = 523995771.09219921
+			root = 0
+			lat = -0.15486807540280678
+			lon = 164.77024876144515
+			alt = 91040.088504546089
+			hgt = -1
+			nrm = -0.976865888,-0.0104746521,0.213596106
+			rot = -0.713363171,0.456996679,-0.424364537,-0.319658995
+			CoM = 0.000340163155,-3.12504458,-0.00012421573
+			stg = 4
+			prst = False
+			ref = 0
+			ctrl = False
+			cPch = 0
+			cHdg = 0
+			cMod = -1
+			ORBIT
+			{
+				SMA = 1003092.0803108282
+				ECC = 0.36098283973883927
+				INC = 0.23513211081234275
+				LPE = 264.53247044936387
+				LAN = 32.742395078870686
+				MNA = -0.36841747856594353
+				EPH = 523995760.65220916
+				REF = 1
+			}
+			PART
+			{
+				name = decoupler1-2
+				cid = 4291622014
+				uid = 1172725032
+				mid = 4252871454
+				launchID = 11
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 3
+				resPri = 0
+				dstg = 5
+				sqor = 3
+				sepI = 3
+				sidx = 0
+				attm = 0
+				srfN = , -1
+				attN = bottom, 1
+				attN = top, -1
+				mass = 0.400000006
+				shielded = False
+				temp = 149.83052352073133
+				tempExt = 138.76002301428363
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				attached = False
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = Squad/Flags/minimalistic
+				rTrf = decoupler1-2
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleDecouple
+					isEnabled = True
+					ejectionForcePercent = 100
+					isDecoupled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						DecoupleAction
+						{
+							actionGroup = None
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleToggleCrossfeed
+					isEnabled = True
+					crossfeedStatus = False
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+						EnableAction
+						{
+							actionGroup = None
+						}
+						DisableAction
+						{
+							actionGroup = None
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleTestSubject
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = tjs_DecouplerLight
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleKerbalKrashSystem_Other
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleKerbalKrashSystem_Repair
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = KJRDecouplerReinforcementModule
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+			}
+			PART
+			{
+				name = KW2mtankL2
+				cid = 4291589036
+				uid = 2096501700
+				mid = 4252871454
+				launchID = 11
+				parent = 0
+				position = 0,-2.8654708862304688,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 3
+				resPri = 0
+				dstg = 6
+				sqor = -1
+				sepI = 3
+				sidx = -1
+				attm = 0
+				srfN = srfAttach, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 0.573671818
+				shielded = False
+				temp = 150.16727081609835
+				tempExt = 129.97137019231312
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = Squad/Flags/minimalistic
+				rTrf = KW2mtankL2
+				modCost = 790.868225
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleKerbalKrashSystem_Container
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleKerbalKrashSystem_Leak
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleKerbalKrashSystem_Repair
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleFuelTanks
+					isEnabled = True
+					type = Default
+					utilization = 86
+					mass = 0.573671758
+					partPrevTemperature = 150.16727081609835
+					stagingEnabled = True
+					volume = 18000
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					TANK
+					{
+						name = LqdOxygen
+						note = (lacks insulation)
+						utilization = 1
+						mass = 1.40000002E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 90.1500015
+						fillable = True
+						techRequired = 
+						amount = 4179.0960881499732
+						maxAmount = 11394.017028808594
+					}
+					TANK
+					{
+						name = Kerosene
+						note = 
+						utilization = 1
+						mass = 1.20000004E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 2452.4818522373707
+						maxAmount = 6605.9829711914063
+					}
+					TANK
+					{
+						name = LqdHydrogen
+						note = (basic insulation)
+						utilization = 1
+						mass = 1.99999999E-06
+						cost = 0
+						loss_rate = 0
+						temperature = 20.1499996
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = NTO
+						note = 
+						utilization = 1
+						mass = 1.6E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = UDMH
+						note = 
+						utilization = 1
+						mass = 1.6E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = Aerozine50
+						note = 
+						utilization = 1
+						mass = 1.6E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = MMH
+						note = 
+						utilization = 1
+						mass = 1.6E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = HTP
+						note = 
+						utilization = 1
+						mass = 1.6E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = AvGas
+						note = 
+						utilization = 1
+						mass = 7.99999998E-06
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = IRFNA-III
+						note = 
+						utilization = 1
+						mass = 1.99999995E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = NitrousOxide
+						note = (pressurized)
+						utilization = 100
+						mass = 2.99999992E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = Aniline
+						note = 
+						utilization = 1
+						mass = 1.99999995E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = Ethanol75
+						note = 
+						utilization = 1
+						mass = 1.29999999E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = Ethanol90
+						note = 
+						utilization = 1
+						mass = 1.29999999E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = Ethanol
+						note = 
+						utilization = 1
+						mass = 1.29999999E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = LqdAmmonia
+						note = (lacks insulation)
+						utilization = 1
+						mass = 1.20000004E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 237.649994
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = LqdMethane
+						note = (lacks insulation)
+						utilization = 1
+						mass = 1.20000004E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 111.449997
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = ClF3
+						note = 
+						utilization = 1
+						mass = 3.9999999E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = ClF5
+						note = 
+						utilization = 1
+						mass = 3.9999999E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = Diborane
+						note = (lacks insulation)
+						utilization = 1
+						mass = 1.80000006E-05
+						cost = 0
+						loss_rate = 2.3000000000000001E-10
+						temperature = 180.649994
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = Pentaborane
+						note = 
+						utilization = 1
+						mass = 1.80000006E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = Ethane
+						note = (lacks insulation)
+						utilization = 1
+						mass = 1.6E-05
+						cost = 0
+						loss_rate = 2.5000000000000002E-10
+						temperature = 184.649994
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = Ethylene
+						note = (lacks insulation)
+						utilization = 1
+						mass = 1.6E-05
+						cost = 0
+						loss_rate = 3.4999999999999998E-10
+						temperature = 169.449997
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = OF2
+						note = (lacks insulation)
+						utilization = 1
+						mass = 1.80000006E-05
+						cost = 0
+						loss_rate = 1.0000000000000001E-09
+						temperature = 128.399994
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = LqdFluorine
+						note = (lacks insulation)
+						utilization = 1
+						mass = 3.9999999E-05
+						cost = 0
+						loss_rate = 5.4999999999999996E-09
+						temperature = 85.0400009
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = N2F4
+						note = (lacks insulation)
+						utilization = 1
+						mass = 9.99999975E-06
+						cost = 0
+						loss_rate = 1.7000000000000001E-10
+						temperature = 200.149994
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = Methanol
+						note = 
+						utilization = 1
+						mass = 1.20000004E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = Furfuryl
+						note = 
+						utilization = 1
+						mass = 1.40000002E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = UH25
+						note = 
+						utilization = 1
+						mass = 1.6E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = Tonka250
+						note = 
+						utilization = 1
+						mass = 1.6E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = Tonka500
+						note = 
+						utilization = 1
+						mass = 1.6E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = FLOX30
+						note = (lacks insulation)
+						utilization = 1
+						mass = 1.65000001E-05
+						cost = 0
+						loss_rate = 1E-10
+						temperature = 216.149994
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = FLOX70
+						note = (lacks insulation)
+						utilization = 1
+						mass = 3.84999985E-05
+						cost = 0
+						loss_rate = 1E-10
+						temperature = 216.149994
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = FLOX88
+						note = (lacks insulation)
+						utilization = 1
+						mass = 4.84000011E-05
+						cost = 0
+						loss_rate = 1E-10
+						temperature = 216.149994
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = IWFNA
+						note = 
+						utilization = 1
+						mass = 1.99999995E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = IRFNA-IV
+						note = 
+						utilization = 1
+						mass = 1.99999995E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = AK20
+						note = 
+						utilization = 1
+						mass = 1.99999995E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = AK27
+						note = 
+						utilization = 1
+						mass = 1.99999995E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = MON1
+						note = 
+						utilization = 1
+						mass = 1.6E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = MON3
+						note = 
+						utilization = 1
+						mass = 1.6E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = MON10
+						note = 
+						utilization = 1
+						mass = 1.6E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = MON15
+						note = 
+						utilization = 1
+						mass = 1.6E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = MON20
+						note = 
+						utilization = 1
+						mass = 1.6E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = MON25
+						note = 
+						utilization = 1
+						mass = 1.6E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = Hydyne
+						note = 
+						utilization = 1
+						mass = 1.29999999E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = Syntin
+						note = 
+						utilization = 1
+						mass = 1.20000004E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = LiquidFuel
+						note = 
+						utilization = 1
+						mass = 1.6E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = Oxidizer
+						note = 
+						utilization = 1
+						mass = 1.6E-05
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					TANK
+					{
+						name = LeadBallast
+						note = 
+						utilization = 1
+						mass = 0
+						cost = 0
+						loss_rate = 0
+						temperature = 300
+						fillable = True
+						techRequired = 
+						amount = 0
+						maxAmount = 0
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				RESOURCE
+				{
+					name = Kerosene
+					amount = 2452.4818522373707
+					maxAmount = 6605.9829711914063
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+				RESOURCE
+				{
+					name = LqdOxygen
+					amount = 4179.0960881499732
+					maxAmount = 11394.017028808594
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = KW2mengineVestaVR9D
+				cid = 4291585372
+				uid = 1462120379
+				mid = 4252871454
+				launchID = 11
+				parent = 1
+				position = 0,-6.6154708862304688,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 4
+				resPri = 0
+				dstg = 6
+				sqor = 4
+				sepI = 3
+				sidx = 0
+				attm = 0
+				srfN = , -1
+				attN = top, -1
+				attN = top2, 1
+				attN = bottom, -1
+				mass = 0.904796958
+				shielded = False
+				temp = 150.16054396849992
+				tempExt = 139.15124356976375
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = Squad/Flags/minimalistic
+				rTrf = KW2mengineVestaVR9D
+				modCost = 129.242996
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleEnginesRF
+					isEnabled = True
+					ignitions = 12
+					staged = True
+					flameout = False
+					EngineIgnited = True
+					engineShutdown = False
+					currentThrottle = 0
+					thrustPercentage = 100
+					manuallyOverridden = False
+					stagingEnabled = True
+					ignited = False
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						OnAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+					}
+					Ullage
+					{
+						UllageSim
+						{
+							ullageHeightMin = 0.45002666161926286
+							ullageHeightMax = 0.55002715512740274
+							ullageRadialMin = 0
+							ullageRadialMax = 1
+							UT = 523995771.09219921
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleGimbal
+					isEnabled = True
+					gimbalLock = False
+					gimbalLimiter = 100
+					currentShowToggles = False
+					enableYaw = True
+					enablePitch = True
+					enableRoll = True
+					gimbalActive = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+						LockAction
+						{
+							actionGroup = None
+						}
+						FreeAction
+						{
+							actionGroup = None
+						}
+						TogglePitchAction
+						{
+							actionGroup = None
+						}
+						ToggleYawAction
+						{
+							actionGroup = None
+						}
+						ToggleRollAction
+						{
+							actionGroup = None
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleAnimateHeat
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleAlternator
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleJettison
+					isEnabled = True
+					isJettisoned = True
+					shroudHideOverride = False
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						JettisonAction
+						{
+							actionGroup = None
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleSurfaceFX
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleTestSubject
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = EngineLightEffect
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleKerbalKrashSystem_Engine
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleKerbalKrashSystem_Repair
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleEngineConfigs
+					isEnabled = True
+					configuration = Kerosene+LqdOxygen
+					techLevel = 7
+					thrustRating = maxThrust
+					modded = False
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				RESOURCE
+				{
+					name = ElectricCharge
+					amount = 0.10000000000000001
+					maxAmount = 0.10000000000000001
+					flowState = True
+					isTweakable = False
+					hideFlow = True
+					isVisible = True
+					flowMode = Both
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 523992697.454599
+				Gear = False, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = True, 523994308.153062
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+			DISCOVERY
+			{
+				state = -1
+				lastObservedTime = 0
+				lifetime = Infinity
+				refTime = Infinity
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+				pitch = 0
+				yaw = 0
+				roll = 0
+				trimPitch = 0
+				trimYaw = 0
+				trimRoll = 0
+				mainThrottle = 0
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				UllageModule
+				{
+				}
+				SolverFlightSys
+				{
+				}
+			}
+		}
 	}
 	LoaderInfo
 	{
@@ -21600,6 +21826,7 @@ GAME
 		ModuleManager.ConfigSHA = True
 		ModuleManager.Physics = True
 		ModuleManager.TechTree = True
+		KWRocketry = True
 	}
 	ROSTER
 	{

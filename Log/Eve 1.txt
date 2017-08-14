@@ -59,3 +59,22 @@ Gilly takeoff         30      50        2500
 Gilly escape         410     450        2450
 Eve eject           1708    1900        2000
 Kerbin capture      aero     100         100
+
+
+
+Test flight 1
+17:28 August 13th 2017
+
+Fix staging (start engine before releasing clamps)
+First stage is sufficient to reach LKO if ascent profile is improved.
+    Apoapis 1213 km
+    Periapsis 16 km
+Add some extra LOX to offset boiloff in second stage
+Add action groups for solar panels
+Add lights
+Figure out how to get Engineer Redux to understand NTO/Aerozine50
+Add decoupler for landing
+Add action group for enabling and disabling fin control
+Probably don't need so much ablator
+Three parachutes is plenty for the entire third stage. After decoupling, we only need one or two.
+Detaching heat shield caused probe to explode. Looks like a collision problem.
