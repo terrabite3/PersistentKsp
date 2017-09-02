@@ -63,7 +63,7 @@ Kerbin capture      aero     100         100
 
 
 
-Test flight 1
+Eve 1
 17:28 August 13th 2017
 
 Fix staging (start engine before releasing clamps)
@@ -91,7 +91,7 @@ Action groups
 5   Toggle ullage RCS thrusters
 
 
-Test flight 2
+Eve 2
 21:18 September 1st 2017
 
 After launch stage
@@ -108,3 +108,5 @@ Planned ejection burn    625 m/s
 Notes:
 Need more reaction wheel torque
 Even more LOX - 200 more
+Use docking ports for decouplers, to allow refueling, etc.
+Move solar panels away from fins; there is an orientation where the fins block two of the panels, and third panel is at a right angle from the sun.
