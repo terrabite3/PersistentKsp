@@ -78,3 +78,13 @@ Add action group for enabling and disabling fin control
 Probably don't need so much ablator
 Three parachutes is plenty for the entire third stage. After decoupling, we only need one or two.
 Detaching heat shield caused probe to explode. Looks like a collision problem.
+
+
+
+Action groups
+
+1   Toggle solar panels on transfer stage
+2   Extend solar panels inside heat shield
+3   Activate engine on transfer stage
+4   Shutdown engine on transfer stage
+5   Toggle ullage RCS thrusters
