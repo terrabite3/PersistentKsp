@@ -98,4 +98,9 @@ After launch stage
     Periapsis     30 km
 Be even more aggresive with the ascent profile!
 
+Need more reaction wheel torque
 
+After circularization burn
+    Apoapsis            4143 km
+    Periapsis           3800 km
+Planned ejection burn    625 m/s
