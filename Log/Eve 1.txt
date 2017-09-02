@@ -88,3 +88,14 @@ Action groups
 3   Activate engine on transfer stage
 4   Shutdown engine on transfer stage
 5   Toggle ullage RCS thrusters
+
+
+Test flight 2
+21:18 September 1st 2017
+
+After launch stage
+    Apoapsis    3937 km
+    Periapsis     30 km
+Be even more aggresive with the ascent profile!
+
+
