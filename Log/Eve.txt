@@ -94,6 +94,22 @@ Action groups
 Eve 2
 21:18 September 1st 2017
 
+Departure stage
+    Wet mass    47,373 kg   
+  - Kerosene     5,368 kg
+  - LOx         13,069 kg
+  = Dry mass    28,936 kg
+    Isp            369
+    delta V      1,784 m/s
+Exploration stage
+    Wet mass    27,058 kg
+  - Aerozine50   8,128 kg
+  - NTO         13,005 kg
+  = Dry mass     5,925 kg
+    Isp            344
+    delta V      5,123 m/s
+
+
 After launch stage
     Apoapsis    3937 km
     Periapsis     30 km
@@ -110,3 +126,24 @@ Need more reaction wheel torque
 Even more LOX - 200 more
 Use docking ports for decouplers, to allow refueling, etc.
 Move solar panels away from fins; there is an orientation where the fins block two of the panels, and third panel is at a right angle from the sun.
+
+
+
+
+Eve 3
+
+Departure stage
+    Wet mass    47,821 kg   
+  - Kerosene     5,203 kg
+  - LOx         13,297 kg
+  = Dry mass    29,746 kg
+  - LOx boiloff    810 kg
+    Isp            369
+    delta V      1,718 m/s
+Exploration stage
+    Wet mass    27,141 kg
+  - Aerozine50   8,128 kg
+  - NTO         13,005 kg
+  = Dry mass     6,008 kg
+    Isp            344
+    delta V      5,088 m/s
