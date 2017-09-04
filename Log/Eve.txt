@@ -120,6 +120,8 @@ After circularization burn
     Periapsis           3800 km
 Planned ejection burn    625 m/s
 
+Arrival:    Day 284 16:00
+
 
 Notes:
 Need more reaction wheel torque
@@ -131,6 +133,15 @@ Move solar panels away from fins; there is an orientation where the fins block t
 
 
 Eve 3
+18:30 September 2nd 2017
+
+Action groups
+1   Deactivate all engines
+2   Activate eject stage engine
+3   Activate exploration stage engine
+4   Toggle exploration stage solar panels
+5   Deploy landing stage solar panels
+
 
 Departure stage
     Wet mass    47,821 kg   
@@ -147,3 +158,5 @@ Exploration stage
   = Dry mass     6,008 kg
     Isp            344
     delta V      5,088 m/s
+
+
