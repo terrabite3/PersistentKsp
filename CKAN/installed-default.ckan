@@ -3,153 +3,145 @@
 	"abstract": "A list of modules installed on the default KSP instance",
 	"name": "installed-default",
 	"license": "unknown",
-	"version": "2017.09.05.01.23.00",
+	"version": "2017.09.05.02.27.44",
 	"identifier": "installed-default",
 	"spec_version": "v1.6",
 	"depends": [
+		{
+			"name": "AstronomersVisualPack",
+			"version": "v3.53"
+		},
+		{
+			"name": "AVP-8kTextures",
+			"version": "v1.3"
+		},
+		{
+			"name": "Scatterer-config",
+			"version": "2:v0.0320b"
+		},
 		{
 			"name": "Chatterer",
 			"version": "0.9.93"
 		},
 		{
-			"name": "ChattererExtended",
-			"version": "0.6.1"
+			"name": "TextureReplacer",
+			"version": "v2.6.0"
 		},
 		{
-			"name": "DistantObject",
-			"version": "v1.8.1"
+			"name": "ModuleManager",
+			"version": "2.8.1"
 		},
 		{
-			"name": "DistantObject-default",
-			"version": "v1.8.1"
-		},
-		{
-			"name": "DockingPortAlignmentIndicator",
-			"version": "6.5.2"
-		},
-		{
-			"name": "DockingPortSoundFX",
-			"version": "v2.1.12"
-		},
-		{
-			"name": "EasyVesselSwitch",
-			"version": "1.2.0.0"
-		},
-		{
-			"name": "EngineLighting",
-			"version": "1.5"
-		},
-		{
-			"name": "Scatterer-config",
-			"version": "2:v0.0320"
-		},
-		{
-			"name": "KerbalAlarmClock",
-			"version": "v3.8.4.0"
-		},
-		{
-			"name": "KerbalEngineerRedux",
-			"version": "1.1.2.8"
-		},
-		{
-			"name": "KerbalJointReinforcement",
-			"version": "v3.3.2"
-		},
-		{
-			"name": "KerbalKrashSystem",
-			"version": "1:0.3.8"
-		},
-		{
-			"name": "KSP-AVC",
-			"version": "1.1.6.2"
+			"name": "Kopernicus",
+			"version": "2:release-1.3.0-6"
 		},
 		{
 			"name": "ModularFlightIntegrator",
 			"version": "1.2.4.0"
 		},
 		{
-			"name": "PersistentRotation",
-			"version": "1.8.4"
+			"name": "Scatterer",
+			"version": "2:v0.0320b"
 		},
 		{
-			"name": "PlanetShine",
-			"version": "0.2.5.2"
+			"name": "Scatterer-sunflare",
+			"version": "2:v0.0320b"
 		},
 		{
-			"name": "PreciseManeuver",
-			"version": "2:2.2.5"
-		},
-		{
-			"name": "RealPlume",
-			"version": "2:v10.5.1"
-		},
-		{
-			"name": "RFStockalike",
-			"version": "v3.2.3"
-		},
-		{
-			"name": "SCANsat",
-			"version": "v16.11"
-		},
-		{
-			"name": "EnvironmentalVisualEnhancements-HR",
-			"version": "2:EVE-1.2.2-1"
-		},
-		{
-			"name": "SmokeScreen",
-			"version": "2.7.5.0"
+			"name": "LoadingScreenManager",
+			"version": "1.2.0"
 		},
 		{
 			"name": "EnvironmentalVisualEnhancements",
 			"version": "2:EVE-1.2.2-1"
 		},
 		{
-			"name": "surfacelights",
-			"version": "1.3.1.0"
+			"name": "DistantObject",
+			"version": "v1.9.1"
 		},
 		{
-			"name": "EdenSunflare",
-			"version": "1.2"
+			"name": "DistantObject-default",
+			"version": "v1.9.1"
 		},
 		{
-			"name": "Scatterer",
-			"version": "2:v0.0320"
+			"name": "DockingPortAlignmentIndicator",
+			"version": "6.7.0"
 		},
 		{
-			"name": "TextureReplacer",
-			"version": "v2.5.4"
+			"name": "DockingPortSoundFX",
+			"version": "v2.1.12"
 		},
 		{
-			"name": "UniversalStorage",
-			"version": "1.3.0.0"
+			"name": "RasterPropMonitor",
+			"version": "1:v0.29.0"
 		},
 		{
-			"name": "WaypointManager",
-			"version": "2.6.2"
+			"name": "RasterPropMonitor-Core",
+			"version": "1:v0.29.0"
 		},
 		{
-			"name": "ModuleManager",
-			"version": "2.7.6"
+			"name": "EasyVesselSwitch",
+			"version": "1.3.0"
 		},
 		{
-			"name": "PlanetShine-Config-Default",
-			"version": "0.2.5.2"
+			"name": "KerbalAlarmClock",
+			"version": "v3.8.5.0"
+		},
+		{
+			"name": "KerbalEngineerRedux",
+			"version": "1.1.3.0"
+		},
+		{
+			"name": "KerbalJointReinforcement",
+			"version": "v3.3.3"
+		},
+		{
+			"name": "KerbalKrashSystem",
+			"version": "1:0.4.3"
+		},
+		{
+			"name": "PreciseManeuver",
+			"version": "2:2.3.1"
 		},
 		{
 			"name": "RealFuels",
-			"version": "rf-v12.2.1"
+			"version": "rf-v12.3.1"
+		},
+		{
+			"name": "RFStockalike",
+			"version": "v3.2.4"
 		},
 		{
 			"name": "CommunityResourcePack",
-			"version": "0.6.6.0"
+			"version": "0.7.2.0"
 		},
 		{
 			"name": "SolverEngines",
-			"version": "v3.1"
+			"version": "v3.3"
+		},
+		{
+			"name": "SCANsat",
+			"version": "v18.0"
+		},
+		{
+			"name": "RealPlume",
+			"version": "2:v10.5.1"
+		},
+		{
+			"name": "SmokeScreen",
+			"version": "2.7.5.0"
+		},
+		{
+			"name": "surfacelights",
+			"version": "1.4.0"
+		},
+		{
+			"name": "WaypointManager",
+			"version": "2.7.0"
 		},
 		{
 			"name": "BetterTimeWarpCont",
-			"version": "2.3.7.4"
+			"version": "2.3.8"
 		},
 		{
 			"name": "KWRocketryRedux",
@@ -158,6 +150,10 @@
 		{
 			"name": "KWRocketryRedux-GraduatedPwr",
 			"version": "3.1.4"
+		},
+		{
+			"name": "KSP-AVC",
+			"version": "1.1.6.2"
 		}
 	]
 }
