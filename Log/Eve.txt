@@ -120,7 +120,15 @@ After circularization burn
     Periapsis           3800 km
 Planned ejection burn    625 m/s
 
+After Kerbin ejection burn
+    Eve periapsis        352 km
+    Enter Eve SOI      23:44 Tuesday, October 10th 2017
+    Eve periapsis      15:30 Wednesday, October 11th 2017
+    Leave Eve SOI       7:17 Thursday, October 12th 2017
+
+
 Arrival:    Day 284 16:00
+
 
 
 Notes:
@@ -159,4 +167,9 @@ Exploration stage
     Isp            344
     delta V      5,088 m/s
 
-
+After Kerbin ejection burn
+    Eve periapsis   29,342 km
+    Enter Eve SOI    1:50  Monday,    October  9th 2017
+    Eve periapsis   16:14  Tuesday,   October 10th 2017
+    Leave Eve SOI    6:40  Wednesday, October 11th 2017
+    Capture burn      ~950 m/s
