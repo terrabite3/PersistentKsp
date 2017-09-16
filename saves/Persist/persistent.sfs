@@ -212,7 +212,7 @@ GAME
 				}
 				Flyby
 				{
-					completedUnmanned = 524428444.34683299
+					completed = 524428444.34683299
 				}
 			}
 			Kerbin
@@ -796,7 +796,7 @@ GAME
 				MinColor = 0.241454497,0.120727301,0.829999983,1
 				MaxColor = 0.788862824,0,0.939999998,1
 				Transparency = 20
-				MinMaxValues = 0|2.500|14.000,1|2.500|14.000,2|2.500|14.000,3|2.500|14.000,4|2.500|14.000,5|2.500|14.000,6|2.500|14.000,7|2.500|14.000,8|2.500|14.000,9|2.500|14.000,10|2.500|14.000,11|2.500|14.000,12|2.500|14.000,13|2.500|14.000,14|2.500|14.000,15|2.500|14.000,16|2.500|14.000
+				MinMaxValues = 0|2.500|14.000,1|2.500|14.000,2|2.500|14.000,3|2.500|14.000,4|2.500|14.000,5|2.500|14.000,6|2.500|14.000,7|2.500|14.000,8|2.500|14.000,9|2.500|14.000,10|2.500|14.000,11|2.500|14.000,12|2.500|14.000,13|2.500|14.000,14|2.500|14.000,15|2.500|14.000,16|2.500|14.000,17|1.000|15.000,18|1.000|15.000,19|1.000|15.000,20|1.000|15.000,21|1.000|15.000,22|1.000|15.000,23|1.000|15.000,24|1.000|15.000,25|1.000|15.000,26|1.000|15.000,27|1.000|15.000,28|1.000|15.000,29|1.000|15.000,30|1.000|15.000,31|1.000|15.000
 			}
 			ResourceType
 			{
@@ -804,7 +804,7 @@ GAME
 				MinColor = 0,0.319215685,0.74000001,1
 				MaxColor = 0.75,0.382352889,0,1
 				Transparency = 20
-				MinMaxValues = 0|1.000|6.500,1|1.800|2.200,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500
+				MinMaxValues = 0|1.000|6.500,1|1.800|2.200,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500,17|1.000|10.000,18|1.000|10.000,19|1.000|10.000,20|1.000|10.000,21|1.000|10.000,22|1.000|10.000,23|1.000|10.000,24|1.000|10.000,25|1.000|10.000,26|1.000|10.000,27|1.000|10.000,28|1.000|10.000,29|1.000|10.000,30|1.000|10.000,31|1.000|10.000
 			}
 			ResourceType
 			{
@@ -812,7 +812,7 @@ GAME
 				MinColor = 0.4762353,0.0432941206,0.920000017,1
 				MaxColor = 0,0.576470971,0.0745100006,1
 				Transparency = 20
-				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500
+				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500,17|1.000|10.000,18|1.000|10.000,19|1.000|10.000,20|1.000|10.000,21|1.000|10.000,22|1.000|10.000,23|1.000|10.000,24|1.000|10.000,25|1.000|10.000,26|1.000|10.000,27|1.000|10.000,28|1.000|10.000,29|1.000|10.000,30|1.000|10.000,31|1.000|10.000
 			}
 			ResourceType
 			{
@@ -820,7 +820,7 @@ GAME
 				MinColor = 0.64188242,0.0138039198,0.879999995,1
 				MaxColor = 0.742823482,0.819999993,0,1
 				Transparency = 20
-				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500
+				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500,17|1.000|10.000,18|1.000|10.000,19|1.000|10.000,20|1.000|10.000,21|1.000|10.000,22|1.000|10.000,23|1.000|10.000,24|1.000|10.000,25|1.000|10.000,26|1.000|10.000,27|1.000|10.000,28|1.000|10.000,29|1.000|10.000,30|1.000|10.000,31|1.000|10.000
 			}
 			ResourceType
 			{
@@ -828,7 +828,7 @@ GAME
 				MinColor = 0,0.839215994,0.76078397,1
 				MaxColor = 1,0.235294104,0.0313725509,1
 				Transparency = 20
-				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500
+				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500,17|1.000|10.000,18|1.000|10.000,19|1.000|10.000,20|1.000|10.000,21|1.000|10.000,22|1.000|10.000,23|1.000|10.000,24|1.000|10.000,25|1.000|10.000,26|1.000|10.000,27|1.000|10.000,28|1.000|10.000,29|1.000|10.000,30|1.000|10.000,31|1.000|10.000
 			}
 			ResourceType
 			{
@@ -836,7 +836,7 @@ GAME
 				MinColor = 0.75999999,0,0.572235286,1
 				MaxColor = 0,0.568784416,0.980000019,1
 				Transparency = 20
-				MinMaxValues = 0|0.500|6.500,1|5.000|45.000,2|0.500|6.500,3|0.500|6.500,4|0.500|6.500,5|0.500|6.500,6|0.500|6.500,7|0.500|6.500,8|0.500|6.500,9|5.000|40.000,10|0.500|6.500,11|0.500|6.500,12|0.500|6.500,13|0.500|6.500,14|0.500|6.500,15|0.500|6.500,16|0.500|6.500
+				MinMaxValues = 0|0.500|6.500,1|5.000|45.000,2|0.500|6.500,3|0.500|6.500,4|0.500|6.500,5|0.500|6.500,6|0.500|6.500,7|0.500|6.500,8|0.500|6.500,9|5.000|40.000,10|0.500|6.500,11|0.500|6.500,12|0.500|6.500,13|0.500|6.500,14|0.500|6.500,15|0.500|6.500,16|0.500|6.500,17|0.500|10.000,18|0.500|10.000,19|0.500|10.000,20|0.500|10.000,21|0.500|10.000,22|0.500|10.000,23|0.500|10.000,24|0.500|10.000,25|0.500|10.000,26|0.500|10.000,27|0.500|10.000,28|0.500|10.000,29|0.500|10.000,30|0.500|10.000,31|0.500|10.000
 			}
 			ResourceType
 			{
@@ -844,7 +844,7 @@ GAME
 				MinColor = 0.720000029,0.505411804,0,1
 				MaxColor = 0,0.630274475,0.980000019,1
 				Transparency = 20
-				MinMaxValues = 8|1.000|6.500,1|1.000|6.500,0|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500
+				MinMaxValues = 8|1.000|6.500,1|1.000|6.500,0|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500,17|1.000|10.000,18|1.000|10.000,19|1.000|10.000,20|1.000|10.000,21|1.000|10.000,22|1.000|10.000,23|1.000|10.000,24|1.000|10.000,25|1.000|10.000,26|1.000|10.000,27|1.000|10.000,28|1.000|10.000,29|1.000|10.000,30|1.000|10.000,31|1.000|10.000
 			}
 			ResourceType
 			{
@@ -860,7 +860,7 @@ GAME
 				MinColor = 1,0.2196078,0.772548974,1
 				MaxColor = 0.322196096,0.790000021,0,1
 				Transparency = 20
-				MinMaxValues = 0|15.000|35.000,1|15.000|35.000,2|15.000|35.000,3|15.000|35.000,4|15.000|35.000,5|15.000|35.000,6|15.000|35.000,7|15.000|35.000,8|15.000|35.000,9|15.000|35.000,10|15.000|35.000,11|15.000|35.000,12|15.000|35.000,13|15.000|35.000,14|15.000|35.000,15|15.000|35.000,16|15.000|35.000
+				MinMaxValues = 0|15.000|35.000,1|15.000|35.000,2|15.000|35.000,3|15.000|35.000,4|15.000|35.000,5|15.000|35.000,6|15.000|35.000,7|15.000|35.000,8|15.000|35.000,9|15.000|35.000,10|15.000|35.000,11|15.000|35.000,12|15.000|35.000,13|15.000|35.000,14|15.000|35.000,15|15.000|35.000,16|15.000|35.000,17|20.000|50.000,18|20.000|50.000,19|20.000|50.000,20|20.000|50.000,21|20.000|50.000,22|20.000|50.000,23|20.000|50.000,24|20.000|50.000,25|20.000|50.000,26|20.000|50.000,27|20.000|50.000,28|20.000|50.000,29|20.000|50.000,30|20.000|50.000,31|20.000|50.000
 			}
 			ResourceType
 			{
@@ -868,7 +868,7 @@ GAME
 				MinColor = 0.939568579,0.970000029,0,1
 				MaxColor = 0.467882395,0,0.970000029,1
 				Transparency = 20
-				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500
+				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500,17|1.000|10.000,18|1.000|10.000,19|1.000|10.000,20|1.000|10.000,21|1.000|10.000,22|1.000|10.000,23|1.000|10.000,24|1.000|10.000,25|1.000|10.000,26|1.000|10.000,27|1.000|10.000,28|1.000|10.000,29|1.000|10.000,30|1.000|10.000,31|1.000|10.000
 			}
 			ResourceType
 			{
@@ -876,7 +876,7 @@ GAME
 				MinColor = 0.779999971,0.2905882,0,1
 				MaxColor = 0,1,0.807843089,1
 				Transparency = 20
-				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500
+				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500,17|1.000|10.000,18|1.000|10.000,19|1.000|10.000,20|1.000|10.000,21|1.000|10.000,22|1.000|10.000,23|1.000|10.000,24|1.000|10.000,25|1.000|10.000,26|1.000|10.000,27|1.000|10.000,28|1.000|10.000,29|1.000|10.000,30|1.000|10.000,31|1.000|10.000
 			}
 			ResourceType
 			{
@@ -884,7 +884,7 @@ GAME
 				MinColor = 0.172117695,0.769999981,0.39858821,1
 				MaxColor = 0.930000007,0.452235311,0,1
 				Transparency = 20
-				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500
+				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500,17|1.000|25.000,18|1.000|25.000,19|1.000|25.000,20|1.000|25.000,21|1.000|25.000,22|1.000|25.000,23|1.000|25.000,24|1.000|25.000,25|1.000|25.000,26|1.000|25.000,27|1.000|25.000,28|1.000|25.000,29|1.000|25.000,30|1.000|25.000,31|1.000|25.000
 			}
 			ResourceType
 			{
@@ -892,7 +892,7 @@ GAME
 				MinColor = 0,0.49000001,0.351647109,1
 				MaxColor = 1,0,0.223529398,1
 				Transparency = 20
-				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500
+				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500,17|1.000|10.000,18|1.000|10.000,19|1.000|10.000,20|1.000|10.000,21|1.000|10.000,22|1.000|10.000,23|1.000|10.000,24|1.000|10.000,25|1.000|10.000,26|1.000|10.000,27|1.000|10.000,28|1.000|10.000,29|1.000|10.000,30|1.000|10.000,31|1.000|10.000
 			}
 			ResourceType
 			{
@@ -908,7 +908,7 @@ GAME
 				MinColor = 0.446470588,0,0.689999998,1
 				MaxColor = 0.0705882385,1,0,1
 				Transparency = 20
-				MinMaxValues = 0|0.700|10.000,1|0.700|14.000,2|2.500|35.000,3|0.700|10.000,4|2.500|35.000,5|0.700|10.000,6|5.000|55.000,7|0.700|10.000,8|0.700|10.000,9|0.700|10.000,10|0.700|10.000,11|0.700|10.000,12|0.700|10.000,13|0.700|10.000,14|0.700|10.000,15|0.700|90.000,16|0.700|10.000
+				MinMaxValues = 0|0.700|10.000,1|0.700|14.000,2|2.500|35.000,3|0.700|10.000,4|2.500|35.000,5|0.700|10.000,6|5.000|55.000,7|0.700|10.000,8|0.700|10.000,9|0.700|10.000,10|0.700|10.000,11|0.700|10.000,12|0.700|10.000,13|0.700|10.000,14|0.700|10.000,15|0.700|90.000,16|0.700|10.000,17|0.700|10.000,18|0.700|10.000,19|0.700|10.000,20|0.700|10.000,21|0.700|10.000,22|0.700|10.000,23|0.700|10.000,24|0.700|10.000,25|0.700|10.000,26|0.700|10.000,27|0.700|10.000,28|0.700|10.000,29|0.700|10.000,30|0.700|10.000,31|0.700|10.000
 			}
 			ResourceType
 			{
@@ -924,7 +924,7 @@ GAME
 				MinColor = 0.146117598,0.0432941206,0.689999998,1
 				MaxColor = 0,1,0.678431392,1
 				Transparency = 20
-				MinMaxValues = 0|1.000|7.500,1|1.000|15.000,2|1.000|20.000,3|1.000|7.500,4|1.000|7.500,5|1.000|7.500,6|1.000|7.500,7|1.000|7.500,8|1.000|7.500,9|1.000|7.500,10|1.000|7.500,11|1.000|7.500,12|1.000|7.500,13|1.000|7.500,14|1.000|7.500,15|1.000|7.500,16|1.000|7.500
+				MinMaxValues = 0|1.000|7.500,1|1.000|15.000,2|1.000|20.000,3|1.000|7.500,4|1.000|7.500,5|1.000|7.500,6|1.000|7.500,7|1.000|7.500,8|1.000|7.500,9|1.000|7.500,10|1.000|7.500,11|1.000|7.500,12|1.000|7.500,13|1.000|7.500,14|1.000|7.500,15|1.000|7.500,16|1.000|7.500,17|1.000|20.000,18|1.000|20.000,19|1.000|20.000,20|1.000|20.000,21|1.000|20.000,22|1.000|20.000,23|1.000|20.000,24|1.000|20.000,25|1.000|20.000,26|1.000|20.000,27|1.000|20.000,28|1.000|20.000,29|1.000|20.000,30|1.000|20.000,31|1.000|20.000
 			}
 			ResourceType
 			{
@@ -940,7 +940,7 @@ GAME
 				MinColor = 0.769999981,0.721686184,0.262705892,1
 				MaxColor = 0.882352889,0.458823502,1,1
 				Transparency = 20
-				MinMaxValues = 0|1.000|7.500,1|1.000|7.500,2|1.000|7.500,3|1.000|7.500,4|1.000|7.500,5|1.000|7.500,6|1.000|7.500,7|1.000|7.500,8|1.000|7.500,9|1.000|7.500,10|1.000|7.500,11|1.000|7.500,12|1.000|7.500,13|1.000|7.500,14|1.000|7.500,15|1.000|7.500,16|1.000|7.500
+				MinMaxValues = 0|1.000|7.500,1|1.000|7.500,2|1.000|7.500,3|1.000|7.500,4|1.000|7.500,5|1.000|7.500,6|1.000|7.500,7|1.000|7.500,8|1.000|7.500,9|1.000|7.500,10|1.000|7.500,11|1.000|7.500,12|1.000|7.500,13|1.000|7.500,14|1.000|7.500,15|1.000|7.500,16|1.000|7.500,17|1.000|10.000,18|1.000|10.000,19|1.000|10.000,20|1.000|10.000,21|1.000|10.000,22|1.000|10.000,23|1.000|10.000,24|1.000|10.000,25|1.000|10.000,26|1.000|10.000,27|1.000|10.000,28|1.000|10.000,29|1.000|10.000,30|1.000|10.000,31|1.000|10.000
 			}
 			ResourceType
 			{
@@ -1016,7 +1016,7 @@ GAME
 	{
 		name = SentinelScenario
 		scene = 7, 8, 5
-		NextSpawnTime = 526019583.15719002
+		NextSpawnTime = 526958309.65315586
 	}
 	SCENARIO
 	{
@@ -1026,7 +1026,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.3.0
-		UT = 525894482.78704214
+		UT = 526946431.96463221
 		activeVessel = 0
 		mapViewFiltering = -1026
 		commNetUIModeTracking = Network
@@ -13693,13 +13693,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
-				INC = 0.010181556237398899
+				INC = 0.010181556201602335
 				LPE = 90
-				LAN = 98.298202934078176
+				LAN = 303.11890912298952
 				MNA = 0
-				EPH = 525894466.38705778
+				EPH = 526946431.68463248
 				REF = 2
 			}
 			PART
@@ -19008,521 +19008,6 @@ GAME
 				trimYaw = 0
 				trimRoll = 0
 				mainThrottle = 0
-			}
-			VESSELMODULES
-			{
-				ModularFlightIntegrator
-				{
-				}
-				SolverFlightSys
-				{
-				}
-				UllageModule
-				{
-				}
-				RPMVesselComputer
-				{
-				}
-			}
-		}
-		VESSEL
-		{
-			pid = 7973b9f0b6814e17bb4b51d4909068a0
-			name = Ast. DYU-481
-			type = SpaceObject
-			sit = ORBITING
-			landed = False
-			landedAt = 
-			displaylandedAt = 
-			splashed = False
-			met = 524988444.34683299
-			lct = 524988444.34683299
-			lastUT = -1
-			root = 0
-			lat = 0.019124492299680707
-			lon = 104.42376427989383
-			alt = 13728545818.47348
-			hgt = -1
-			nrm = 0,1,0
-			rot = -0.803668201,-0.125841513,0.294369221,0.501625538
-			CoM = 0,0,0
-			stg = 0
-			prst = False
-			ref = 0
-			ctrl = False
-			ORBIT
-			{
-				SMA = 14333612741.975374
-				ECC = 0.051860823604839498
-				INC = 0.23079957915756591
-				LPE = 69.902063156625999
-				LAN = 190.04099177394411
-				MNA = -0.044419709351424252
-				EPH = 526573489.36636424
-				REF = 0
-			}
-			PART
-			{
-				name = PotatoRoid
-				cid = 0
-				uid = 13712066
-				mid = 13712066
-				launchID = 0
-				parent = 0
-				position = 0,0,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 0
-				resPri = 0
-				dstg = 0
-				sqor = 0
-				sepI = 0
-				sidx = 0
-				attm = 0
-				srfN = None, -1
-				mass = 150
-				shielded = False
-				temp = -1
-				tempExt = 0
-				tempExtUnexp = 0
-				expt = 0.100000001
-				state = 0
-				attached = True
-				autostrutMode = Off
-				rigidAttachment = False
-				flag = 
-				rTrf = 
-				modCost = 0
-			}
-			ACTIONGROUPS
-			{
-			}
-			DISCOVERY
-			{
-				state = 1
-				lastObservedTime = 524988444.34683299
-				lifetime = 1077993.3746337891
-				refTime = 1728000
-				size = 2
-			}
-			FLIGHTPLAN
-			{
-			}
-			CTRLSTATE
-			{
-			}
-			VESSELMODULES
-			{
-				ModularFlightIntegrator
-				{
-				}
-				SolverFlightSys
-				{
-				}
-				UllageModule
-				{
-				}
-				RPMVesselComputer
-				{
-				}
-			}
-		}
-		VESSEL
-		{
-			pid = 9510d0efbc8e4147b9c789a615a1de48
-			name = Ast. TJX-988
-			type = SpaceObject
-			sit = ORBITING
-			landed = False
-			landedAt = 
-			displaylandedAt = 
-			splashed = False
-			met = 525414444.34683299
-			lct = 525414444.34683299
-			lastUT = -1
-			root = 0
-			lat = -1.7346575615922235
-			lon = 125.51078288842095
-			alt = 15043494148.952223
-			hgt = -1
-			nrm = 0,1,0
-			rot = -0.624555647,-0.155038759,0.650701404,0.403089315
-			CoM = 0,0,0
-			stg = 0
-			prst = False
-			ref = 0
-			ctrl = False
-			ORBIT
-			{
-				SMA = 16542992332.825382
-				ECC = 0.1786609387282305
-				INC = 1.735673916507366
-				LPE = 346.91436026935162
-				LAN = 298.91960849892638
-				MNA = 0.12373017647982464
-				EPH = 527576366.35000682
-				REF = 0
-			}
-			PART
-			{
-				name = PotatoRoid
-				cid = 0
-				uid = 78367260
-				mid = 78367260
-				launchID = 0
-				parent = 0
-				position = 0,0,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 0
-				resPri = 0
-				dstg = 0
-				sqor = 0
-				sepI = 0
-				sidx = 0
-				attm = 0
-				srfN = None, -1
-				mass = 150
-				shielded = False
-				temp = -1
-				tempExt = 0
-				tempExtUnexp = 0
-				expt = 0.100000001
-				state = 0
-				attached = True
-				autostrutMode = Off
-				rigidAttachment = False
-				flag = 
-				rTrf = 
-				modCost = 0
-			}
-			ACTIONGROUPS
-			{
-			}
-			DISCOVERY
-			{
-				state = 1
-				lastObservedTime = 525414444.34683299
-				lifetime = 1441911.2365722656
-				refTime = 1728000
-				size = 2
-			}
-			FLIGHTPLAN
-			{
-			}
-			CTRLSTATE
-			{
-			}
-			VESSELMODULES
-			{
-				ModularFlightIntegrator
-				{
-				}
-				SolverFlightSys
-				{
-				}
-				UllageModule
-				{
-				}
-				RPMVesselComputer
-				{
-				}
-			}
-		}
-		VESSEL
-		{
-			pid = 240e1b8622b6413fa3b19b01cfd23c3b
-			name = Ast. MPV-976
-			type = SpaceObject
-			sit = ORBITING
-			landed = False
-			landedAt = 
-			displaylandedAt = 
-			splashed = False
-			met = 525513744.76495796
-			lct = 525513744.76495796
-			lastUT = -1
-			root = 0
-			lat = 1.4982921157441
-			lon = 50.584796280250259
-			alt = 14146744786.970459
-			hgt = -1
-			nrm = 0,1,0
-			rot = 0.30063197,0.374258637,0.528871775,0.699889779
-			CoM = 0,0,0
-			stg = 0
-			prst = False
-			ref = 0
-			ctrl = False
-			ORBIT
-			{
-				SMA = 14205336332.753834
-				ECC = 0.043700345315677604
-				INC = 1.5432855245694104
-				LPE = 215.30586469472786
-				LAN = 114.83306143306942
-				MNA = -0.37838717511242115
-				EPH = 527834677.88263375
-				REF = 0
-			}
-			PART
-			{
-				name = PotatoRoid
-				cid = 0
-				uid = 2052363790
-				mid = 2052363790
-				launchID = 0
-				parent = 0
-				position = 0,0,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 0
-				resPri = 0
-				dstg = 0
-				sqor = 0
-				sepI = 0
-				sidx = 0
-				attm = 0
-				srfN = None, -1
-				mass = 150
-				shielded = False
-				temp = -1
-				tempExt = 0
-				tempExtUnexp = 0
-				expt = 0.100000001
-				state = 0
-				attached = True
-				autostrutMode = Off
-				rigidAttachment = False
-				flag = 
-				rTrf = 
-				modCost = 0
-			}
-			ACTIONGROUPS
-			{
-			}
-			DISCOVERY
-			{
-				state = 1
-				lastObservedTime = 525513744.76495796
-				lifetime = 1071079.8980712891
-				refTime = 1728000
-				size = 2
-			}
-			FLIGHTPLAN
-			{
-			}
-			CTRLSTATE
-			{
-			}
-			VESSELMODULES
-			{
-				ModularFlightIntegrator
-				{
-				}
-				SolverFlightSys
-				{
-				}
-				UllageModule
-				{
-				}
-				RPMVesselComputer
-				{
-				}
-			}
-		}
-		VESSEL
-		{
-			pid = 4a5d8f4a92794243b9013ac791100394
-			name = Ast. FLB-887
-			type = SpaceObject
-			sit = ORBITING
-			landed = False
-			landedAt = 
-			displaylandedAt = 
-			splashed = False
-			met = 525516276.64083689
-			lct = 525516276.64083689
-			lastUT = -1
-			root = 0
-			lat = 0.040062927181628669
-			lon = 43.144435245375234
-			alt = 14481856774.028126
-			hgt = -1
-			nrm = 0,1,0
-			rot = 0.229739696,-0.443947732,0.336627126,0.798005104
-			CoM = 0,0,0
-			stg = 0
-			prst = False
-			ref = 0
-			ctrl = False
-			ORBIT
-			{
-				SMA = 16791346531.436905
-				ECC = 0.19275585529834333
-				INC = 0.054117747132530675
-				LPE = 192.17229902728781
-				LAN = 81.131243500052904
-				MNA = 0.031826967108543533
-				EPH = 527060214.22628611
-				REF = 0
-			}
-			PART
-			{
-				name = PotatoRoid
-				cid = 0
-				uid = 1649796640
-				mid = 1649796640
-				launchID = 0
-				parent = 0
-				position = 0,0,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 0
-				resPri = 0
-				dstg = 0
-				sqor = 0
-				sepI = 0
-				sidx = 0
-				attm = 0
-				srfN = None, -1
-				mass = 150
-				shielded = False
-				temp = -1
-				tempExt = 0
-				tempExtUnexp = 0
-				expt = 0.100000001
-				state = 0
-				attached = True
-				autostrutMode = Off
-				rigidAttachment = False
-				flag = 
-				rTrf = 
-				modCost = 0
-			}
-			ACTIONGROUPS
-			{
-			}
-			DISCOVERY
-			{
-				state = 1
-				lastObservedTime = 525516276.64083689
-				lifetime = 575609.17510986328
-				refTime = 1728000
-				size = 2
-			}
-			FLIGHTPLAN
-			{
-			}
-			CTRLSTATE
-			{
-			}
-			VESSELMODULES
-			{
-				ModularFlightIntegrator
-				{
-				}
-				SolverFlightSys
-				{
-				}
-				UllageModule
-				{
-				}
-				RPMVesselComputer
-				{
-				}
-			}
-		}
-		VESSEL
-		{
-			pid = 3ecf7545b1a74deba0cd02fe012a09f8
-			name = Ast. FLN-136
-			type = SpaceObject
-			sit = ORBITING
-			landed = False
-			landedAt = 
-			displaylandedAt = 
-			splashed = False
-			met = 525635092.43232661
-			lct = 525635092.43232661
-			lastUT = -1
-			root = 0
-			lat = 0.39839980180422568
-			lon = -41.344384413749168
-			alt = 15216216762.639029
-			hgt = -1
-			nrm = 0,1,0
-			rot = 0.515100598,-0.391684055,-0.533952177,0.544196665
-			CoM = 0,0,0
-			stg = 0
-			prst = False
-			ref = 0
-			ctrl = False
-			ORBIT
-			{
-				SMA = 14730772340.052162
-				ECC = 0.080833881544283351
-				INC = 1.0036976208981554
-				LPE = 155.76624851000173
-				LAN = 204.51491588178735
-				MNA = 0.36572979481805129
-				EPH = 529848682.04414302
-				REF = 0
-			}
-			PART
-			{
-				name = PotatoRoid
-				cid = 0
-				uid = 451109409
-				mid = 451109409
-				launchID = 0
-				parent = 0
-				position = 0,0,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 0
-				resPri = 0
-				dstg = 0
-				sqor = 0
-				sepI = 0
-				sidx = 0
-				attm = 0
-				srfN = None, -1
-				mass = 150
-				shielded = False
-				temp = -1
-				tempExt = 0
-				tempExtUnexp = 0
-				expt = 0.100000001
-				state = 0
-				attached = True
-				autostrutMode = Off
-				rigidAttachment = False
-				flag = 
-				rTrf = 
-				modCost = 0
-			}
-			ACTIONGROUPS
-			{
-			}
-			DISCOVERY
-			{
-				state = 1
-				lastObservedTime = 525635092.43232661
-				lifetime = 976549.16381835938
-				refTime = 1728000
-				size = 2
-			}
-			FLIGHTPLAN
-			{
-			}
-			CTRLSTATE
-			{
 			}
 			VESSELMODULES
 			{
@@ -31342,109 +30827,6 @@ GAME
 		}
 		VESSEL
 		{
-			pid = 2e94c7a69781447eb23f6f4634936235
-			name = Ast. MWR-004
-			type = SpaceObject
-			sit = ORBITING
-			landed = False
-			landedAt = 
-			displaylandedAt = 
-			splashed = False
-			met = 525689890.91920614
-			lct = 525689890.91920614
-			lastUT = -1
-			root = 0
-			lat = 1.1206788687346991
-			lon = -92.800287128630387
-			alt = 13895660650.362368
-			hgt = -1
-			nrm = 0,1,0
-			rot = 0.573955953,-0.524953544,0.559610844,0.286066562
-			CoM = 0,0,0
-			stg = 0
-			prst = False
-			ref = 0
-			ctrl = False
-			ORBIT
-			{
-				SMA = 14365288764.449356
-				ECC = 0.055303480609265404
-				INC = 1.1231858721159871
-				LPE = 164.07345484268606
-				LAN = 135.93816656638023
-				MNA = 0.23589832168128896
-				EPH = 528056682.83815145
-				REF = 0
-			}
-			PART
-			{
-				name = PotatoRoid
-				cid = 0
-				uid = 1632203321
-				mid = 1632203321
-				launchID = 0
-				parent = 0
-				position = 0,0,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 0
-				resPri = 0
-				dstg = 0
-				sqor = 0
-				sepI = 0
-				sidx = 0
-				attm = 0
-				srfN = None, -1
-				mass = 150
-				shielded = False
-				temp = -1
-				tempExt = 0
-				tempExtUnexp = 0
-				expt = 0.100000001
-				state = 0
-				attached = True
-				autostrutMode = Off
-				rigidAttachment = False
-				flag = 
-				rTrf = 
-				modCost = 0
-			}
-			ACTIONGROUPS
-			{
-			}
-			DISCOVERY
-			{
-				state = 1
-				lastObservedTime = 525689890.91920614
-				lifetime = 1125114.6697998047
-				refTime = 1728000
-				size = 1
-			}
-			FLIGHTPLAN
-			{
-			}
-			CTRLSTATE
-			{
-			}
-			VESSELMODULES
-			{
-				ModularFlightIntegrator
-				{
-				}
-				SolverFlightSys
-				{
-				}
-				UllageModule
-				{
-				}
-				RPMVesselComputer
-				{
-				}
-			}
-		}
-		VESSEL
-		{
 			pid = 328cc80323fa461e80af8107c47da838
 			name = Eve 3
 			type = Ship
@@ -31473,14 +30855,14 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = -4988496.6692188811
-				ECC = 1.2065590795401639
-				INC = 0.7769769553437148
-				LPE = 19.176506248498498
-				LAN = 340.97814303862594
-				MNA = 0.28975411388902417
-				EPH = 525894237.48727608
-				REF = 1
+				SMA = 11503168957.869944
+				ECC = 0.18232228517404556
+				INC = 0.0212367310625724
+				LPE = 183.33175083842772
+				LAN = 229.56916454968618
+				MNA = -3.1296801620037544
+				EPH = 525978146.6657964
+				REF = 0
 			}
 			PART
 			{
@@ -31714,6 +31096,9 @@ GAME
 					ACTIONS
 					{
 					}
+					UPGRADESAPPLIED
+					{
+					}
 					Log
 					{
 						flight = 0
@@ -31721,9 +31106,7 @@ GAME
 						0 = Suborbit,Kerbin
 						0 = Orbit,Kerbin
 						0 = Escape,Kerbin
-					}
-					UPGRADESAPPLIED
-					{
+						0 = Flyby,Sun
 					}
 				}
 				RESOURCE
@@ -33038,6 +32421,9 @@ GAME
 					ACTIONS
 					{
 					}
+					UPGRADESAPPLIED
+					{
+					}
 					Log
 					{
 						flight = 0
@@ -33045,9 +32431,7 @@ GAME
 						0 = Suborbit,Kerbin
 						0 = Orbit,Kerbin
 						0 = Escape,Kerbin
-					}
-					UPGRADESAPPLIED
-					{
+						0 = Flyby,Sun
 					}
 				}
 				RESOURCE
@@ -34627,6 +34011,9 @@ GAME
 					ACTIONS
 					{
 					}
+					UPGRADESAPPLIED
+					{
+					}
 					Log
 					{
 						flight = 0
@@ -34634,9 +34021,7 @@ GAME
 						0 = Suborbit,Kerbin
 						0 = Orbit,Kerbin
 						0 = Escape,Kerbin
-					}
-					UPGRADESAPPLIED
-					{
+						0 = Flyby,Sun
 					}
 				}
 				RESOURCE
@@ -36158,6 +35543,9 @@ GAME
 					ACTIONS
 					{
 					}
+					UPGRADESAPPLIED
+					{
+					}
 					Log
 					{
 						flight = 0
@@ -36165,9 +35553,7 @@ GAME
 						0 = Suborbit,Kerbin
 						0 = Orbit,Kerbin
 						0 = Escape,Kerbin
-					}
-					UPGRADESAPPLIED
-					{
+						0 = Flyby,Sun
 					}
 				}
 				RESOURCE
@@ -38737,6 +38123,9 @@ GAME
 					ACTIONS
 					{
 					}
+					UPGRADESAPPLIED
+					{
+					}
 					Log
 					{
 						flight = 0
@@ -38744,9 +38133,7 @@ GAME
 						0 = Suborbit,Kerbin
 						0 = Orbit,Kerbin
 						0 = Escape,Kerbin
-					}
-					UPGRADESAPPLIED
-					{
+						0 = Flyby,Sun
 					}
 				}
 				RESOURCE
@@ -46120,6 +45507,624 @@ GAME
 				}
 			}
 		}
+		VESSEL
+		{
+			pid = 55fbe914dc5f415f8010903310bd8808
+			name = Ast. SKI-513
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			displaylandedAt = 
+			splashed = False
+			met = 526144741.00983328
+			lct = 526144741.00983328
+			lastUT = -1
+			root = 0
+			lat = 1.6297458458892844
+			lon = -85.573284099015282
+			alt = 15633132990.016228
+			hgt = -1
+			nrm = 0,1,0
+			rot = -0.163894862,-0.143172443,0.572771311,0.790299356
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			ORBIT
+			{
+				SMA = 15159594028.405649
+				ECC = 0.10645313848779471
+				INC = 2.3691407616735689
+				LPE = 165.88431145927217
+				LAN = 204.92929758839739
+				MNA = 0.21726771510632942
+				EPH = 529879125.44586843
+				REF = 0
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 1355916423
+				mid = 1355916423
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				expt = 0.100000001
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 526144741.00983328
+				lifetime = 1254941.5100097656
+				refTime = 1728000
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				SolverFlightSys
+				{
+				}
+				UllageModule
+				{
+				}
+				RPMVesselComputer
+				{
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = e6697143cff1407dbcea5829d5f0299a
+			name = Ast. GWW-302
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			displaylandedAt = 
+			splashed = False
+			met = 526745146.39766228
+			lct = 526745146.39766228
+			lastUT = -1
+			root = 0
+			lat = 0.20259943768590277
+			lon = 160.05527934601048
+			alt = 14155731054.99329
+			hgt = -1
+			nrm = 0,1,0
+			rot = 0.502168655,0.579130054,0.38931635,0.510752261
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			ORBIT
+			{
+				SMA = 13972596600.659023
+				ECC = 0.034403908374305001
+				INC = 0.85376189339857589
+				LPE = 215.29895144848285
+				LAN = 260.6175626321039
+				MNA = -0.57199129621226896
+				EPH = 531278711.05830681
+				REF = 0
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 437480535
+				mid = 437480535
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				expt = 0.100000001
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 526745146.39766228
+				lifetime = 1211950.7171630859
+				refTime = 1728000
+				size = 0
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				SolverFlightSys
+				{
+				}
+				UllageModule
+				{
+				}
+				RPMVesselComputer
+				{
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = 608367e25f8340f1b63c23993ee2bb1e
+			name = Ast. KLK-945
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			displaylandedAt = 
+			splashed = False
+			met = 526762963.82391173
+			lct = 526762963.82391173
+			lastUT = -1
+			root = 0
+			lat = -0.12079706983593551
+			lon = 138.50199348347184
+			alt = 13475629006.498222
+			hgt = -1
+			nrm = 0,1,0
+			rot = -0.408328086,-0.591766179,0.401511759,0.567335248
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			ORBIT
+			{
+				SMA = 13680822181.572327
+				ECC = 0.0081146474211915062
+				INC = 0.46979258316767386
+				LPE = 224.16306386818766
+				LAN = 282.537940776239
+				MNA = -0.76747407325775285
+				EPH = 531815768.60906798
+				REF = 0
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 2018002328
+				mid = 2018002328
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				expt = 0.100000001
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 526762963.82391173
+				lifetime = 1081242.8833007813
+				refTime = 1728000
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				SolverFlightSys
+				{
+				}
+				UllageModule
+				{
+				}
+				RPMVesselComputer
+				{
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = 2e8709b959104a56a84ee4f37c53cb5b
+			name = Ast. BOB-983
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			displaylandedAt = 
+			splashed = False
+			met = 526801963.82391173
+			lct = 526801963.82391173
+			lastUT = -1
+			root = 0
+			lat = -0.18283573092243022
+			lon = 141.66660988369594
+			alt = 18192397450.333431
+			hgt = -1
+			nrm = 0,1,0
+			rot = 0.321671754,-0.66260308,0.676369667,0.00287993113
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			ORBIT
+			{
+				SMA = 16098274786.88118
+				ECC = 0.16104895841644926
+				INC = 0.19031408014761003
+				LPE = 52.812876785171326
+				LAN = 49.418453690476099
+				MNA = -0.1847323103360487
+				EPH = 531440348.9313336
+				REF = 0
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 1066143420
+				mid = 1066143420
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				expt = 0.100000001
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 526801963.82391173
+				lifetime = 1497145.8801269531
+				refTime = 1728000
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				SolverFlightSys
+				{
+				}
+				UllageModule
+				{
+				}
+				RPMVesselComputer
+				{
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = 0c6d8ae633e24753b8c8c64423b3c27f
+			name = Ast. QBR-503
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			displaylandedAt = 
+			splashed = False
+			met = 526871163.82391173
+			lct = 526871163.82391173
+			lastUT = -1
+			root = 0
+			lat = -1.1489268338715879
+			lon = 51.479240884902566
+			alt = 14164044145.562286
+			hgt = -1
+			nrm = 0,1,0
+			rot = -0.51887089,-0.708134294,-0.374257267,0.298747867
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			ORBIT
+			{
+				SMA = 14372234780.940485
+				ECC = 0.056719478734510879
+				INC = 1.2566806672097428
+				LPE = 30.893250409048605
+				LAN = 336.87919986980722
+				MNA = -0.30590798867850932
+				EPH = 528898292.15032774
+				REF = 0
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 601242318
+				mid = 601242318
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				expt = 0.100000001
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 526871163.82391173
+				lifetime = 171738.22631835938
+				refTime = 1728000
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				SolverFlightSys
+				{
+				}
+				UllageModule
+				{
+				}
+				RPMVesselComputer
+				{
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = 5200e379f21a4ca39583ca686c4785ec
+			name = Ast. MBP-843
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			displaylandedAt = 
+			splashed = False
+			met = 526899286.56088799
+			lct = 526899286.56088799
+			lastUT = -1
+			root = 0
+			lat = -0.25638144153537967
+			lon = 54.513127788327786
+			alt = 15821518849.549009
+			hgt = -1
+			nrm = 0,1,0
+			rot = 0.266480029,-0.460668534,-0.586541951,0.610525668
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			ORBIT
+			{
+				SMA = 14826303152.49012
+				ECC = 0.085118677210927182
+				INC = 0.29884046151250143
+				LPE = 63.852700132216562
+				LAN = 58.168233989309272
+				MNA = -0.23797130784324827
+				EPH = 531904567.12729424
+				REF = 0
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 959035295
+				mid = 959035295
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				expt = 0.100000001
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 526899286.56088799
+				lifetime = 400428.17687988281
+				refTime = 1728000
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				SolverFlightSys
+				{
+				}
+				UllageModule
+				{
+				}
+				RPMVesselComputer
+				{
+				}
+			}
+		}
 	}
 	LoaderInfo
 	{
@@ -46203,8 +46208,8 @@ GAME
 		WaypointManager = True
 		zzRFStockalike = True
 		ModuleManager.2.7.6.dll = False
-		ModuleManager.ConfigCache = False
-		ModuleManager.ConfigSHA = False
+		ModuleManager.ConfigCache = True
+		ModuleManager.ConfigSHA = True
 		ModuleManager.Physics = True
 		ModuleManager.TechTree = True
 		KWRocketry = True
@@ -46237,6 +46242,8 @@ GAME
 		LoadingScreenManager = True
 		LoadingScreenManager.dll = True
 		ModuleManager.2.8.1.dll = True
+		TransferWindowPlanner v1.6.2.0 = True
+		OPM = True
 	}
 	ROSTER
 	{
@@ -46314,6 +46321,7 @@ GAME
 				2 = Suborbit,Kerbin
 				2 = Orbit,Kerbin
 				2 = Escape,Kerbin
+				2 = Flyby,Sun
 			}
 		}
 		KERBAL
@@ -46348,6 +46356,7 @@ GAME
 				2 = Suborbit,Kerbin
 				2 = Orbit,Kerbin
 				2 = Escape,Kerbin
+				2 = Flyby,Sun
 			}
 		}
 		KERBAL
@@ -46382,6 +46391,7 @@ GAME
 				2 = Suborbit,Kerbin
 				2 = Orbit,Kerbin
 				2 = Escape,Kerbin
+				2 = Flyby,Sun
 			}
 		}
 	}
