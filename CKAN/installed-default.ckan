@@ -3,7 +3,7 @@
 	"abstract": "A list of modules installed on the default KSP instance",
 	"name": "installed-default",
 	"license": "unknown",
-	"version": "2017.09.16.04.51.54",
+	"version": "2017.09.17.08.49.49",
 	"identifier": "installed-default",
 	"spec_version": "v1.6",
 	"depends": [
@@ -162,6 +162,10 @@
 		{
 			"name": "TriggerAu-Flags",
 			"version": "v2.9.2.0"
+		},
+		{
+			"name": "JX2Antenna",
+			"version": "2.0.2"
 		}
 	]
 }

@@ -11,7 +11,7 @@ GAME
 	scene = 5
 	editor = None
 	flag = Squad/Flags/minimalistic
-	launchID = 17
+	launchID = 24
 	modded = True
 	envInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe -single-instance - 
 	versionFull = 1.3.0.1804 (WindowsPlayer x64)
@@ -203,7 +203,7 @@ GAME
 				reached = 524428444.34683299
 				Orbit
 				{
-					completedUnmanned = 525726901.41602004
+					completed = 525726901.41602004
 					vessel
 					{
 						name = Comm Tester
@@ -1016,7 +1016,7 @@ GAME
 	{
 		name = SentinelScenario
 		scene = 7, 8, 5
-		NextSpawnTime = 526958309.65315586
+		NextSpawnTime = 527158593.66639644
 	}
 	SCENARIO
 	{
@@ -1026,7 +1026,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.3.0
-		UT = 526946431.96463221
+		UT = 527106846.35271144
 		activeVessel = 0
 		mapViewFiltering = -1026
 		commNetUIModeTracking = Network
@@ -1041,17 +1041,17 @@ GAME
 			landedAt = 
 			displaylandedAt = 
 			splashed = False
-			met = 1459570.5095487237
+			met = 4484313.012175262
 			lct = 522465433.8692956
-			lastUT = 523925004.37884432
+			lastUT = 526949746.88147086
 			root = 0
-			lat = -0.88041579594672681
-			lon = -107.16640620115442
-			alt = 2812971.0265344605
+			lat = -1.0117214079336458
+			lon = -164.82268494798271
+			alt = 2805025.6869939603
 			hgt = -1
 			nrm = -0.000143858604,-0.363417268,0.931626558
-			rot = 0.706750274,0.706490993,0.0198338572,0.0313245989
-			CoM = 0.000615070341,-0.118548512,6.2584877E-07
+			rot = 0.706751049,0.706492186,0.0198070742,0.0312978253
+			CoM = 0.0154369064,0.110420696,-0.00856691878
 			stg = 0
 			prst = False
 			ref = 0
@@ -1094,8 +1094,8 @@ GAME
 				attN = bottom, 2
 				mass = 0.200000003
 				shielded = False
-				temp = 75.515948958599438
-				tempExt = 74.695405086332727
+				temp = 123.89827462579306
+				tempExt = 124.14851158330428
 				tempExtUnexp = 308.98251185949482
 				expt = 0.5
 				state = 0
@@ -1283,7 +1283,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 250
+					amount = 249.99749991521651
 					maxAmount = 250
 					flowState = True
 					isTweakable = True
@@ -1315,8 +1315,8 @@ GAME
 				attN = bottom, 0
 				mass = 0.649999976
 				shielded = False
-				temp = 75.881490818905178
-				tempExt = 76.771922059088524
+				temp = 123.90283093258049
+				tempExt = 125.35141646917138
 				tempExtUnexp = 308.98251185949482
 				expt = 0.5
 				state = 0
@@ -1434,8 +1434,8 @@ GAME
 				attN = bottom, 3
 				mass = 0.0500000007
 				shielded = False
-				temp = 72.513788530145789
-				tempExt = 72.672273399373594
+				temp = 123.89798511446503
+				tempExt = 123.88940492722566
 				tempExtUnexp = 308.98251185949482
 				expt = 0.5
 				state = 0
@@ -1502,7 +1502,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 1000
+					amount = 999.98999966086603
 					maxAmount = 1000
 					flowState = True
 					isTweakable = True
@@ -1535,8 +1535,8 @@ GAME
 				attN = bottom, 4
 				mass = 0.0159253851
 				shielded = False
-				temp = 70.383257086320711
-				tempExt = 70.781856507734361
+				temp = 123.89645948663657
+				tempExt = 121.4641094811759
 				tempExtUnexp = 259.45552847878622
 				expt = 0.5
 				state = 0
@@ -1607,7 +1607,7 @@ GAME
 					type = Default
 					utilization = 86
 					mass = 0.0159253851
-					partPrevTemperature = 70.383257086320711
+					partPrevTemperature = 123.89645948663657
 					stagingEnabled = True
 					volume = 500
 					EVENTS
@@ -1627,7 +1627,7 @@ GAME
 						temperature = 90.1500015
 						fillable = True
 						techRequired = 
-						amount = 203.95883665378827
+						amount = 203.95867089405041
 						maxAmount = 311.52956008911133
 					}
 					TANK
@@ -2320,7 +2320,7 @@ GAME
 				RESOURCE
 				{
 					name = LqdOxygen
-					amount = 203.95883665378827
+					amount = 203.95867089405041
 					maxAmount = 311.52956008911133
 					flowState = True
 					isTweakable = True
@@ -2353,8 +2353,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.0450000018
 				shielded = False
-				temp = 70.379514081581959
-				tempExt = 70.569634083635208
+				temp = 123.89785275120596
+				tempExt = 123.79676913469869
 				tempExtUnexp = 308.98251185949482
 				expt = 0.5
 				state = 1
@@ -2409,11 +2409,11 @@ GAME
 					{
 						UllageSim
 						{
-							ullageHeightMin = 0.050502682785155031
-							ullageHeightMax = 0.95041099146564478
+							ullageHeightMin = 0.050471881953526296
+							ullageHeightMax = 0.95038588507012856
 							ullageRadialMin = 0
-							ullageRadialMax = 0.95020750182967439
-							UT = 523925004.37884432
+							ullageRadialMax = 0.95019684253847192
+							UT = 526949746.88147086
 						}
 					}
 					UPGRADESAPPLIED
@@ -2504,21 +2504,6 @@ GAME
 				}
 				MODULE
 				{
-					name = EngineLightEffect
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
 					name = ModuleKerbalKrashSystem_Engine
 					isEnabled = True
 					stagingEnabled = True
@@ -2589,8 +2574,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.0500000007
 				shielded = False
-				temp = 70.504472431401567
-				tempExt = 70.662827848344818
+				temp = 123.89794601122036
+				tempExt = 123.86144078038244
 				tempExtUnexp = 308.98251185949482
 				expt = 0.5
 				state = 0
@@ -2715,8 +2700,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.00499999989
 				shielded = False
-				temp = 70.620796902430556
-				tempExt = 70.725344883000261
+				temp = 123.89770791097342
+				tempExt = 123.79611238952593
 				tempExtUnexp = 308.98251185949482
 				expt = 0.5
 				state = 0
@@ -2737,10 +2722,10 @@ GAME
 				}
 				MODULE
 				{
-					name = ModuleDeployableSolarPanel
+					name = KopernicusSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 522465433.8692956
+					launchUT = 526949746.64147109
 					currentRotation = (0, -6.057208E-07, 0, 1)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -2795,8 +2780,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.00499999989
 				shielded = False
-				temp = 70.620796902430556
-				tempExt = 70.725344883000261
+				temp = 123.89770791097342
+				tempExt = 123.79611238952593
 				tempExtUnexp = 308.98251185949482
 				expt = 0.5
 				state = 0
@@ -2817,10 +2802,10 @@ GAME
 				}
 				MODULE
 				{
-					name = ModuleDeployableSolarPanel
+					name = KopernicusSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 522465433.8692956
+					launchUT = 526949746.64147109
 					currentRotation = (0, -6.057208E-07, 0, 1)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -2874,8 +2859,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.0500000007
 				shielded = False
-				temp = 70.357760421460924
-				tempExt = 70.633366935033479
+				temp = 123.8979486067288
+				tempExt = 123.79611701304344
 				tempExtUnexp = 308.98251185949482
 				expt = 0.5
 				state = 0
@@ -2972,7 +2957,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 50
+					amount = 49.999499983043286
 					maxAmount = 50
 					flowState = True
 					isTweakable = True
@@ -3003,8 +2988,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.00499999989
 				shielded = False
-				temp = 70.633517582133521
-				tempExt = 70.729275448060989
+				temp = 123.89768614974902
+				tempExt = 123.79611196875891
 				tempExtUnexp = 308.98251185949482
 				expt = 0.5
 				state = 0
@@ -3062,8 +3047,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.0175000001
 				shielded = False
-				temp = 74.296233077872188
-				tempExt = 74.669094007126517
+				temp = 123.89799415126939
+				tempExt = 123.89679428472185
 				tempExtUnexp = 308.98251185949482
 				expt = 0.5
 				state = 0
@@ -3084,14 +3069,14 @@ GAME
 				}
 				MODULE
 				{
-					name = ModuleDeployableSolarPanel
+					name = KopernicusSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 522465433.8692956
-					currentRotation = (0.506858766, 0.494164348, 0.501259029, -0.497629523)
+					launchUT = 526949746.64147109
+					currentRotation = (-0.5, -0.5, -0.5, 0.5)
 					storedAnimationTime = 0
-					storedAnimationSpeed = 0
-					deployState = EXTENDED
+					storedAnimationSpeed = 1
+					deployState = RETRACTED
 					stagingEnabled = True
 					EVENTS
 					{
@@ -3171,8 +3156,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.0175000001
 				shielded = False
-				temp = 78.117869605299646
-				tempExt = 79.329409162255757
+				temp = 123.89799415126939
+				tempExt = 123.89679428472185
 				tempExtUnexp = 308.98251185949482
 				expt = 0.5
 				state = 0
@@ -3193,14 +3178,14 @@ GAME
 				}
 				MODULE
 				{
-					name = ModuleDeployableSolarPanel
+					name = KopernicusSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 522465433.8692956
-					currentRotation = (-0.499193728, -0.499747455, -0.495622396, 0.505387545)
+					launchUT = 526949746.64147109
+					currentRotation = (-0.5, -0.5, -0.5, 0.5)
 					storedAnimationTime = 0
-					storedAnimationSpeed = 0
-					deployState = EXTENDED
+					storedAnimationSpeed = 1
+					deployState = RETRACTED
 					stagingEnabled = True
 					EVENTS
 					{
@@ -3287,11 +3272,6 @@ GAME
 			}
 			FLIGHTPLAN
 			{
-			}
-			TARGET
-			{
-				type = CelestialBody
-				tgtId = Eve
 			}
 			CTRLSTATE
 			{
@@ -13695,11 +13675,11 @@ GAME
 			{
 				SMA = 0
 				ECC = 1
-				INC = 0.010181556201602335
+				INC = 0.010181556237398899
 				LPE = 90
-				LAN = 303.11890912298952
+				LAN = 358.60687355823723
 				MNA = 0
-				EPH = 526946431.68463248
+				EPH = 527106838.17271924
 				REF = 2
 			}
 			PART
@@ -14077,38 +14057,38 @@ GAME
 			pid = 53a24c245de54eb8ba67960c3f7452a4
 			name = Müna 1 Relay
 			type = Relay
-			sit = FLYING
+			sit = SUB_ORBITAL
 			landed = False
 			landedAt = 
 			displaylandedAt = 
 			splashed = False
-			met = 7.7199926376342773
+			met = 3101337.9891986847
 			lct = 523902606.48741949
-			lastUT = 523902614.20741212
+			lastUT = 527003944.47661817
 			root = 0
-			lat = 0.061015094086959681
-			lon = -2.3578475440031741
-			alt = 47632.435816493351
-			hgt = 47632.4375
-			nrm = 0.0951984078,-0.511031687,-0.854273915
-			rot = 0.0632417873,-0.586659193,0.299161822,0.749889255
-			CoM = -0.00310611236,-1.80379736,-0.040885292
-			stg = 3
+			lat = -0.1287562949959235
+			lon = -158.17939779774014
+			alt = 3177992.9750102721
+			hgt = -1
+			nrm = -0.475283325,0.579986691,0.66160512
+			rot = 0.0647510886,-0.581511497,0.299271613,0.75371635
+			CoM = -5.51342964E-07,-1.77127147,-0.0447319746
+			stg = 2
 			prst = False
 			ref = 0
 			ctrl = False
-			cPch = 0
-			cHdg = 0
-			cMod = -1
+			cPch = 
+			cHdg = 
+			cMod = 0
 			ORBIT
 			{
-				SMA = 2407465.8422502801
-				ECC = 0.73277695222894779
-				INC = 0.69234066342707878
-				LPE = 185.12446087306219
-				LAN = 155.5656236130078
-				MNA = -0.018709662652864188
-				EPH = 523902614.20741212
+				SMA = 2407465.8609673441
+				ECC = 0.73277695065139392
+				INC = 0.69234035917182224
+				LPE = 185.124484226752
+				LAN = 155.56560037940699
+				MNA = 1.9991060190216141
+				EPH = 527003944.47661817
 				REF = 1
 			}
 			PART
@@ -14120,7 +14100,7 @@ GAME
 				launchID = 8
 				parent = 0
 				position = 0,0,0
-				rotation = 0,0,0,0.999999762
+				rotation = 0,0,0,1
 				mirror = 1,1,1
 				symMethod = Radial
 				istg = -1
@@ -14136,8 +14116,8 @@ GAME
 				attN = top, -1
 				mass = 0.100000001
 				shielded = False
-				temp = 193.35293595013167
-				tempExt = 1601.0159132963895
+				temp = 4.2834545166345181
+				tempExt = 4.9805946281059876
 				tempExtUnexp = 1702.0704185661948
 				expt = 0.5
 				state = 0
@@ -14145,7 +14125,7 @@ GAME
 				autostrutMode = Off
 				rigidAttachment = False
 				flag = Squad/Flags/minimalistic
-				rTrf = HeatShield1
+				rTrf = HeatShield1 (Müna 1 Relay)
 				modCost = 0
 				EVENTS
 				{
@@ -14267,21 +14247,6 @@ GAME
 				}
 				MODULE
 				{
-					name = tjs_DecouplerLight
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
 					name = ModuleKerbalKrashSystem_Container
 					isEnabled = True
 					stagingEnabled = True
@@ -14343,7 +14308,7 @@ GAME
 				RESOURCE
 				{
 					name = Ablator
-					amount = 196.87165380051695
+					amount = 196.86056926175144
 					maxAmount = 200
 					flowState = True
 					isTweakable = True
@@ -14364,11 +14329,11 @@ GAME
 				rotation = 0,0,0,0.999999762
 				mirror = 1,1,1
 				symMethod = Radial
-				istg = 2
+				istg = 0
 				resPri = 0
 				dstg = 3
-				sqor = 2
-				sepI = 2
+				sqor = 0
+				sepI = 0
 				sidx = 0
 				attm = 0
 				srfN = , -1
@@ -14376,8 +14341,8 @@ GAME
 				attN = top, 0
 				mass = 0.0500000007
 				shielded = False
-				temp = 279.49134282568991
-				tempExt = 1060.3923639959369
+				temp = 4.293202957577952
+				tempExt = 4.444993771707745
 				tempExtUnexp = 834.26392716618398
 				expt = 0.5
 				state = 0
@@ -14462,21 +14427,6 @@ GAME
 				}
 				MODULE
 				{
-					name = tjs_DecouplerLight
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
 					name = ModuleKerbalKrashSystem_Other
 					isEnabled = True
 					stagingEnabled = True
@@ -14533,18 +14483,18 @@ GAME
 				rotation = 1.26440526E-07,0.70710665,-1.2644054E-07,-0.70710665
 				mirror = 1,1,1
 				symMethod = Radial
-				istg = 2
+				istg = 0
 				resPri = 0
 				dstg = 4
 				sqor = -1
-				sepI = 2
+				sepI = 0
 				sidx = -1
 				attm = 1
 				srfN = srfAttach, 1
 				mass = 0.00499999989
 				shielded = False
-				temp = 311.96042565637629
-				tempExt = 633.7814608508146
+				temp = 4.2934831540154432
+				tempExt = 4.3737796806955513
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -14604,11 +14554,11 @@ GAME
 				rotation = 0,-0.382683367,0,0.923879325
 				mirror = 1,1,1
 				symMethod = Radial
-				istg = 2
+				istg = 0
 				resPri = 0
 				dstg = 4
 				sqor = -1
-				sepI = 2
+				sepI = 0
 				sidx = -1
 				attm = 0
 				srfN = srfAttach, -1
@@ -14616,8 +14566,8 @@ GAME
 				attN = bottom, 4
 				mass = 0.12740308
 				shielded = False
-				temp = 291.66343529146587
-				tempExt = 1264.7281744375587
+				temp = 4.3097111785329787
+				tempExt = 4.7270030917278891
 				tempExtUnexp = 1260.6123699200305
 				expt = 0.5
 				state = 0
@@ -14697,7 +14647,7 @@ GAME
 					type = Default
 					utilization = 86
 					mass = 0.12740308
-					partPrevTemperature = 291.66343529146587
+					partPrevTemperature = 4.3097111785329787
 					stagingEnabled = True
 					volume = 4000
 					EVENTS
@@ -14717,7 +14667,7 @@ GAME
 						temperature = 90.1500015
 						fillable = True
 						techRequired = 
-						amount = 16.76653997602471
+						amount = 0
 						maxAmount = 2492.2364807128906
 					}
 					TANK
@@ -14731,7 +14681,7 @@ GAME
 						temperature = 300
 						fillable = True
 						techRequired = 
-						amount = 54.559456202176015
+						amount = 0
 						maxAmount = 1507.7635192871094
 					}
 					TANK
@@ -15399,7 +15349,7 @@ GAME
 				RESOURCE
 				{
 					name = Kerosene
-					amount = 54.559456202176015
+					amount = 0
 					maxAmount = 1507.7635192871094
 					flowState = True
 					isTweakable = True
@@ -15410,7 +15360,7 @@ GAME
 				RESOURCE
 				{
 					name = LqdOxygen
-					amount = 16.76653997602471
+					amount = 0
 					maxAmount = 2492.2364807128906
 					flowState = True
 					isTweakable = True
@@ -15431,11 +15381,11 @@ GAME
 				rotation = 0,-0.382683367,0,0.923879325
 				mirror = 1,1,1
 				symMethod = Radial
-				istg = 3
+				istg = 1
 				resPri = 0
 				dstg = 4
-				sqor = 3
-				sepI = 2
+				sqor = 1
+				sepI = 0
 				sidx = 0
 				attm = 0
 				srfN = , -1
@@ -15443,8 +15393,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.075000003
 				shielded = False
-				temp = 213.35197042439177
-				tempExt = 1042.1447543183481
+				temp = 4.2704328558535476
+				tempExt = 4.5037645967528395
 				tempExtUnexp = 683.67633869653605
 				expt = 0.5
 				state = 1
@@ -15499,11 +15449,11 @@ GAME
 					{
 						UllageSim
 						{
-							ullageHeightMin = 0.4681686770145872
-							ullageHeightMax = 0.62709862217467993
+							ullageHeightMin = 0.0505784138317944
+							ullageHeightMax = 0.94954200815104239
 							ullageRadialMin = 0
-							ullageRadialMax = 0.99999566652063077
-							UT = 523902614.20741212
+							ullageRadialMax = 0.9503544236343574
+							UT = 527003944.47661817
 						}
 					}
 					UPGRADESAPPLIED
@@ -15594,21 +15544,6 @@ GAME
 				}
 				MODULE
 				{
-					name = EngineLightEffect
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
 					name = ModuleKerbalKrashSystem_Engine
 					isEnabled = True
 					stagingEnabled = True
@@ -15669,11 +15604,11 @@ GAME
 				rotation = -0.0732365549,-0.906803012,-0.17680864,0.375610203
 				mirror = 1,1,1
 				symMethod = Radial
-				istg = 2
+				istg = 0
 				resPri = 0
 				dstg = 4
 				sqor = -1
-				sepI = 2
+				sepI = 0
 				sidx = -1
 				attm = 1
 				sym = 6
@@ -15682,8 +15617,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.0500000007
 				shielded = False
-				temp = 209.68211803883142
-				tempExt = 1081.4041874969175
+				temp = 4.2386706817832644
+				tempExt = 4.6450172479224836
 				tempExtUnexp = 959.23581211202929
 				expt = 0.5
 				state = 0
@@ -15749,6 +15684,7 @@ GAME
 					name = ModuleWheelDeployment
 					isEnabled = True
 					shieldedCanDeploy = False
+					stateDisplayString = Retracted
 					stateString = Retracted
 					stagingEnabled = True
 					position = 0
@@ -15855,11 +15791,11 @@ GAME
 				rotation = -0.176808611,-0.375610024,-0.0732365474,0.906803012
 				mirror = 1,1,1
 				symMethod = Radial
-				istg = 2
+				istg = 0
 				resPri = 0
 				dstg = 4
 				sqor = -1
-				sepI = 2
+				sepI = 0
 				sidx = -1
 				attm = 1
 				sym = 5
@@ -15868,8 +15804,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.0500000007
 				shielded = False
-				temp = 203.95538916973695
-				tempExt = 1128.0951539856612
+				temp = 4.2428791917398883
+				tempExt = 4.70009197902964
 				tempExtUnexp = 935.10945444042761
 				expt = 0.5
 				state = 0
@@ -15935,6 +15871,7 @@ GAME
 					name = ModuleWheelDeployment
 					isEnabled = True
 					shieldedCanDeploy = False
+					stateDisplayString = Retracted
 					stateString = Retracted
 					stagingEnabled = True
 					position = 0
@@ -16041,11 +15978,11 @@ GAME
 				rotation = -0.17680867,0.375610322,0.0732365623,0.906802893
 				mirror = 1,1,1
 				symMethod = Radial
-				istg = 2
+				istg = 0
 				resPri = 0
 				dstg = 4
 				sqor = -1
-				sepI = 2
+				sepI = 0
 				sidx = -1
 				attm = 1
 				sym = 5
@@ -16054,8 +15991,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.0500000007
 				shielded = False
-				temp = 176.58581704154011
-				tempExt = 1330.8473609364951
+				temp = 4.2408632216756867
+				tempExt = 4.6736549075435985
 				tempExtUnexp = 1322.3122870293244
 				expt = 0.5
 				state = 0
@@ -16121,6 +16058,7 @@ GAME
 					name = ModuleWheelDeployment
 					isEnabled = True
 					shieldedCanDeploy = False
+					stateDisplayString = Retracted
 					stateString = Retracted
 					stagingEnabled = True
 					position = 0
@@ -16227,11 +16165,11 @@ GAME
 				rotation = -0.0732365474,0.906803012,0.176808611,0.375610024
 				mirror = 1,1,1
 				symMethod = Radial
-				istg = 2
+				istg = 0
 				resPri = 0
 				dstg = 4
 				sqor = -1
-				sepI = 2
+				sepI = 0
 				sidx = -1
 				attm = 1
 				sym = 5
@@ -16240,8 +16178,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.0500000007
 				shielded = False
-				temp = 176.99773056903697
-				tempExt = 1209.1922234441445
+				temp = 4.238825634638685
+				tempExt = 4.6470332376124617
 				tempExtUnexp = 923.44686334630023
 				expt = 0.5
 				state = 0
@@ -16307,6 +16245,7 @@ GAME
 					name = ModuleWheelDeployment
 					isEnabled = True
 					shieldedCanDeploy = False
+					stateDisplayString = Retracted
 					stateString = Retracted
 					stagingEnabled = True
 					position = 0
@@ -16413,19 +16352,19 @@ GAME
 				rotation = 0.923879325,-3.22577982E-08,0.382683367,7.78772105E-08
 				mirror = 1,1,1
 				symMethod = Radial
-				istg = 2
+				istg = 0
 				resPri = 0
 				dstg = 4
 				sqor = -1
-				sepI = 2
+				sepI = 0
 				sidx = -1
 				attm = 1
 				sym = 10
 				srfN = srfAttach, 3
 				mass = 0.0109999999
 				shielded = False
-				temp = 219.07438585742804
-				tempExt = 823.40321577422196
+				temp = 4.2840107578327444
+				tempExt = 4.5844111202626916
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -16506,19 +16445,19 @@ GAME
 				rotation = 0.382683307,7.78772176E-08,-0.923879266,3.22577982E-08
 				mirror = 1,1,1
 				symMethod = Radial
-				istg = 2
+				istg = 0
 				resPri = 0
 				dstg = 4
 				sqor = -1
-				sepI = 2
+				sepI = 0
 				sidx = -1
 				attm = 1
 				sym = 9
 				srfN = srfAttach, 3
 				mass = 0.0109999999
 				shielded = False
-				temp = 219.07414502113542
-				tempExt = 823.33342467131251
+				temp = 4.2840107578327444
+				tempExt = 4.5844111202626916
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -16599,18 +16538,18 @@ GAME
 				rotation = 1.05366986E-08,0.70710665,-1.05366968E-08,-0.70710665
 				mirror = 1,1,1
 				symMethod = Radial
-				istg = 2
+				istg = 0
 				resPri = 0
 				dstg = 4
 				sqor = -1
-				sepI = 2
+				sepI = 0
 				sidx = -1
 				attm = 1
 				srfN = srfAttach, 3
 				mass = 0.00499999989
 				shielded = False
-				temp = 163.64902451293096
-				tempExt = 962.78178232170808
+				temp = 4.2169227151860227
+				tempExt = 4.6543075936167062
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -16642,18 +16581,18 @@ GAME
 				rotation = 1.05366986E-08,0.70710665,-1.05366968E-08,-0.70710665
 				mirror = 1,1,1
 				symMethod = Radial
-				istg = 2
+				istg = 0
 				resPri = 0
 				dstg = 4
 				sqor = -1
-				sepI = 2
+				sepI = 0
 				sidx = -1
 				attm = 1
 				srfN = srfAttach, 3
 				mass = 0.00499999989
 				shielded = False
-				temp = 337.93616557141047
-				tempExt = 925.46760095722743
+				temp = 4.3449513585946944
+				tempExt = 4.6494623314140213
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -16713,19 +16652,19 @@ GAME
 				rotation = 0.499999881,-0.499999911,0.49999994,-0.499999762
 				mirror = 1,1,1
 				symMethod = Radial
-				istg = 2
+				istg = 0
 				resPri = 0
 				dstg = 4
 				sqor = -1
-				sepI = 2
+				sepI = 0
 				sidx = -1
 				attm = 1
 				srfN = srfAttach, 3
 				attN = bottom, -1
 				mass = 0.0700000003
 				shielded = False
-				temp = 189.49930952973543
-				tempExt = 808.07959368287175
+				temp = 4.2575091473415538
+				tempExt = 4.5731480491819676
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -19035,17 +18974,17 @@ GAME
 			landedAt = 
 			displaylandedAt = 
 			splashed = False
-			met = 245922.60126703978
+			met = 1298975.0578049421
 			lct = 525648288.92603379
-			lastUT = 525894211.52730083
+			lastUT = 526947263.98383874
 			root = 0
-			lat = 0.047106275798342173
-			lon = 104.59999436882786
-			alt = 13354317205.314133
+			lat = 0.2899263860155602
+			lon = -14.570131837826974
+			alt = 12776627942.097494
 			hgt = -1
-			nrm = 0.474829972,0.866200089,0.155672371
-			rot = 0.0158061888,-0.677024424,-0.707348049,0.2026003
-			CoM = -0.00124132633,-5.09327173,-0.00056385994
+			nrm = -0.952570736,0.0206973702,-0.303613126
+			rot = 0.0136666037,-0.676301539,-0.707392097,0.205002338
+			CoM = -0.00123390555,-5.0907712,-0.000570297241
 			stg = 6
 			prst = False
 			ref = 0
@@ -19055,13 +18994,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 11566568322.364061
-				ECC = 0.17721337772978027
-				INC = 0.41025147994111621
-				LPE = 187.54188455469014
-				LAN = 223.18296694459252
-				MNA = 3.1182845332155624
-				EPH = 525894211.52730083
+				SMA = 11566568322.486458
+				ECC = 0.17721337772086965
+				INC = 0.41025147896387515
+				LPE = 187.54188468767589
+				LAN = 223.18296680789373
+				MNA = -2.248324372432895
+				EPH = 526947263.98383874
 				REF = 0
 			}
 			PART
@@ -19088,8 +19027,8 @@ GAME
 				attN = top, 18
 				mass = 0.100000001
 				shielded = True
-				temp = 7.620187355406939
-				tempExt = 7.7526716078434736
+				temp = 275.49945652763296
+				tempExt = 275.49742898405322
 				tempExtUnexp = 298.20122296718881
 				expt = 0
 				state = 0
@@ -19150,7 +19089,7 @@ GAME
 					isEnabled = True
 					actuatorModeCycle = 0
 					authorityLimiter = 100
-					stateString = Running
+					stateString = Idle
 					stagingEnabled = True
 					WheelState = Active
 					EVENTS
@@ -19345,8 +19284,8 @@ GAME
 				attN = bottom, 14
 				mass = 0.00100000005
 				shielded = True
-				temp = 8.7513302876683561
-				tempExt = 8.3552173588960521
+				temp = 275.32852207588968
+				tempExt = 275.37457255753327
 				tempExtUnexp = 298.20122296718881
 				expt = 0.5
 				state = 0
@@ -19392,8 +19331,8 @@ GAME
 				attN = bottom, 3
 				mass = 0.00100000005
 				shielded = True
-				temp = 10.01472500076145
-				tempExt = 10.032175945306014
+				temp = 275.08802373672222
+				tempExt = 275.23765678148885
 				tempExtUnexp = 298.20122296718881
 				expt = 0.5
 				state = 0
@@ -19438,9 +19377,9 @@ GAME
 				attN = bottom, -1
 				attN = top, 2
 				mass = 0.800000012
-				shielded = True
-				temp = 10.653275393043304
-				tempExt = 10.470261633884947
+				shielded = False
+				temp = 274.63239035390052
+				tempExt = 273.61347493657178
 				tempExtUnexp = 298.20122296718881
 				expt = 0.5
 				state = 0
@@ -19487,7 +19426,7 @@ GAME
 					isEnabled = True
 					actuatorModeCycle = 0
 					authorityLimiter = 100
-					stateString = Running
+					stateString = Idle
 					stagingEnabled = True
 					WheelState = Active
 					EVENTS
@@ -19651,6 +19590,23 @@ GAME
 				}
 				MODULE
 				{
+					name = RasterPropMonitorComputer
+					isEnabled = True
+					vesselDescription = 
+					RPMCid = 508dc055-ed35-4f15-87ee-a9c48da4294b
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleKerbalKrashSystem_Command
 					isEnabled = True
 					stagingEnabled = True
@@ -19674,6 +19630,57 @@ GAME
 					}
 					ACTIONS
 					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = SCANRPMStorage
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					SCANsatRPM
+					{
+						Prop
+						{
+							Prop ID = scansat34
+							Mode = 0
+							Zoom = 0
+							Resource = 0
+							Color = True
+							Lines = True
+							Anomalies = True
+							DrawResource = True
+						}
+						Prop
+						{
+							Prop ID = scansat35
+							Mode = 0
+							Zoom = 0
+							Resource = 0
+							Color = True
+							Lines = True
+							Anomalies = True
+							DrawResource = True
+						}
+						Prop
+						{
+							Prop ID = scansat36
+							Mode = 0
+							Zoom = 0
+							Resource = 0
+							Color = True
+							Lines = True
+							Anomalies = True
+							DrawResource = True
+						}
 					}
 					UPGRADESAPPLIED
 					{
@@ -20678,8 +20685,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.00499999989
 				shielded = False
-				temp = 7.821506340653106
-				tempExt = 7.7834947986406604
+				temp = 274.58513459031792
+				tempExt = 273.75035653911175
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -20738,8 +20745,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.0109999999
 				shielded = False
-				temp = 7.4566457624501075
-				tempExt = 7.4512962079390785
+				temp = 274.54443441502485
+				tempExt = 273.74732966778976
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -20830,8 +20837,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.075000003
 				shielded = True
-				temp = 9.340558091302718
-				tempExt = 10.098713720838454
+				temp = 275.54604752605314
+				tempExt = 275.5470443305183
 				tempExtUnexp = 298.20122296718881
 				expt = 0.5
 				state = 0
@@ -20981,8 +20988,8 @@ GAME
 				attN = bottom, 8
 				mass = 0.00100000005
 				shielded = True
-				temp = 8.7452420612191748
-				tempExt = 8.6735558832215549
+				temp = 275.54793913927176
+				tempExt = 275.54929898574147
 				tempExtUnexp = 298.20122296718881
 				expt = 0.5
 				state = 0
@@ -21027,9 +21034,9 @@ GAME
 				attN = bottom, -1
 				attN = top, 7
 				mass = 0.800000012
-				shielded = False
-				temp = 10.770733815322734
-				tempExt = 10.754827810187777
+				shielded = True
+				temp = 275.59636720692924
+				tempExt = 275.58943113395429
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -21076,7 +21083,7 @@ GAME
 					isEnabled = True
 					actuatorModeCycle = 0
 					authorityLimiter = 100
-					stateString = Running
+					stateString = Idle
 					stagingEnabled = True
 					WheelState = Active
 					EVENTS
@@ -21240,6 +21247,23 @@ GAME
 				}
 				MODULE
 				{
+					name = RasterPropMonitorComputer
+					isEnabled = True
+					vesselDescription = 
+					RPMCid = 7932f907-9dca-4a7f-befd-2808f071a3ac
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleKerbalKrashSystem_Command
 					isEnabled = True
 					stagingEnabled = True
@@ -21263,6 +21287,57 @@ GAME
 					}
 					ACTIONS
 					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = SCANRPMStorage
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					SCANsatRPM
+					{
+						Prop
+						{
+							Prop ID = scansat34
+							Mode = 0
+							Zoom = 0
+							Resource = 0
+							Color = True
+							Lines = True
+							Anomalies = True
+							DrawResource = True
+						}
+						Prop
+						{
+							Prop ID = scansat35
+							Mode = 0
+							Zoom = 0
+							Resource = 0
+							Color = True
+							Lines = True
+							Anomalies = True
+							DrawResource = True
+						}
+						Prop
+						{
+							Prop ID = scansat36
+							Mode = 0
+							Zoom = 0
+							Resource = 0
+							Color = True
+							Lines = True
+							Anomalies = True
+							DrawResource = True
+						}
 					}
 					UPGRADESAPPLIED
 					{
@@ -22269,8 +22344,8 @@ GAME
 				srfN = srfAttach, 8
 				mass = 0.0109999999
 				shielded = False
-				temp = 10.561487635240791
-				tempExt = 10.688386188218839
+				temp = 272.94171856416
+				tempExt = 272.39923718006793
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -22361,8 +22436,8 @@ GAME
 				srfN = srfAttach, 8
 				mass = 0.100000001
 				shielded = True
-				temp = 7.4997514919858421
-				tempExt = 7.4943923317372354
+				temp = 275.59679789856881
+				tempExt = 275.5920636579657
 				tempExtUnexp = 298.20122296718881
 				expt = 0.5
 				state = 0
@@ -22512,8 +22587,8 @@ GAME
 				attN = bottom, 12
 				mass = 0.00100000005
 				shielded = True
-				temp = 8.7465647644931845
-				tempExt = 8.6746420687843155
+				temp = 275.54709928496681
+				tempExt = 275.54742133356712
 				tempExtUnexp = 298.20122296718881
 				expt = 0.5
 				state = 0
@@ -22558,9 +22633,9 @@ GAME
 				attN = bottom, -1
 				attN = top, 11
 				mass = 0.800000012
-				shielded = False
-				temp = 10.77896915129306
-				tempExt = 10.761931139736193
+				shielded = True
+				temp = 275.5950279011264
+				tempExt = 275.58649741068723
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -22607,7 +22682,7 @@ GAME
 					isEnabled = True
 					actuatorModeCycle = 0
 					authorityLimiter = 100
-					stateString = Running
+					stateString = Idle
 					stagingEnabled = True
 					WheelState = Active
 					EVENTS
@@ -22771,6 +22846,23 @@ GAME
 				}
 				MODULE
 				{
+					name = RasterPropMonitorComputer
+					isEnabled = True
+					vesselDescription = 
+					RPMCid = 69fd8530-2066-4191-a948-5f9176fda2f5
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleKerbalKrashSystem_Command
 					isEnabled = True
 					stagingEnabled = True
@@ -22794,6 +22886,57 @@ GAME
 					}
 					ACTIONS
 					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = SCANRPMStorage
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					SCANsatRPM
+					{
+						Prop
+						{
+							Prop ID = scansat34
+							Mode = 0
+							Zoom = 0
+							Resource = 0
+							Color = True
+							Lines = True
+							Anomalies = True
+							DrawResource = True
+						}
+						Prop
+						{
+							Prop ID = scansat35
+							Mode = 0
+							Zoom = 0
+							Resource = 0
+							Color = True
+							Lines = True
+							Anomalies = True
+							DrawResource = True
+						}
+						Prop
+						{
+							Prop ID = scansat36
+							Mode = 0
+							Zoom = 0
+							Resource = 0
+							Color = True
+							Lines = True
+							Anomalies = True
+							DrawResource = True
+						}
 					}
 					UPGRADESAPPLIED
 					{
@@ -23800,8 +23943,8 @@ GAME
 				srfN = srfAttach, 12
 				mass = 0.0109999999
 				shielded = False
-				temp = 10.566904587253211
-				tempExt = 10.694786008788025
+				temp = 272.94156151893065
+				tempExt = 272.39908329042225
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -23894,8 +24037,8 @@ GAME
 				attN = bottom, 15
 				mass = 0.00100000005
 				shielded = True
-				temp = 8.1249043337724878
-				tempExt = 8.1273001575600023
+				temp = 275.50408975338109
+				tempExt = 275.5029418984019
 				tempExtUnexp = 298.20122296718881
 				expt = 0.5
 				state = 0
@@ -23939,8 +24082,8 @@ GAME
 				attN = bottom, 16
 				mass = 0.00100000005
 				shielded = True
-				temp = 7.7991959261469201
-				tempExt = 7.8114484745377526
+				temp = 275.51493024628178
+				tempExt = 275.5150297320381
 				tempExtUnexp = 298.20122296718881
 				expt = 0.5
 				state = 0
@@ -23984,8 +24127,8 @@ GAME
 				attN = bottom, 17
 				mass = 0.00100000005
 				shielded = True
-				temp = 7.4934683879136665
-				tempExt = 7.5203252883097935
+				temp = 275.52503811691304
+				tempExt = 275.52651436126655
 				tempExtUnexp = 298.20122296718881
 				expt = 0.5
 				state = 0
@@ -24029,8 +24172,8 @@ GAME
 				attN = top, 16
 				mass = 0.0149999997
 				shielded = True
-				temp = 7.3573411717725463
-				tempExt = 7.3755611650272206
+				temp = 275.53429449454012
+				tempExt = 275.53323088051121
 				tempExtUnexp = 298.20122296718881
 				expt = 0.5
 				state = 0
@@ -24115,21 +24258,6 @@ GAME
 				}
 				MODULE
 				{
-					name = tjs_DecouplerLight
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
 					name = ModuleKerbalKrashSystem_Other
 					isEnabled = True
 					stagingEnabled = True
@@ -24198,8 +24326,8 @@ GAME
 				attN = bottom, 0
 				mass = 0.0500000007
 				shielded = False
-				temp = 10.070716081469538
-				tempExt = 9.893328964517762
+				temp = 267.87518513785443
+				tempExt = 266.35976945387375
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -24300,8 +24428,8 @@ GAME
 				attN = top, 18
 				mass = 0.5
 				shielded = False
-				temp = 10.157766248524734
-				tempExt = 9.8255970126669006
+				temp = 266.98575248048172
+				tempExt = 265.55530424258524
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -24431,21 +24559,6 @@ GAME
 				}
 				MODULE
 				{
-					name = tjs_DecouplerLight
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
 					name = ModuleKerbalKrashSystem_Container
 					isEnabled = True
 					stagingEnabled = True
@@ -24552,8 +24665,8 @@ GAME
 				attN = bottom, 21
 				mass = 0.301563621
 				shielded = False
-				temp = 10.357079503380684
-				tempExt = 9.5406892568817447
+				temp = 266.89612020332873
+				tempExt = 264.92434777706768
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -24912,8 +25025,8 @@ GAME
 				attN = bottom, 22
 				mass = 0.622883797
 				shielded = False
-				temp = 10.625286003709601
-				tempExt = 10.005457051582242
+				temp = 266.76810322778203
+				tempExt = 262.95129017053699
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -25730,8 +25843,8 @@ GAME
 				attN = bottom, 23
 				mass = 0.642237902
 				shielded = False
-				temp = 9.6875894882663864
-				tempExt = 9.6818111583837929
+				temp = 246.52491452161891
+				tempExt = 243.66633472860048
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -25786,11 +25899,11 @@ GAME
 					{
 						UllageSim
 						{
-							ullageHeightMin = 0.23936087348210239
-							ullageHeightMax = 0.96138532144461197
+							ullageHeightMin = 0.21490668721243802
+							ullageHeightMax = 0.97608479640362167
 							ullageRadialMin = 0
-							ullageRadialMax = 0.96459753600838372
-							UT = 525894211.52730083
+							ullageRadialMax = 0.95654329604869959
+							UT = 526947263.98383874
 						}
 					}
 					UPGRADESAPPLIED
@@ -25926,21 +26039,6 @@ GAME
 				}
 				MODULE
 				{
-					name = EngineLightEffect
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
 					name = ModuleKerbalKrashSystem_Engine
 					isEnabled = True
 					stagingEnabled = True
@@ -26013,8 +26111,8 @@ GAME
 				attN = top, 22
 				mass = 0.400000006
 				shielded = False
-				temp = 8.8918088557859623
-				tempExt = 9.1950168331731952
+				temp = 227.61918036974959
+				tempExt = 208.54216584851972
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -26099,21 +26197,6 @@ GAME
 				}
 				MODULE
 				{
-					name = tjs_DecouplerLight
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
 					name = ModuleKerbalKrashSystem_Other
 					isEnabled = True
 					stagingEnabled = True
@@ -26182,8 +26265,8 @@ GAME
 				attN = bottom, 25
 				mass = 0.573791742
 				shielded = False
-				temp = 8.4946727679665717
-				tempExt = 8.9677275872642817
+				temp = 218.2470708453541
+				tempExt = 175.67443094706081
 				tempExtUnexp = 254.56693504588065
 				expt = 0.5
 				state = 0
@@ -26254,7 +26337,7 @@ GAME
 					type = Default
 					utilization = 86
 					mass = 0.573791742
-					partPrevTemperature = 8.4946727679665717
+					partPrevTemperature = 218.2470708453541
 					stagingEnabled = True
 					volume = 18000
 					EVENTS
@@ -26274,7 +26357,7 @@ GAME
 						temperature = 90.1500015
 						fillable = True
 						techRequired = 
-						amount = 2726.4907192234305
+						amount = 2714.4853532847987
 						maxAmount = 11454.01702880859
 					}
 					TANK
@@ -26967,7 +27050,7 @@ GAME
 				RESOURCE
 				{
 					name = LqdOxygen
-					amount = 2726.4907192234305
+					amount = 2714.4853532847987
 					maxAmount = 11454.01702880859
 					flowState = True
 					isTweakable = True
@@ -27001,8 +27084,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.904796958
 				shielded = False
-				temp = 8.4613384119372608
-				tempExt = 9.5166865391713831
+				temp = 216.99526192459362
+				tempExt = 195.73177316167218
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -27057,11 +27140,11 @@ GAME
 					{
 						UllageSim
 						{
-							ullageHeightMin = 0.23933770669503024
-							ullageHeightMax = 0.96145040100037371
+							ullageHeightMin = 0.21375619422583603
+							ullageHeightMax = 0.97727459778967629
 							ullageRadialMin = 0
-							ullageRadialMax = 0.96449030852815187
-							UT = 525894211.52730083
+							ullageRadialMax = 0.95474828664406575
+							UT = 526947263.98383874
 						}
 					}
 					UPGRADESAPPLIED
@@ -27197,21 +27280,6 @@ GAME
 				}
 				MODULE
 				{
-					name = EngineLightEffect
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
 					name = ModuleKerbalKrashSystem_Engine
 					isEnabled = True
 					stagingEnabled = True
@@ -27295,8 +27363,8 @@ GAME
 				srfN = srfAttach, 21
 				mass = 0.0250000004
 				shielded = False
-				temp = 10.459576978667711
-				tempExt = 10.971465199438342
+				temp = 266.41691460180243
+				tempExt = 263.24606395610834
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -27317,13 +27385,13 @@ GAME
 				}
 				MODULE
 				{
-					name = ModuleDeployableSolarPanel
+					name = KopernicusSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 525648288.92603379
-					currentRotation = (0.0647601709, 0.699471772, -0.709558904, -0.0554216132)
+					launchUT = 526946811.68427008
+					currentRotation = (-0.482468784, 0.517204762, -0.516752422, 0.482379675)
 					storedAnimationTime = 0
-					storedAnimationSpeed = 0
+					storedAnimationSpeed = 1
 					deployState = EXTENDED
 					stagingEnabled = True
 					EVENTS
@@ -27333,7 +27401,7 @@ GAME
 					{
 						ExtendPanelsAction
 						{
-							actionGroup = Custom01
+							actionGroup = None
 						}
 						ExtendAction
 						{
@@ -27403,8 +27471,8 @@ GAME
 				srfN = srfAttach, 21
 				mass = 0.0250000004
 				shielded = False
-				temp = 10.337623348701159
-				tempExt = 9.9911637159447153
+				temp = 266.74047266591714
+				tempExt = 264.93340636900831
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -27425,13 +27493,13 @@ GAME
 				}
 				MODULE
 				{
-					name = ModuleDeployableSolarPanel
+					name = KopernicusSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 525648288.92603379
-					currentRotation = (0.158882469, 0.675686598, -0.710058451, -0.118410617)
+					launchUT = 526946811.68427008
+					currentRotation = (-0.492218792, 0.507572711, -0.507624209, 0.492349893)
 					storedAnimationTime = 0
-					storedAnimationSpeed = 0
+					storedAnimationSpeed = 1
 					deployState = EXTENDED
 					stagingEnabled = True
 					EVENTS
@@ -27441,7 +27509,7 @@ GAME
 					{
 						ExtendPanelsAction
 						{
-							actionGroup = Custom01
+							actionGroup = None
 						}
 						ExtendAction
 						{
@@ -27511,8 +27579,8 @@ GAME
 				srfN = srfAttach, 21
 				mass = 0.0250000004
 				shielded = False
-				temp = 10.338730116500976
-				tempExt = 9.9916841009451449
+				temp = 266.5383690246602
+				tempExt = 263.88062392746286
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -27533,13 +27601,13 @@ GAME
 				}
 				MODULE
 				{
-					name = ModuleDeployableSolarPanel
+					name = KopernicusSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 525648288.92603379
-					currentRotation = (0.190032214, -0.675560176, 0.691392303, -0.171705946)
+					launchUT = 526946811.68427008
+					currentRotation = (-0.494668156, -0.505252481, 0.50527668, 0.494690776)
 					storedAnimationTime = 0
-					storedAnimationSpeed = 0
+					storedAnimationSpeed = 1
 					deployState = EXTENDED
 					stagingEnabled = True
 					EVENTS
@@ -27549,7 +27617,7 @@ GAME
 					{
 						ExtendPanelsAction
 						{
-							actionGroup = Custom01
+							actionGroup = None
 						}
 						ExtendAction
 						{
@@ -27617,8 +27685,8 @@ GAME
 				srfN = srfAttach, 21
 				mass = 0.0500000007
 				shielded = False
-				temp = 10.551301084323002
-				tempExt = 10.342515033283611
+				temp = 266.67938747076136
+				tempExt = 265.27476543598658
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -27744,8 +27812,8 @@ GAME
 				srfN = srfAttach, 21
 				mass = 0.100000001
 				shielded = False
-				temp = 7.8113325848107298
-				tempExt = 9.096009006319127
+				temp = 269.15796704365266
+				tempExt = 265.73834853600289
 				tempExtUnexp = 4
 				expt = 0.100000001
 				state = 0
@@ -27855,8 +27923,8 @@ GAME
 				srfN = srfAttach, 21
 				mass = 0.100000001
 				shielded = False
-				temp = 7.7806291053513732
-				tempExt = 8.659829320360096
+				temp = 269.26168948181953
+				tempExt = 266.00291988934515
 				tempExtUnexp = 4
 				expt = 0.100000001
 				state = 0
@@ -27966,8 +28034,8 @@ GAME
 				srfN = srfAttach, 21
 				mass = 0.100000001
 				shielded = False
-				temp = 7.8084305065096364
-				tempExt = 9.0598040600153791
+				temp = 269.02303705089793
+				tempExt = 265.40583007349346
 				tempExtUnexp = 4
 				expt = 0.100000001
 				state = 0
@@ -28077,8 +28145,8 @@ GAME
 				srfN = srfAttach, 21
 				mass = 0.0149999997
 				shielded = False
-				temp = 10.583254990714144
-				tempExt = 10.2626790908453
+				temp = 266.70665758176307
+				tempExt = 265.28321680944003
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -28155,8 +28223,8 @@ GAME
 				srfN = srfAttach, 21
 				mass = 0.0149999997
 				shielded = False
-				temp = 10.583254990714144
-				tempExt = 10.2626790908453
+				temp = 266.70665758176307
+				tempExt = 265.28321680944003
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -28233,8 +28301,8 @@ GAME
 				srfN = srfAttach, 21
 				mass = 0.0149999997
 				shielded = False
-				temp = 10.583254990714144
-				tempExt = 10.2626790908453
+				temp = 266.70665758176307
+				tempExt = 265.28321680944003
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -28311,8 +28379,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.0175000001
 				shielded = False
-				temp = 7.3287196021540071
-				tempExt = 7.0877524063765076
+				temp = 269.97583255703756
+				tempExt = 266.50377682089623
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -28333,10 +28401,10 @@ GAME
 				}
 				MODULE
 				{
-					name = ModuleDeployableSolarPanel
+					name = KopernicusSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 525648288.92603379
+					launchUT = 526946811.68427008
 					currentRotation = (-0.5, -0.5, -0.5, 0.5)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 1
@@ -28354,7 +28422,7 @@ GAME
 						}
 						ExtendAction
 						{
-							actionGroup = Custom02
+							actionGroup = None
 						}
 						RetractAction
 						{
@@ -28421,8 +28489,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.0175000001
 				shielded = False
-				temp = 7.3287196021540071
-				tempExt = 7.0877524063765076
+				temp = 269.97583255703756
+				tempExt = 266.50377682089623
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -28443,10 +28511,10 @@ GAME
 				}
 				MODULE
 				{
-					name = ModuleDeployableSolarPanel
+					name = KopernicusSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 525648288.92603379
+					launchUT = 526946811.68427008
 					currentRotation = (-0.5, -0.5, -0.5, 0.5)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 1
@@ -28464,7 +28532,7 @@ GAME
 						}
 						ExtendAction
 						{
-							actionGroup = Custom02
+							actionGroup = None
 						}
 						RetractAction
 						{
@@ -28531,8 +28599,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.0175000001
 				shielded = False
-				temp = 7.3287196021540071
-				tempExt = 7.0877524063765076
+				temp = 269.97583255703756
+				tempExt = 266.50377682089623
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -28553,10 +28621,10 @@ GAME
 				}
 				MODULE
 				{
-					name = ModuleDeployableSolarPanel
+					name = KopernicusSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 525648288.92603379
+					launchUT = 526946811.68427008
 					currentRotation = (-0.5, -0.5, -0.5, 0.5)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 1
@@ -28574,7 +28642,7 @@ GAME
 						}
 						ExtendAction
 						{
-							actionGroup = Custom02
+							actionGroup = None
 						}
 						RetractAction
 						{
@@ -28623,10 +28691,10 @@ GAME
 				Gear = False, 0
 				Light = False, 525715824.383232
 				RCS = False, 0
-				SAS = True, 525717675.181467
+				SAS = False, 526947092.124003
 				Brakes = False, 0
 				Abort = False, 0
-				Custom01 = True, 525648586.00575
+				Custom01 = True, 526946850.624233
 				Custom02 = False, 0
 				Custom03 = True, 525716716.862381
 				Custom04 = False, 525716721.322377
@@ -28647,6 +28715,11 @@ GAME
 			}
 			FLIGHTPLAN
 			{
+				MANEUVER
+				{
+					UT = 529082983.93131739
+					dV = 0,0,0
+				}
 			}
 			TARGET
 			{
@@ -28655,9 +28728,9 @@ GAME
 			}
 			CTRLSTATE
 			{
-				pitch = -3.06777802E-05
+				pitch = 0
 				yaw = 0
-				roll = 2.88257706E-06
+				roll = 0
 				trimPitch = 0
 				trimYaw = 0
 				trimRoll = 0
@@ -28676,6 +28749,36 @@ GAME
 				}
 				RPMVesselComputer
 				{
+					RPM_PERSISTENT_VARS
+					{
+						name = 508dc055-ed35-4f15-87ee-a9c48da4294b
+						activePage34 = System.Int32,21
+						activePage35 = System.Int32,21
+						activePage36 = System.Int32,21
+						targetfilter34 = System.Int32,15
+						targetfilter35 = System.Int32,15
+						targetfilter36 = System.Int32,15
+					}
+					RPM_PERSISTENT_VARS
+					{
+						name = 7932f907-9dca-4a7f-befd-2808f071a3ac
+						activePage34 = System.Int32,21
+						activePage35 = System.Int32,21
+						activePage36 = System.Int32,21
+						targetfilter34 = System.Int32,15
+						targetfilter35 = System.Int32,15
+						targetfilter36 = System.Int32,15
+					}
+					RPM_PERSISTENT_VARS
+					{
+						name = 69fd8530-2066-4191-a948-5f9176fda2f5
+						activePage34 = System.Int32,21
+						activePage35 = System.Int32,21
+						activePage36 = System.Int32,21
+						targetfilter34 = System.Int32,15
+						targetfilter35 = System.Int32,15
+						targetfilter36 = System.Int32,15
+					}
 				}
 				CommNetVessel
 				{
@@ -30830,22 +30933,22 @@ GAME
 			pid = 328cc80323fa461e80af8107c47da838
 			name = Eve 3
 			type = Ship
-			sit = ESCAPING
+			sit = ORBITING
 			landed = False
 			landedAt = 
 			displaylandedAt = 
 			splashed = False
-			met = 169998.04599511623
+			met = 1279645.0153944492
 			lct = 525724239.44128096
-			lastUT = 525894237.50727606
+			lastUT = 527003884.45667541
 			root = 0
-			lat = 0.64964435518152974
-			lon = -20.254710494340443
-			alt = 2619388.0476035518
+			lat = 0.032669301607187853
+			lon = -59.07152456356733
+			alt = 12728310227.914316
 			hgt = -1
-			nrm = -0.0970838442,0.983291566,-0.153988674
-			rot = 0.629313111,0.723425448,-0.268906623,-0.0911588073
-			CoM = -0.0011164546,-5.98667336,-0.000520251691
+			nrm = -0.212823123,0.12222065,0.969416618
+			rot = 0.216331244,0.965313554,0.021779824,0.144555345
+			CoM = -0.00117048621,-5.70648479,-0.00054693222
 			stg = 7
 			prst = False
 			ref = 0
@@ -30855,13 +30958,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 11503168957.869944
-				ECC = 0.18232228517404556
-				INC = 0.0212367310625724
-				LPE = 183.33175083842772
-				LAN = 229.56916454968618
-				MNA = -3.1296801620037544
-				EPH = 525978146.6657964
+				SMA = 11622917946.825699
+				ECC = 0.17242896710210828
+				INC = 0.51096996563003616
+				LPE = 143.53653508690044
+				LAN = 267.16653377911149
+				MNA = -2.1953189419941306
+				EPH = 527003884.45667541
 				REF = 0
 			}
 			PART
@@ -30888,8 +30991,8 @@ GAME
 				attN = top, 38
 				mass = 0.100000001
 				shielded = True
-				temp = 119.41923864076864
-				tempExt = 119.10009711913742
+				temp = 261.16115519658257
+				tempExt = 261.16036577261843
 				tempExtUnexp = 309.78292039830751
 				expt = 0
 				state = 0
@@ -31096,9 +31199,6 @@ GAME
 					ACTIONS
 					{
 					}
-					UPGRADESAPPLIED
-					{
-					}
 					Log
 					{
 						flight = 0
@@ -31108,11 +31208,14 @@ GAME
 						0 = Escape,Kerbin
 						0 = Flyby,Sun
 					}
+					UPGRADESAPPLIED
+					{
+					}
 				}
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 15
+					amount = 11.5943694419003
 					maxAmount = 15
 					flowState = True
 					isTweakable = True
@@ -31145,8 +31248,8 @@ GAME
 				attN = bottom, 14
 				mass = 0.00100000005
 				shielded = True
-				temp = 110.86206814190278
-				tempExt = 112.07184971255005
+				temp = 261.14905852616147
+				tempExt = 261.1526909621046
 				tempExtUnexp = 309.78292039830751
 				expt = 0.5
 				state = 0
@@ -31192,8 +31295,8 @@ GAME
 				attN = bottom, 3
 				mass = 0.00100000005
 				shielded = True
-				temp = 115.39059624311449
-				tempExt = 115.39419226071486
+				temp = 261.16146240594691
+				tempExt = 261.16061985191152
 				tempExtUnexp = 309.78292039830751
 				expt = 0.5
 				state = 0
@@ -31239,8 +31342,8 @@ GAME
 				attN = top, 2
 				mass = 0.800000012
 				shielded = True
-				temp = 115.21141419972471
-				tempExt = 115.36206613684837
+				temp = 261.16182713084731
+				tempExt = 261.16141673743215
 				tempExtUnexp = 309.78292039830751
 				expt = 0.5
 				state = 0
@@ -31452,6 +31555,23 @@ GAME
 				}
 				MODULE
 				{
+					name = RasterPropMonitorComputer
+					isEnabled = True
+					vesselDescription = 
+					RPMCid = 823c587c-575c-4e99-8f03-81a555c63937
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleKerbalKrashSystem_Command
 					isEnabled = True
 					stagingEnabled = True
@@ -31475,6 +31595,57 @@ GAME
 					}
 					ACTIONS
 					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = SCANRPMStorage
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					SCANsatRPM
+					{
+						Prop
+						{
+							Prop ID = scansat34
+							Mode = 0
+							Zoom = 0
+							Resource = 0
+							Color = True
+							Lines = True
+							Anomalies = True
+							DrawResource = True
+						}
+						Prop
+						{
+							Prop ID = scansat35
+							Mode = 0
+							Zoom = 0
+							Resource = 0
+							Color = True
+							Lines = True
+							Anomalies = True
+							DrawResource = True
+						}
+						Prop
+						{
+							Prop ID = scansat36
+							Mode = 0
+							Zoom = 0
+							Resource = 0
+							Color = True
+							Lines = True
+							Anomalies = True
+							DrawResource = True
+						}
 					}
 					UPGRADESAPPLIED
 					{
@@ -32389,7 +32560,7 @@ GAME
 						temperature = 300
 						fillable = True
 						techRequired = 
-						amount = 50
+						amount = 38.647898139289786
 						maxAmount = 50
 					}
 					TANK
@@ -32421,9 +32592,6 @@ GAME
 					ACTIONS
 					{
 					}
-					UPGRADESAPPLIED
-					{
-					}
 					Log
 					{
 						flight = 0
@@ -32432,6 +32600,9 @@ GAME
 						0 = Orbit,Kerbin
 						0 = Escape,Kerbin
 						0 = Flyby,Sun
+					}
+					UPGRADESAPPLIED
+					{
 					}
 				}
 				RESOURCE
@@ -32448,7 +32619,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 50
+					amount = 38.647898139289786
 					maxAmount = 50
 					flowState = True
 					isTweakable = True
@@ -32479,8 +32650,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.00499999989
 				shielded = True
-				temp = 115.38923152990543
-				tempExt = 115.39022557214514
+				temp = 261.16183442692966
+				tempExt = 261.161456945802
 				tempExtUnexp = 309.78292039830751
 				expt = 0.5
 				state = 0
@@ -32539,8 +32710,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.0109999999
 				shielded = False
-				temp = 113.41531824522279
-				tempExt = 113.39621470404443
+				temp = 260.8205575175694
+				tempExt = 260.37084741730075
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -32631,8 +32802,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.075000003
 				shielded = True
-				temp = 117.7448041075632
-				tempExt = 116.24443169460838
+				temp = 261.16189088050425
+				tempExt = 261.16145747607521
 				tempExtUnexp = 309.78292039830751
 				expt = 0.5
 				state = 0
@@ -32782,8 +32953,8 @@ GAME
 				attN = bottom, 8
 				mass = 0.00100000005
 				shielded = True
-				temp = 115.26053216374395
-				tempExt = 115.31535709679524
+				temp = 261.16146412172787
+				tempExt = 261.16063275393577
 				tempExtUnexp = 309.78292039830751
 				expt = 0.5
 				state = 0
@@ -32829,8 +33000,8 @@ GAME
 				attN = top, 7
 				mass = 0.800000012
 				shielded = True
-				temp = 115.19710561072114
-				tempExt = 115.33465318626534
+				temp = 261.16183061226712
+				tempExt = 261.16144425020508
 				tempExtUnexp = 309.78292039830751
 				expt = 0.5
 				state = 0
@@ -33042,6 +33213,23 @@ GAME
 				}
 				MODULE
 				{
+					name = RasterPropMonitorComputer
+					isEnabled = True
+					vesselDescription = 
+					RPMCid = 2b022567-9d4e-4ea3-9738-db0647e2155d
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleKerbalKrashSystem_Command
 					isEnabled = True
 					stagingEnabled = True
@@ -33065,6 +33253,57 @@ GAME
 					}
 					ACTIONS
 					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = SCANRPMStorage
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					SCANsatRPM
+					{
+						Prop
+						{
+							Prop ID = scansat34
+							Mode = 0
+							Zoom = 0
+							Resource = 0
+							Color = True
+							Lines = True
+							Anomalies = True
+							DrawResource = True
+						}
+						Prop
+						{
+							Prop ID = scansat35
+							Mode = 0
+							Zoom = 0
+							Resource = 0
+							Color = True
+							Lines = True
+							Anomalies = True
+							DrawResource = True
+						}
+						Prop
+						{
+							Prop ID = scansat36
+							Mode = 0
+							Zoom = 0
+							Resource = 0
+							Color = True
+							Lines = True
+							Anomalies = True
+							DrawResource = True
+						}
 					}
 					UPGRADESAPPLIED
 					{
@@ -33979,7 +34218,7 @@ GAME
 						temperature = 300
 						fillable = True
 						techRequired = 
-						amount = 50
+						amount = 38.647898139289786
 						maxAmount = 50
 					}
 					TANK
@@ -34011,9 +34250,6 @@ GAME
 					ACTIONS
 					{
 					}
-					UPGRADESAPPLIED
-					{
-					}
 					Log
 					{
 						flight = 0
@@ -34022,6 +34258,9 @@ GAME
 						0 = Orbit,Kerbin
 						0 = Escape,Kerbin
 						0 = Flyby,Sun
+					}
+					UPGRADESAPPLIED
+					{
 					}
 				}
 				RESOURCE
@@ -34038,7 +34277,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 50
+					amount = 38.647898139289786
 					maxAmount = 50
 					flowState = True
 					isTweakable = True
@@ -34071,8 +34310,8 @@ GAME
 				srfN = srfAttach, 8
 				mass = 0.0109999999
 				shielded = False
-				temp = 113.27290501523292
-				tempExt = 113.25366821933378
+				temp = 260.8205575769739
+				tempExt = 260.37084747100164
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -34163,8 +34402,8 @@ GAME
 				srfN = srfAttach, 8
 				mass = 0.100000001
 				shielded = True
-				temp = 115.72559828248306
-				tempExt = 115.48783248700325
+				temp = 261.16186165248303
+				tempExt = 261.16148515675582
 				tempExtUnexp = 309.78292039830751
 				expt = 0.5
 				state = 0
@@ -34314,8 +34553,8 @@ GAME
 				attN = bottom, 12
 				mass = 0.00100000005
 				shielded = True
-				temp = 116.08973332268533
-				tempExt = 116.09326640585705
+				temp = 261.16146057839342
+				tempExt = 261.16060094721109
 				tempExtUnexp = 309.78292039830751
 				expt = 0.5
 				state = 0
@@ -34361,8 +34600,8 @@ GAME
 				attN = top, 11
 				mass = 0.800000012
 				shielded = True
-				temp = 116.08853456559633
-				tempExt = 116.09374993532357
+				temp = 261.16182341004293
+				tempExt = 261.16137643844729
 				tempExtUnexp = 309.78292039830751
 				expt = 0.5
 				state = 0
@@ -34574,6 +34813,23 @@ GAME
 				}
 				MODULE
 				{
+					name = RasterPropMonitorComputer
+					isEnabled = True
+					vesselDescription = 
+					RPMCid = 9b0485a3-1555-421d-829a-7adf89627b26
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleKerbalKrashSystem_Command
 					isEnabled = True
 					stagingEnabled = True
@@ -34597,6 +34853,57 @@ GAME
 					}
 					ACTIONS
 					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = SCANRPMStorage
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					SCANsatRPM
+					{
+						Prop
+						{
+							Prop ID = scansat34
+							Mode = 0
+							Zoom = 0
+							Resource = 0
+							Color = True
+							Lines = True
+							Anomalies = True
+							DrawResource = True
+						}
+						Prop
+						{
+							Prop ID = scansat35
+							Mode = 0
+							Zoom = 0
+							Resource = 0
+							Color = True
+							Lines = True
+							Anomalies = True
+							DrawResource = True
+						}
+						Prop
+						{
+							Prop ID = scansat36
+							Mode = 0
+							Zoom = 0
+							Resource = 0
+							Color = True
+							Lines = True
+							Anomalies = True
+							DrawResource = True
+						}
 					}
 					UPGRADESAPPLIED
 					{
@@ -35511,7 +35818,7 @@ GAME
 						temperature = 300
 						fillable = True
 						techRequired = 
-						amount = 50
+						amount = 38.647898139289786
 						maxAmount = 50
 					}
 					TANK
@@ -35543,9 +35850,6 @@ GAME
 					ACTIONS
 					{
 					}
-					UPGRADESAPPLIED
-					{
-					}
 					Log
 					{
 						flight = 0
@@ -35554,6 +35858,9 @@ GAME
 						0 = Orbit,Kerbin
 						0 = Escape,Kerbin
 						0 = Flyby,Sun
+					}
+					UPGRADESAPPLIED
+					{
 					}
 				}
 				RESOURCE
@@ -35570,7 +35877,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 50
+					amount = 38.647898139289786
 					maxAmount = 50
 					flowState = True
 					isTweakable = True
@@ -35603,8 +35910,8 @@ GAME
 				srfN = srfAttach, 12
 				mass = 0.0109999999
 				shielded = False
-				temp = 114.04613966702277
-				tempExt = 114.02624390523206
+				temp = 260.82055746115526
+				tempExt = 260.37084736686518
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -35697,8 +36004,8 @@ GAME
 				attN = bottom, 15
 				mass = 0.00100000005
 				shielded = True
-				temp = 107.20124661754181
-				tempExt = 109.03373982425707
+				temp = 261.13952870669965
+				tempExt = 261.14437374451796
 				tempExtUnexp = 309.78292039830751
 				expt = 0.5
 				state = 0
@@ -35742,8 +36049,8 @@ GAME
 				attN = bottom, 16
 				mass = 0.00100000005
 				shielded = True
-				temp = 104.49096373521854
-				tempExt = 105.36721884465827
+				temp = 261.13137243656814
+				tempExt = 261.13384343339351
 				tempExtUnexp = 309.78292039830751
 				expt = 0.5
 				state = 0
@@ -35787,8 +36094,8 @@ GAME
 				attN = bottom, 17
 				mass = 0.00100000005
 				shielded = True
-				temp = 101.30063734991874
-				tempExt = 101.93258620112147
+				temp = 261.11991390994933
+				tempExt = 261.1225199482306
 				tempExtUnexp = 309.78292039830751
 				expt = 0.5
 				state = 0
@@ -35832,8 +36139,8 @@ GAME
 				attN = top, 16
 				mass = 0.0149999997
 				shielded = True
-				temp = 99.639133259661634
-				tempExt = 99.993182109862474
+				temp = 261.11252318583388
+				tempExt = 261.1148706130042
 				tempExtUnexp = 309.78292039830751
 				expt = 0.5
 				state = 0
@@ -35918,21 +36225,6 @@ GAME
 				}
 				MODULE
 				{
-					name = tjs_DecouplerLight
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
 					name = ModuleKerbalKrashSystem_Other
 					isEnabled = True
 					stagingEnabled = True
@@ -36001,8 +36293,8 @@ GAME
 				attN = bottom, 17
 				mass = 0.0199999996
 				shielded = True
-				temp = 99.235822833276202
-				tempExt = 99.529733388761386
+				temp = 261.10743527217625
+				tempExt = 261.11095397098387
 				tempExtUnexp = 309.78292039830751
 				expt = 0.5
 				state = 0
@@ -36148,8 +36440,8 @@ GAME
 				attN = bottom, 20
 				mass = 0.0199999996
 				shielded = True
-				temp = 98.576358674138916
-				tempExt = 99.172137762776188
+				temp = 261.09628447421164
+				tempExt = 261.10631391468098
 				tempExtUnexp = 309.78292039830751
 				expt = 0.5
 				state = 0
@@ -36307,8 +36599,8 @@ GAME
 				attN = bottom, 21
 				mass = 0.345227599
 				shielded = False
-				temp = 92.841107058385248
-				tempExt = 98.933098825392364
+				temp = 260.98041221836741
+				tempExt = 260.37793808384987
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -36667,8 +36959,8 @@ GAME
 				attN = bottom, 22
 				mass = 0.622883797
 				shielded = False
-				temp = 92.52146019124379
-				tempExt = 95.63482266869471
+				temp = 260.97329601336457
+				tempExt = 259.96492079663375
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -37485,8 +37777,8 @@ GAME
 				attN = bottom, 23
 				mass = 0.642237902
 				shielded = False
-				temp = 93.303608569573527
-				tempExt = 94.088829532263276
+				temp = 255.95895652368557
+				tempExt = 255.50806069707605
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -37541,11 +37833,11 @@ GAME
 					{
 						UllageSim
 						{
-							ullageHeightMin = 0.46698474686080327
-							ullageHeightMax = 0.97307337069895983
+							ullageHeightMin = 0.050666927154094432
+							ullageHeightMax = 0.95021856942757155
 							ullageRadialMin = 0
-							ullageRadialMax = 0.97816639277302031
-							UT = 525894237.50727606
+							ullageRadialMax = 0.95057683302063578
+							UT = 527003884.45667541
 						}
 					}
 					UPGRADESAPPLIED
@@ -37681,21 +37973,6 @@ GAME
 				}
 				MODULE
 				{
-					name = EngineLightEffect
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
 					name = ModuleKerbalKrashSystem_Engine
 					isEnabled = True
 					stagingEnabled = True
@@ -37768,8 +38045,8 @@ GAME
 				attN = bottom, 24
 				mass = 0.200000003
 				shielded = False
-				temp = 93.426013209310383
-				tempExt = 93.650788645291115
+				temp = 250.34742446948906
+				tempExt = 243.33338337344367
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -37915,8 +38192,8 @@ GAME
 				attN = top, 23
 				mass = 0.5
 				shielded = False
-				temp = 93.406194509923623
-				tempExt = 93.025647755256117
+				temp = 247.58597256842975
+				tempExt = 219.53203640607472
 				tempExtUnexp = 4
 				expt = 0
 				state = 0
@@ -38123,9 +38400,6 @@ GAME
 					ACTIONS
 					{
 					}
-					UPGRADESAPPLIED
-					{
-					}
 					Log
 					{
 						flight = 0
@@ -38134,6 +38408,9 @@ GAME
 						0 = Orbit,Kerbin
 						0 = Escape,Kerbin
 						0 = Flyby,Sun
+					}
+					UPGRADESAPPLIED
+					{
 					}
 				}
 				RESOURCE
@@ -38172,9 +38449,9 @@ GAME
 				attN = bottom, 26
 				mass = 0.574191809
 				shielded = False
-				temp = 93.323964854207318
-				tempExt = 92.354562593992668
-				tempExtUnexp = 256.29390388612489
+				temp = 244.38830165812195
+				tempExt = 188.21424091136669
+				tempExtUnexp = 198.32719660421859
 				expt = 0.5
 				state = 0
 				attached = True
@@ -38244,7 +38521,7 @@ GAME
 					type = Default
 					utilization = 86
 					mass = 0.574191749
-					partPrevTemperature = 93.323964854207318
+					partPrevTemperature = 244.38830165812195
 					stagingEnabled = True
 					volume = 18000
 					EVENTS
@@ -38264,7 +38541,7 @@ GAME
 						temperature = 90.1500015
 						fillable = True
 						techRequired = 
-						amount = 4927.9748910119752
+						amount = 3636.0782699590923
 						maxAmount = 11654.01702880859
 					}
 					TANK
@@ -38278,7 +38555,7 @@ GAME
 						temperature = 300
 						fillable = True
 						techRequired = 
-						amount = 2555.9383663893836
+						amount = 2186.0005498529631
 						maxAmount = 6345.9829711914099
 					}
 					TANK
@@ -38946,7 +39223,7 @@ GAME
 				RESOURCE
 				{
 					name = Kerosene
-					amount = 2555.9383663893836
+					amount = 2186.0005498529631
 					maxAmount = 6345.9829711914099
 					flowState = True
 					isTweakable = True
@@ -38957,7 +39234,7 @@ GAME
 				RESOURCE
 				{
 					name = LqdOxygen
-					amount = 4927.9748910119752
+					amount = 3636.0782699590923
 					maxAmount = 11654.01702880859
 					flowState = True
 					isTweakable = True
@@ -38991,8 +39268,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.904796958
 				shielded = False
-				temp = 93.424957266010537
-				tempExt = 93.098787814388771
+				temp = 244.16164477097095
+				tempExt = 216.97779068815183
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -39047,11 +39324,11 @@ GAME
 					{
 						UllageSim
 						{
-							ullageHeightMin = 0.4670160623628683
-							ullageHeightMax = 0.9731051202503167
+							ullageHeightMin = 0.050811126616602011
+							ullageHeightMax = 0.9500743701242752
 							ullageRadialMin = 0
-							ullageRadialMax = 0.97811625803668756
-							UT = 525894237.50727606
+							ullageRadialMax = 0.95080847017532799
+							UT = 527003884.45667541
 						}
 					}
 					UPGRADESAPPLIED
@@ -39187,21 +39464,6 @@ GAME
 				}
 				MODULE
 				{
-					name = EngineLightEffect
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
 					name = ModuleKerbalKrashSystem_Engine
 					isEnabled = True
 					stagingEnabled = True
@@ -39283,8 +39545,8 @@ GAME
 				srfN = srfAttach, 24
 				mass = 0.0149999997
 				shielded = False
-				temp = 94.323387667897961
-				tempExt = 93.652035932600171
+				temp = 248.420218756932
+				tempExt = 235.63018219121801
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -39347,8 +39609,8 @@ GAME
 				srfN = srfAttach, 21
 				mass = 0.0500000007
 				shielded = False
-				temp = 93.07572850253375
-				tempExt = 94.897858368989731
+				temp = 260.92218550493953
+				tempExt = 260.43840691797715
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -39371,10 +39633,10 @@ GAME
 				{
 					name = ModuleDeployableAntenna
 					isEnabled = True
-					currentRotation = (0.70710665, 0.000379906414, 0.000379906502, 0.707106769)
+					currentRotation = (0.454519451, 0.54167521, 0.54167527, 0.45451951)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 1
-					deployState = RETRACTED
+					deployState = EXTENDED
 					stagingEnabled = True
 					EVENTS
 					{
@@ -39404,7 +39666,7 @@ GAME
 					isEnabled = True
 					xmitIncomplete = False
 					stagingEnabled = True
-					canComm = False
+					canComm = True
 					EVENTS
 					{
 					}
@@ -39474,8 +39736,8 @@ GAME
 				srfN = srfAttach, 21
 				mass = 0.100000001
 				shielded = False
-				temp = 99.079692678390714
-				tempExt = 99.062633732569566
+				temp = 261.0181664677026
+				tempExt = 260.03000128099319
 				tempExtUnexp = 4
 				expt = 0.100000001
 				state = 0
@@ -39585,8 +39847,8 @@ GAME
 				srfN = srfAttach, 21
 				mass = 0.100000001
 				shielded = False
-				temp = 99.173136193873745
-				tempExt = 99.273395604991862
+				temp = 261.07965423003299
+				tempExt = 260.40752209587379
 				tempExtUnexp = 4
 				expt = 0.100000001
 				state = 0
@@ -39696,8 +39958,8 @@ GAME
 				srfN = srfAttach, 21
 				mass = 0.100000001
 				shielded = False
-				temp = 98.884114089422255
-				tempExt = 98.798036242662292
+				temp = 261.16657094446771
+				tempExt = 261.05450546336448
 				tempExtUnexp = 4
 				expt = 0.100000001
 				state = 0
@@ -39807,8 +40069,8 @@ GAME
 				srfN = srfAttach, 21
 				mass = 0.0250000004
 				shielded = False
-				temp = 94.02211703345418
-				tempExt = 97.33061028422857
+				temp = 260.7771193875779
+				tempExt = 259.2949737240387
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -39829,13 +40091,13 @@ GAME
 				}
 				MODULE
 				{
-					name = ModuleDeployableSolarPanel
+					name = KopernicusSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 525724239.44128096
-					currentRotation = (0.648761928, -0.264579862, 0.257861972, -0.665291429)
+					launchUT = 526947265.52383727
+					currentRotation = (-0.470955431, -0.527447522, 0.527445614, 0.470957726)
 					storedAnimationTime = 0
-					storedAnimationSpeed = 0
+					storedAnimationSpeed = 1
 					deployState = EXTENDED
 					stagingEnabled = True
 					EVENTS
@@ -39845,7 +40107,7 @@ GAME
 					{
 						ExtendPanelsAction
 						{
-							actionGroup = Custom04
+							actionGroup = None
 						}
 						ExtendAction
 						{
@@ -39915,8 +40177,8 @@ GAME
 				srfN = srfAttach, 21
 				mass = 0.0250000004
 				shielded = False
-				temp = 94.015959211354556
-				tempExt = 97.391091240100323
+				temp = 260.75498937856582
+				tempExt = 259.28030779844016
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -39937,13 +40199,13 @@ GAME
 				}
 				MODULE
 				{
-					name = ModuleDeployableSolarPanel
+					name = KopernicusSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 525724239.44128096
-					currentRotation = (0.69141674, 0.100030497, -0.0965913981, -0.708947837)
+					launchUT = 526947265.52383727
+					currentRotation = (-0.453433067, 0.542582154, -0.542584598, 0.45343703)
 					storedAnimationTime = 0
-					storedAnimationSpeed = 0
+					storedAnimationSpeed = 1
 					deployState = EXTENDED
 					stagingEnabled = True
 					EVENTS
@@ -39953,7 +40215,7 @@ GAME
 					{
 						ExtendPanelsAction
 						{
-							actionGroup = Custom04
+							actionGroup = None
 						}
 						ExtendAction
 						{
@@ -40023,8 +40285,8 @@ GAME
 				srfN = srfAttach, 21
 				mass = 0.0250000004
 				shielded = False
-				temp = 94.009358655664585
-				tempExt = 97.315081612559695
+				temp = 260.96302462351332
+				tempExt = 260.5083400494039
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -40045,13 +40307,13 @@ GAME
 				}
 				MODULE
 				{
-					name = ModuleDeployableSolarPanel
+					name = KopernicusSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 525724239.44128096
-					currentRotation = (-0.668898523, -0.204363778, 0.200316548, 0.686063766)
+					launchUT = 526947265.52383727
+					currentRotation = (-0.396555185, 0.585443616, -0.585443974, 0.396554083)
 					storedAnimationTime = 0
-					storedAnimationSpeed = 0
+					storedAnimationSpeed = 1
 					deployState = EXTENDED
 					stagingEnabled = True
 					EVENTS
@@ -40061,7 +40323,7 @@ GAME
 					{
 						ExtendPanelsAction
 						{
-							actionGroup = Custom04
+							actionGroup = None
 						}
 						ExtendAction
 						{
@@ -40131,8 +40393,8 @@ GAME
 				srfN = srfAttach, 21
 				mass = 0.0149999997
 				shielded = False
-				temp = 92.834072205684933
-				tempExt = 94.811369558658882
+				temp = 260.93982571471577
+				tempExt = 260.40568075641085
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -40209,8 +40471,8 @@ GAME
 				srfN = srfAttach, 21
 				mass = 0.0149999997
 				shielded = False
-				temp = 92.834117995326366
-				tempExt = 94.81308857060759
+				temp = 260.93982571471577
+				tempExt = 260.40568075641085
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -40287,8 +40549,8 @@ GAME
 				srfN = srfAttach, 21
 				mass = 0.0149999997
 				shielded = False
-				temp = 92.834152754890169
-				tempExt = 94.814390533525952
+				temp = 260.93982571471577
+				tempExt = 260.40568075641085
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -40365,8 +40627,8 @@ GAME
 				attN = bottom, 0
 				mass = 0.0500000007
 				shielded = False
-				temp = 122.32013579788362
-				tempExt = 125.39533504401945
+				temp = 260.70758431777443
+				tempExt = 259.93985059370777
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -40433,7 +40695,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 1000
+					amount = 772.95796279484978
 					maxAmount = 1000
 					flowState = True
 					isTweakable = True
@@ -40467,8 +40729,8 @@ GAME
 				attN = top, 38
 				mass = 0.5
 				shielded = False
-				temp = 117.69837764190483
-				tempExt = 127.85767123581643
+				temp = 261.00942080753003
+				tempExt = 256.93119330462298
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -40598,21 +40860,6 @@ GAME
 				}
 				MODULE
 				{
-					name = tjs_DecouplerLight
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
 					name = ModuleKerbalKrashSystem_Container
 					isEnabled = True
 					stagingEnabled = True
@@ -40707,8 +40954,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.0175000001
 				shielded = False
-				temp = 105.47315856548515
-				tempExt = 106.90724221224789
+				temp = 260.61480560236924
+				tempExt = 257.59240470147029
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -40729,10 +40976,10 @@ GAME
 				}
 				MODULE
 				{
-					name = ModuleDeployableSolarPanel
+					name = KopernicusSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 525724239.44128096
+					launchUT = 526947265.52383727
 					currentRotation = (-0.5, -0.5, -0.5, 0.5)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 1
@@ -40750,7 +40997,7 @@ GAME
 						}
 						ExtendAction
 						{
-							actionGroup = Custom05
+							actionGroup = None
 						}
 						RetractAction
 						{
@@ -40817,8 +41064,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.0175000001
 				shielded = False
-				temp = 105.69902680433108
-				tempExt = 107.12890174316721
+				temp = 260.61480560236924
+				tempExt = 257.59240470147029
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -40839,10 +41086,10 @@ GAME
 				}
 				MODULE
 				{
-					name = ModuleDeployableSolarPanel
+					name = KopernicusSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 525724239.44128096
+					launchUT = 526947265.52383727
 					currentRotation = (-0.5, -0.5, -0.5, 0.5)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 1
@@ -40860,7 +41107,7 @@ GAME
 						}
 						ExtendAction
 						{
-							actionGroup = Custom05
+							actionGroup = None
 						}
 						RetractAction
 						{
@@ -40927,8 +41174,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.0175000001
 				shielded = False
-				temp = 105.48187030194846
-				tempExt = 106.91579120859898
+				temp = 260.61480560236924
+				tempExt = 257.59240470147029
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -40949,10 +41196,10 @@ GAME
 				}
 				MODULE
 				{
-					name = ModuleDeployableSolarPanel
+					name = KopernicusSolarPanel
 					isEnabled = True
 					efficiencyMult = 1
-					launchUT = 525724239.44128096
+					launchUT = 526947265.52383727
 					currentRotation = (-0.5, -0.5, -0.5, 0.5)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 1
@@ -40970,7 +41217,7 @@ GAME
 						}
 						ExtendAction
 						{
-							actionGroup = Custom05
+							actionGroup = None
 						}
 						RetractAction
 						{
@@ -41019,7 +41266,7 @@ GAME
 				Gear = False, 525877776.0658
 				Light = False, 525877798.045779
 				RCS = False, 0
-				SAS = True, 525892054.919344
+				SAS = True, 526948217.02293
 				Brakes = False, 0
 				Abort = False, 0
 				Custom01 = False, 0
@@ -41045,15 +41292,30 @@ GAME
 			{
 				MANEUVER
 				{
-					UT = 529014919.83101618
-					dV = 0,0,0
+					UT = 529201465.54456919
+					dV = 0,0,-152
 				}
+				MANEUVER
+				{
+					UT = 529503131.60765421
+					dV = 0,0,119
+				}
+				MANEUVER
+				{
+					UT = 529849893.76705563
+					dV = 0,477.01447602237783,-140
+				}
+			}
+			TARGET
+			{
+				type = CelestialBody
+				tgtId = Gilly
 			}
 			CTRLSTATE
 			{
-				pitch = -1.26146324E-05
-				yaw = -6.59477701E-06
-				roll = 1.73250862E-06
+				pitch = 2.83586287E-05
+				yaw = -0.000153685483
+				roll = 2.64244613E-06
 				trimPitch = 0
 				trimYaw = 0
 				trimRoll = 0
@@ -41072,6 +41334,36 @@ GAME
 				}
 				RPMVesselComputer
 				{
+					RPM_PERSISTENT_VARS
+					{
+						name = 823c587c-575c-4e99-8f03-81a555c63937
+						activePage34 = System.Int32,21
+						activePage35 = System.Int32,21
+						activePage36 = System.Int32,21
+						targetfilter34 = System.Int32,15
+						targetfilter35 = System.Int32,15
+						targetfilter36 = System.Int32,15
+					}
+					RPM_PERSISTENT_VARS
+					{
+						name = 2b022567-9d4e-4ea3-9738-db0647e2155d
+						activePage34 = System.Int32,21
+						activePage35 = System.Int32,21
+						activePage36 = System.Int32,21
+						targetfilter34 = System.Int32,15
+						targetfilter35 = System.Int32,15
+						targetfilter36 = System.Int32,15
+					}
+					RPM_PERSISTENT_VARS
+					{
+						name = 9b0485a3-1555-421d-829a-7adf89627b26
+						activePage34 = System.Int32,21
+						activePage35 = System.Int32,21
+						activePage36 = System.Int32,21
+						targetfilter34 = System.Int32,15
+						targetfilter35 = System.Int32,15
+						targetfilter36 = System.Int32,15
+					}
 				}
 				CommNetVessel
 				{
@@ -45921,109 +46213,6 @@ GAME
 		}
 		VESSEL
 		{
-			pid = 0c6d8ae633e24753b8c8c64423b3c27f
-			name = Ast. QBR-503
-			type = SpaceObject
-			sit = ORBITING
-			landed = False
-			landedAt = 
-			displaylandedAt = 
-			splashed = False
-			met = 526871163.82391173
-			lct = 526871163.82391173
-			lastUT = -1
-			root = 0
-			lat = -1.1489268338715879
-			lon = 51.479240884902566
-			alt = 14164044145.562286
-			hgt = -1
-			nrm = 0,1,0
-			rot = -0.51887089,-0.708134294,-0.374257267,0.298747867
-			CoM = 0,0,0
-			stg = 0
-			prst = False
-			ref = 0
-			ctrl = False
-			ORBIT
-			{
-				SMA = 14372234780.940485
-				ECC = 0.056719478734510879
-				INC = 1.2566806672097428
-				LPE = 30.893250409048605
-				LAN = 336.87919986980722
-				MNA = -0.30590798867850932
-				EPH = 528898292.15032774
-				REF = 0
-			}
-			PART
-			{
-				name = PotatoRoid
-				cid = 0
-				uid = 601242318
-				mid = 601242318
-				launchID = 0
-				parent = 0
-				position = 0,0,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 0
-				resPri = 0
-				dstg = 0
-				sqor = 0
-				sepI = 0
-				sidx = 0
-				attm = 0
-				srfN = None, -1
-				mass = 150
-				shielded = False
-				temp = -1
-				tempExt = 0
-				tempExtUnexp = 0
-				expt = 0.100000001
-				state = 0
-				attached = True
-				autostrutMode = Off
-				rigidAttachment = False
-				flag = 
-				rTrf = 
-				modCost = 0
-			}
-			ACTIONGROUPS
-			{
-			}
-			DISCOVERY
-			{
-				state = 1
-				lastObservedTime = 526871163.82391173
-				lifetime = 171738.22631835938
-				refTime = 1728000
-				size = 2
-			}
-			FLIGHTPLAN
-			{
-			}
-			CTRLSTATE
-			{
-			}
-			VESSELMODULES
-			{
-				ModularFlightIntegrator
-				{
-				}
-				SolverFlightSys
-				{
-				}
-				UllageModule
-				{
-				}
-				RPMVesselComputer
-				{
-				}
-			}
-		}
-		VESSEL
-		{
 			pid = 5200e379f21a4ca39583ca686c4785ec
 			name = Ast. MBP-843
 			type = SpaceObject
@@ -46100,6 +46289,109 @@ GAME
 				state = 1
 				lastObservedTime = 526899286.56088799
 				lifetime = 400428.17687988281
+				refTime = 1728000
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				SolverFlightSys
+				{
+				}
+				UllageModule
+				{
+				}
+				RPMVesselComputer
+				{
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = d1262b4803da45cc91a4356f79f4248d
+			name = Ast. VYF-444
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			displaylandedAt = 
+			splashed = False
+			met = 527079302.30774778
+			lct = 527079302.30774778
+			lastUT = -1
+			root = 0
+			lat = -1.1017419373483015
+			lon = -114.62509046947071
+			alt = 13806037353.02792
+			hgt = -1
+			nrm = 0,1,0
+			rot = 0.449178338,0.201181814,-0.125129372,0.861456573
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			ORBIT
+			{
+				SMA = 13872048460.226482
+				ECC = 0.031542783562860215
+				INC = 1.1599749605617056
+				LPE = 46.387482157114967
+				LAN = 349.89261091213609
+				MNA = -0.79112377741650164
+				EPH = 528912511.01136106
+				REF = 0
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 170789955
+				mid = 170789955
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				expt = 0.100000001
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 527079302.30774778
+				lifetime = 1152065.478515625
 				refTime = 1728000
 				size = 2
 			}
@@ -46244,6 +46536,7 @@ GAME
 		ModuleManager.2.8.1.dll = True
 		TransferWindowPlanner v1.6.2.0 = True
 		OPM = True
+		JX2Antenna = True
 	}
 	ROSTER
 	{
