@@ -122,9 +122,9 @@ Planned ejection burn    625 m/s
 
 After Kerbin ejection burn
     Eve periapsis        352 km
-    Enter Eve SOI      23:44 Tuesday, October 10th 2017
-    Eve periapsis      15:30 Wednesday, October 11th 2017
-    Leave Eve SOI       7:17 Thursday, October 12th 2017
+    Enter Eve SOI      23:44 Tuesday, October 10th 2017     Y17 D283
+    Eve periapsis      15:30 Wednesday, October 11th 2017   Y17 D284
+    Leave Eve SOI       7:17 Thursday, October 12th 2017    Y17 D285
 
 
 Arrival:    Day 284 16:00
@@ -169,7 +169,41 @@ Exploration stage
 
 After Kerbin ejection burn
     Eve periapsis   29,342 km
-    Enter Eve SOI    1:50  Monday,    October  9th 2017
-    Eve periapsis   16:14  Tuesday,   October 10th 2017
-    Leave Eve SOI    6:40  Wednesday, October 11th 2017
+    Enter Eve SOI    1:50  Monday,    October  9th 2017     Y17 D282
+    Eve periapsis   16:14  Tuesday,   October 10th 2017     Y17 D283
+    Leave Eve SOI    6:40  Wednesday, October 11th 2017     Y17 D284
     Capture burn      ~950 m/s
+
+After adjustment burn
+    Eve periapsis      137 km
+    Enter Eve SOI   Y17 D285  6:35
+    Eve periapsis   Y17 D286  0:24
+    Leave Eve SOI   Y17 D286 15:58
+
+Capture burn:
+    Precise Maneuver Information
+    Depart at:      Year 17, Day 286, 0:24:25
+        UT:      529201466
+    Prograde Δv:    -152.0 m/s
+    Normal Δv:      0.0 m/s
+    Radial Δv:      0.0 m/s
+    Total Δv:       152 m/s
+
+====
+Slightly more circular
+Precise Maneuver Information
+Depart at:      Year 17, Day 289, 12:12:11
+       UT:      529503132
+Prograde Δv:    119.0 m/s
+Normal Δv:      0.0 m/s
+Radial Δv:      0.0 m/s
+Total Δv:       119 m/s
+
+Plane matching with Gilly
+Precise Maneuver Information
+Depart at:      Year 17, Day 293, 12:31:33
+       UT:      529849894
+Prograde Δv:    -140.0 m/s
+Normal Δv:      477.0 m/s
+Radial Δv:      0.0 m/s
+Total Δv:       497 m/s
