@@ -9,8 +9,140 @@ Objectives
 Wanderer 1
 19:47 September 18th 2017 (Y17 D261)
 
+Y17 D265
+Circular orbit 270km
+8303 m/s 
 
 
 
+Option 1: Gravity assist around Jool
+    Closest approach: 3222 Mm
 
+    Precise Maneuver Information
+        Depart at:      Year 17, Day 265, 22:17:30
+            UT:      527465850
+        Ejection Angle: 44.99° to prograde
+        Ejection Inc.:  0.61°
+        Prograde Δv:    2893.0 m/s
+        Normal Δv:      230.0 m/s
+        Radial Δv:      0.0 m/s
+        Total Δv:       2902 m/s
+
+    Precise Maneuver Information
+        Depart at:      Year 17, Day 291, 11:20:27
+            UT:      529672828
+        Prograde Δv:    0.0 m/s
+        Normal Δv:      189.3 m/s
+        Radial Δv:      0.0 m/s
+        Total Δv:       189 m/s
+
+
+
+Option 2: Gravity assist around Duna
+
+    Precise Maneuver Information
+        Depart at:      Year 17, Day 353, 14:18:40
+            UT:      535040320
+        Ejection Angle: 147.14° to prograde
+        Ejection Inc.:  0.12°
+        Prograde Δv:    952.9 m/s
+        Normal Δv:      142.7 m/s
+        Radial Δv:      -16.0 m/s
+        Total Δv:       964 m/s
+
+    Precise Maneuver Information
+        Depart at:      Year 18, Day 23, 20:41:20
+            UT:      538087281
+        Prograde Δv:    10.5 m/s
+        Normal Δv:      -5.0 m/s
+        Radial Δv:      0.0 m/s
+        Total Δv:       12 m/s
+
+    
+
+Option 3: Gravity assist around Eve 
+
+Precise Maneuver Information
+Depart at:      Year 18, Day 53, 17:48:50
+       UT:      540668931
+Ejection Angle: 145.55° to retrograde
+Ejection Inc.:  0.44°
+Prograde Δv:    953.0 m/s
+Normal Δv:      -309.2 m/s
+Radial Δv:      0.0 m/s
+Total Δv:       1002 m/s
+
+Precise Maneuver Information
+Depart at:      Year 18, Day 82, 0:24:32
+       UT:      543111873
+Prograde Δv:    -104.0 m/s
+Normal Δv:      -154.0 m/s
+Radial Δv:      0.0 m/s
+Total Δv:       186 m/s
+
+
+Something else
+
+Kerbin (@269km) -> Eve (@0km)
+Depart at:      Year 18, Day 53, 17:51:06
+       UT:      540669066
+   Travel:      31 Days, 02:28:27
+       UT:      2687307
+Arrive at:      Year 18, Day 84, 20:19:33
+       UT:      543356374
+Phase Angle:    -52.04°
+Ejection Angle: 140.14° to retrograde
+Ejection Inc.:  -3.98°
+Ejection Δv:    1008 m/s
+Prograde Δv:    986.6 m/s
+Normal Δv:      -208.7 m/s
+Heading:        101.94°
+Insertion Inc.: 0.00°
+Insertion Δv:   0 m/s
+Total Δv:       1008 m/s
+
+Precise Maneuver Information
+Depart at:      Year 18, Day 70, 4:06:48
+       UT:      542088409
+Prograde Δv:    -48.0 m/s
+Normal Δv:      -1.0 m/s
+Radial Δv:      0.0 m/s
+Total Δv:       48 m/s
+
+Precise Maneuver Information
+Depart at:      Year 18, Day 84, 22:41:40
+       UT:      543364901
+Prograde Δv:    0.0 m/s
+Normal Δv:      0.0 m/s
+Radial Δv:      0.0 m/s
+Total Δv:       0 m/s
+
+
+#########################################
+
+Going for a direct burn to Sarnus
+
+Kerbin (@269km) -> Sarnus (@80000km)
+Depart at:      Year 17, Day 266, 13:51:20
+       UT:      527521880
+   Travel:      2 Years, 77 Days, 01:43:55
+       UT:      69731035
+Arrive at:      Year 19, Day 343, 15:35:15
+       UT:      597252915
+Phase Angle:    68.56°
+Ejection Angle: 146.27° to prograde
+Ejection Inc.:  -16.82°
+Ejection Δv:    3165 m/s
+Prograde Δv:    2809.2 m/s
+Normal Δv:      -1458.8 m/s
+Heading:        117.44°
+Insertion Inc.: 4.50°
+Insertion Δv:   1329 m/s
+Total Δv:       4495 m/s
+
+
+Electric consumption during burn
+       146.84
+Electric capacity
+    20,015
 
