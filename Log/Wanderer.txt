@@ -14,7 +14,6 @@ Circular orbit 270km
 8303 m/s 
 
 
-
 Option 1: Gravity assist around Jool
     Closest approach: 3222 Mm
 
@@ -159,3 +158,31 @@ Radial Δv:      -11.5 m/s
 Total Δv:       3029 m/s
 
 After partial burn, total delta-v 2981.2
+
+
+Third burn
+Precise Maneuver Information
+Depart at:      Year 17, Day 266, 18:32:15
+       UT:      527538735
+Ejection Angle: 146.85° to prograde
+Ejection Inc.:  -6.72°
+Prograde Δv:    2599.7 m/s
+Normal Δv:      -1363.4 m/s
+Radial Δv:      -9.5 m/s
+Total Δv:       2936 m/s
+
+Fourth burn
+Precise Maneuver Information
+Depart at:      Year 17, Day 266, 20:08:08
+       UT:      527544489
+Ejection Angle: 147.10° to prograde
+Ejection Inc.:  -6.88°
+Prograde Δv:    2562.7 m/s
+Normal Δv:      -1338.4 m/s
+Radial Δv:      -9.5 m/s
+Total Δv:       2891 m/s
+
+
+
+Notes
+    Add large solar panels so it can escape with one long burn, then decouple them to save weight.
