@@ -173,14 +173,25 @@ Total Δv:       2936 m/s
 
 Fourth burn
 Precise Maneuver Information
-Depart at:      Year 17, Day 266, 20:08:08
-       UT:      527544489
-Ejection Angle: 147.10° to prograde
-Ejection Inc.:  -6.88°
+Depart at:      Year 17, Day 267, 10:20:28
+       UT:      527595629
+Ejection Angle: 150.20° to prograde
+Ejection Inc.:  -7.56°
 Prograde Δv:    2562.7 m/s
 Normal Δv:      -1338.4 m/s
 Radial Δv:      -9.5 m/s
 Total Δv:       2891 m/s
+
+Fifth burn
+Precise Maneuver Information
+Depart at:      Year 17, Day 267, 17:16:37
+       UT:      527620597
+Ejection Angle: 151.44° to prograde
+Ejection Inc.:  -4.83°
+Prograde Δv:    2472.7 m/s
+Normal Δv:      -477.4 m/s
+Radial Δv:      -6.5 m/s
+Total Δv:       2518 m/s
 
 
 
