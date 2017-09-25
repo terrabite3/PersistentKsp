@@ -1026,8 +1026,8 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.3.0
-		UT = 527598201.65048218
-		activeVessel = 20
+		UT = 527623068.07412976
+		activeVessel = 0
 		mapViewFiltering = -1026
 		commNetUIModeTracking = None
 		commNetUIModeFlight = Path
@@ -13675,11 +13675,11 @@ GAME
 			{
 				SMA = 0
 				ECC = 1
-				INC = 0.010181556237398899
+				INC = 0.010181556273195462
 				LPE = 90
-				LAN = 27.788968158288981
+				LAN = 196.28777997159312
 				MNA = 0
-				EPH = 527535057.56695694
+				EPH = 527600109.51782745
 				REF = 2
 			}
 			PART
@@ -46118,33 +46118,33 @@ GAME
 			landedAt = 
 			displaylandedAt = 
 			splashed = False
-			met = 491289.79783320427
+			met = 493197.64517849684
 			lct = 527106911.85264897
-			lastUT = 527598201.65048218
+			lastUT = 527600109.49782747
 			root = 0
-			lat = -6.964307238215774
-			lon = -135.87023463908383
-			alt = 2730690.3201096165
+			lat = -5.3876257899930255
+			lon = -151.67327038463063
+			alt = 4069237.1159045501
 			hgt = -1
-			nrm = 0.748799145,0.639271677,0.175019741
-			rot = 0.567448735,-0.332712442,-0.665181875,-0.353323519
-			CoM = 1.03935599E-06,0.00602040812,0.0342988819
+			nrm = 0.899233818,0.43309772,0.0616853535
+			rot = 0.363001227,-0.416933089,-0.795422137,-0.248396084
+			CoM = 1.21537596E-06,0.00602034479,0.0342988335
 			stg = 0
 			prst = False
 			ref = 0
 			ctrl = True
-			cPch = -0.939818
-			cHdg = -2.871818
+			cPch = 
+			cHdg = 
 			cMod = 0
 			ORBIT
 			{
-				SMA = 3820625.5009060996
-				ECC = 0.77284591508029199
-				INC = 8.4117768970952298
-				LPE = 169.89541085024055
-				LAN = 70.3803589687559
-				MNA = 0.64196757333734422
-				EPH = 527598201.65048218
+				SMA = 3820625.5015001218
+				ECC = 0.77284591512467871
+				INC = 8.4117768955661578
+				LPE = 169.89541084051396
+				LAN = 70.380358981056588
+				MNA = 1.1220631125708702
+				EPH = 527600109.49782747
 				REF = 1
 			}
 			PART
@@ -46171,8 +46171,8 @@ GAME
 				attN = top, 6
 				mass = 0.100000001
 				shielded = False
-				temp = 276.89685027963179
-				tempExt = 275.67544146229238
+				temp = 254.29038339091869
+				tempExt = 253.55303693923338
 				tempExtUnexp = 312.61821461652914
 				expt = 0
 				state = 0
@@ -46393,7 +46393,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 2.7048715365401796
+					amount = 4.7780987919918951
 					maxAmount = 15
 					flowState = True
 					isTweakable = True
@@ -46426,8 +46426,8 @@ GAME
 				attN = bottom, 2
 				mass = 0.0732744038
 				shielded = False
-				temp = 276.94470318213547
-				tempExt = 276.49133638062381
+				temp = 254.32956302778908
+				tempExt = 254.08956111147512
 				tempExtUnexp = 312.61821461652914
 				expt = 0.5
 				state = 0
@@ -46574,7 +46574,7 @@ GAME
 						temperature = 300
 						fillable = True
 						techRequired = 
-						amount = 3606.4953820612004
+						amount = 6370.7983893438486
 						maxAmount = 20000
 					}
 					TANK
@@ -46609,7 +46609,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 3606.4953820612004
+					amount = 6370.7983893438486
 					maxAmount = 20000
 					flowState = True
 					isTweakable = True
@@ -46642,8 +46642,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.25
 				shielded = False
-				temp = 276.33500130710144
-				tempExt = 276.18888011140848
+				temp = 253.20195724075788
+				tempExt = 253.55487240549505
 				tempExtUnexp = 312.61821461652914
 				expt = 0.5
 				state = 1
@@ -46792,8 +46792,8 @@ GAME
 				srfN = srfAttach, 1
 				mass = 0.0299999993
 				shielded = False
-				temp = 276.90457049920951
-				tempExt = 276.2855878748839
+				temp = 254.27733886200997
+				tempExt = 253.91493076950476
 				tempExtUnexp = 312.61821461652914
 				expt = 0.5
 				state = 0
@@ -46916,8 +46916,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.0799999982
 				shielded = False
-				temp = 280.63756566971273
-				tempExt = 277.8814776362359
+				temp = 257.85108852103099
+				tempExt = 255.39362343192209
 				tempExtUnexp = 312.61821461652914
 				expt = 0.5
 				state = 0
@@ -46975,7 +46975,7 @@ GAME
 					CoreTempGoalAdjustment = 0
 					CoreThermalEnergy = 284839.69994598377
 					stagingEnabled = True
-					lastUpdateTime = 527598201.65048218
+					lastUpdateTime = 527600109.49782747
 					EVENTS
 					{
 					}
@@ -47042,8 +47042,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.0799999982
 				shielded = False
-				temp = 280.63756566971273
-				tempExt = 277.8814776362359
+				temp = 257.85108852103099
+				tempExt = 255.39362343192209
 				tempExtUnexp = 312.61821461652914
 				expt = 0.5
 				state = 0
@@ -47101,7 +47101,7 @@ GAME
 					CoreTempGoalAdjustment = 0
 					CoreThermalEnergy = 284839.69994598377
 					stagingEnabled = True
-					lastUpdateTime = 527598201.65048218
+					lastUpdateTime = 527600109.49782747
 					EVENTS
 					{
 					}
@@ -47167,8 +47167,8 @@ GAME
 				attN = topNode, 9
 				mass = 0.349999994
 				shielded = False
-				temp = 273.79221951031116
-				tempExt = 273.80399835159352
+				temp = 252.29916914638031
+				tempExt = 252.4209388440274
 				tempExtUnexp = 312.61821461652914
 				expt = 0.5
 				state = 0
@@ -47308,8 +47308,8 @@ GAME
 				srfN = srfAttach, 6
 				mass = 0.0299999993
 				shielded = False
-				temp = 273.77604079233993
-				tempExt = 273.62665039974286
+				temp = 252.24702911161003
+				tempExt = 252.26787465360229
 				tempExtUnexp = 312.61821461652914
 				expt = 0.5
 				state = 0
@@ -47429,8 +47429,8 @@ GAME
 				srfN = srfAttach, 6
 				mass = 0.00499999989
 				shielded = False
-				temp = 273.78346100288377
-				tempExt = 273.62205631037284
+				temp = 252.29104829532844
+				tempExt = 252.25059305437824
 				tempExtUnexp = 312.61821461652914
 				expt = 0.5
 				state = 0
@@ -47488,8 +47488,8 @@ GAME
 				attN = bottom, 6
 				mass = 0.200000003
 				shielded = False
-				temp = 271.41043368174002
-				tempExt = 271.30513806471538
+				temp = 249.39566846202609
+				tempExt = 249.50705246456616
 				tempExtUnexp = 312.61821461652914
 				expt = 0.5
 				state = 0
@@ -47697,16 +47697,11 @@ GAME
 					dV = -6.5,-477.40000000000032,2472.6999999999994
 				}
 			}
-			TARGET
-			{
-				type = CelestialBody
-				tgtId = Sarnus
-			}
 			CTRLSTATE
 			{
-				pitch = 4.06958043E-06
-				yaw = -1.46825505E-05
-				roll = 4.15732575E-05
+				pitch = -1.89669627E-05
+				yaw = -1.92186289E-05
+				roll = -6.76544869E-06
 				trimPitch = 0
 				trimYaw = 0
 				trimRoll = 0
