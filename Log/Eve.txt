@@ -207,3 +207,81 @@ Prograde Δv:    -140.0 m/s
 Normal Δv:      477.0 m/s
 Radial Δv:      0.0 m/s
 Total Δv:       497 m/s
+
+
+
+==========================================
+
+
+Capture
+Precise Maneuver Information
+Depart at:      Year 17, Day 285, 23:56:20
+       UT:      529199781
+Prograde Δv:    -161.1 m/s
+Normal Δv:      0.0 m/s
+Radial Δv:      0.0 m/s
+Total Δv:       161 m/s
+
+Match Gilly orbit at node
+Precise Maneuver Information
+Depart at:      Year 17, Day 286, 11:16:03
+       UT:      529240563
+Prograde Δv:    -696.0 m/s
+Normal Δv:      -367.0 m/s
+Radial Δv:      -223.0 m/s
+Total Δv:       818 m/s
+
+=========================================
+
+Capture
+Precise Maneuver Information
+Depart at:      Year 17, Day 285, 23:56:20
+       UT:      529199781
+Prograde Δv:    -161.1 m/s
+Normal Δv:      0.0 m/s
+Radial Δv:      0.0 m/s
+Total Δv:       161 m/s
+
+Precise Maneuver Information
+Depart at:      Year 17, Day 288, 5:04:13
+       UT:      529391054
+Prograde Δv:    45.0 m/s
+Normal Δv:      -172.6 m/s
+Radial Δv:      0.0 m/s
+Total Δv:       178 m/s
+
+Precise Maneuver Information
+Depart at:      Year 17, Day 290, 20:14:20
+       UT:      529618461
+Prograde Δv:    -114.0 m/s
+Normal Δv:      201.0 m/s
+Radial Δv:      362.0 m/s
+Total Δv:       429 m/s
+
+
+=========================================
+
+Capture
+Precise Maneuver Information
+Depart at:      Year 17, Day 285, 23:56:21
+       UT:      529199781
+Prograde Δv:    -161.1 m/s
+Normal Δv:      0.0 m/s
+Radial Δv:      0.0 m/s
+Total Δv:       161 m/s
+
+Precise Maneuver Information
+Depart at:      Year 17, Day 288, 10:39:03
+       UT:      529411144
+Prograde Δv:    50.1 m/s
+Normal Δv:      -172.7 m/s
+Radial Δv:      -40.0 m/s
+Total Δv:       184 m/s
+
+Precise Maneuver Information
+Depart at:      Year 17, Day 290, 7:30:32
+       UT:      529572633
+Prograde Δv:    -98.0 m/s
+Normal Δv:      177.0 m/s
+Radial Δv:      312.0 m/s
+Total Δv:       372 m/s
