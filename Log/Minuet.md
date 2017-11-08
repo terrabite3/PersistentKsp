@@ -38,9 +38,16 @@ Minuet 3 crash landed on the surface of Kerbin. Miraculously, the pod survived t
 Action groups
 * Ladders
 * Solar panels
-* 
+
 
 Add probe core to final rocket stage
 
 Fill all fuel tanks!
 
+## Minuet 4
+
+### Action Groups
+
+1. Solar panels
+2. Toggle lights
+3. Ladders

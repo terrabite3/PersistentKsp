@@ -11,7 +11,7 @@ GAME
 	scene = 5
 	editor = None
 	flag = Squad/Flags/minimalistic
-	launchID = 32
+	launchID = 33
 	modded = True
 	envInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe -single-instance - 
 	versionFull = 1.3.0.1804 (WindowsPlayer x64)
@@ -1072,7 +1072,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.3.0
-		UT = 531444524.79344934
+		UT = 531444757.86391312
 		activeVessel = 0
 		mapViewFiltering = -1026
 		commNetUIModeTracking = None
@@ -13723,9 +13723,9 @@ GAME
 				ECC = 1
 				INC = 0.010181556273195462
 				LPE = 90
-				LAN = 74.143329910104228
+				LAN = 74.718800136688287
 				MNA = 0
-				EPH = 531444516.0334577
+				EPH = 531444738.20393187
 				REF = 2
 			}
 			PART
@@ -48411,9 +48411,9 @@ GAME
 			landedAt = Runway
 			displaylandedAt = Runway
 			splashed = False
-			met = 1819834.3069173694
+			met = 1822322.6196320057
 			lct = 529622415.52429992
-			lastUT = 531442249.83121729
+			lastUT = 531444738.18393189
 			root = 0
 			lat = -0.048601340593295524
 			lon = -74.724363370462967
@@ -48421,7 +48421,7 @@ GAME
 			hgt = 6.94698286
 			nrm = -9.70519613E-05,1,0.000155776739
 			rot = 0.564423919,0.560605049,-0.426876366,-0.43002817
-			CoM = -8.70786607E-06,-2.9008069,-0.950537443
+			CoM = -4.10769135E-05,-2.90080738,-0.950261593
 			stg = 0
 			prst = False
 			ref = 0
@@ -48431,13 +48431,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
-				INC = 0.048601753446070234
+				INC = 0.048601756348184852
 				LPE = 90
-				LAN = 161.5221016407952
+				LAN = 165.23363313060077
 				MNA = 0
-				EPH = 531444516.0334577
+				EPH = 531444738.20393187
 				REF = 1
 			}
 			PART
@@ -48462,9 +48462,9 @@ GAME
 				srfN = srfAttach, -1
 				mass = 0.100000001
 				shielded = False
-				temp = 303.00975620694408
-				tempExt = 303.59215776282093
-				tempExtUnexp = 303.59083647130927
+				temp = 305.77255996670823
+				tempExt = 306.27539076023464
+				tempExtUnexp = 306.27406751517924
 				expt = 0.100000001
 				state = 1
 				attached = False
@@ -48486,7 +48486,7 @@ GAME
 				{
 					name = LaunchClamp
 					isEnabled = True
-					scaleFactor = 2.96218133
+					scaleFactor = 2.96216702
 					height = 7.47404623
 					stagingEnabled = True
 					towerRot = -2.80474446E-16,-1,3.08539541E-08,9.09038889E-09
@@ -48690,9 +48690,9 @@ GAME
 				ECC = 1
 				INC = 0.44190055395560224
 				LPE = 90
-				LAN = 161.49456931917484
+				LAN = 165.20610083533927
 				MNA = 0
-				EPH = 531444516.0334577
+				EPH = 531444738.20393187
 				REF = 1
 			}
 			PART
