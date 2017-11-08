@@ -11,7 +11,7 @@ GAME
 	scene = 5
 	editor = None
 	flag = Squad/Flags/minimalistic
-	launchID = 31
+	launchID = 32
 	modded = True
 	envInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe -single-instance - 
 	versionFull = 1.3.0.1804 (WindowsPlayer x64)
@@ -1062,7 +1062,7 @@ GAME
 	{
 		name = SentinelScenario
 		scene = 7, 8, 5
-		NextSpawnTime = 531442304.7266053
+		NextSpawnTime = 531550579.88822216
 	}
 	SCENARIO
 	{
@@ -1072,7 +1072,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.3.0
-		UT = 531440730.92131835
+		UT = 531444524.79344934
 		activeVessel = 0
 		mapViewFiltering = -1026
 		commNetUIModeTracking = None
@@ -13721,11 +13721,11 @@ GAME
 			{
 				SMA = 0
 				ECC = 1
-				INC = 0.010181556201602335
+				INC = 0.010181556273195462
 				LPE = 90
-				LAN = 64.320824665817383
+				LAN = 74.143329910104228
 				MNA = 0
-				EPH = 531440723.88132507
+				EPH = 531444516.0334577
 				REF = 2
 			}
 			PART
@@ -48411,9 +48411,9 @@ GAME
 			landedAt = Runway
 			displaylandedAt = Runway
 			splashed = False
-			met = 788395.13291782141
+			met = 1819834.3069173694
 			lct = 529622415.52429992
-			lastUT = 530410810.65721774
+			lastUT = 531442249.83121729
 			root = 0
 			lat = -0.048601340593295524
 			lon = -74.724363370462967
@@ -48421,7 +48421,7 @@ GAME
 			hgt = 6.94698286
 			nrm = -9.70519613E-05,1,0.000155776739
 			rot = 0.564423919,0.560605049,-0.426876366,-0.43002817
-			CoM = -9.83290374E-06,-2.90088987,-0.950438738
+			CoM = -8.70786607E-06,-2.9008069,-0.950537443
 			stg = 0
 			prst = False
 			ref = 0
@@ -48431,13 +48431,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
-				INC = 0.048601753453569242
+				INC = 0.048601753446070234
 				LPE = 90
-				LAN = 98.171234676593031
+				LAN = 161.5221016407952
 				MNA = 0
-				EPH = 531440723.88132507
+				EPH = 531444516.0334577
 				REF = 1
 			}
 			PART
@@ -48462,9 +48462,9 @@ GAME
 				srfN = srfAttach, -1
 				mass = 0.100000001
 				shielded = False
-				temp = 307.98808244909878
-				tempExt = 308.5503197928507
-				tempExtUnexp = 308.54890196993989
+				temp = 303.00975620694408
+				tempExt = 303.59215776282093
+				tempExtUnexp = 303.59083647130927
 				expt = 0.100000001
 				state = 1
 				attached = False
@@ -48486,7 +48486,7 @@ GAME
 				{
 					name = LaunchClamp
 					isEnabled = True
-					scaleFactor = 2.96217394
+					scaleFactor = 2.96218133
 					height = 7.47404623
 					stagingEnabled = True
 					towerRot = -2.80474446E-16,-1,3.08539541E-08,9.09038889E-09
@@ -48686,13 +48686,13 @@ GAME
 			cMod = 1
 			ORBIT
 			{
-				SMA = 300050.18178742111
-				ECC = 0.99999999999999989
-				INC = 0.44190055395477745
-				LPE = 90.000000000000014
-				LAN = 98.143702364402372
-				MNA = 3.1415926207170166
-				EPH = 531440723.88132507
+				SMA = 0
+				ECC = 1
+				INC = 0.44190055395560224
+				LPE = 90
+				LAN = 161.49456931917484
+				MNA = 0
+				EPH = 531444516.0334577
 				REF = 1
 			}
 			PART
