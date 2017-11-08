@@ -3,7 +3,7 @@
 	"abstract": "A list of modules installed on the default KSP instance",
 	"name": "installed-default",
 	"license": "unknown",
-	"version": "2017.09.23.03.49.13",
+	"version": "2017.11.08.05.26.38",
 	"identifier": "installed-default",
 	"spec_version": "v1.6",
 	"depends": [
