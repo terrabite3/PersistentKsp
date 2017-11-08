@@ -9,3 +9,21 @@ Main engine lost power after separating boosters.
 Separated from launch stage.
 Not enough thrust to make it to orbit.
 Crashed.
+
+
+Minuet 2
+
+Unmanned test
+
+Some flight path aberrations.
+Almost made it to orbit.
+
+Move solar panels to the pod.
+Test lights on pod -- they're flickering
+Add batteries
+
+
+Minuet 3
+
+Unmanned test
+
