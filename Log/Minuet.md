@@ -33,7 +33,7 @@ At apoapsis, the probe was no longer in communication. It did not regain communi
 
 Minuet 3 crash landed on the surface of Kerbin. Miraculously, the pod survived the crash and was refurbished for Minuet 4.
 
-### Design Suggestions
+### Design Recommendations
 
 Action groups
 * Ladders
@@ -51,3 +51,8 @@ Fill all fuel tanks!
 1. Solar panels
 2. Toggle lights
 3. Ladders
+
+### Design Recommendations
+
+* Ladder clips with solar panels
+* Solar panels inside fairing should not deploy with action group
