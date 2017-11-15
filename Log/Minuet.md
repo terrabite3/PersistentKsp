@@ -56,3 +56,8 @@ Fill all fuel tanks!
 
 * Ladder clips with solar panels
 * Solar panels inside fairing should not deploy with action group
+* More lights
+
+## Minuet 5
+
+
