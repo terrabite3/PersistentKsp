@@ -60,4 +60,15 @@ Fill all fuel tanks!
 
 ## Minuet 5
 
+Launch was great
+
+Landed on Minmus a little too fast and broke the engine and solar panels
+
+### Mass
+
+Total       10.476 t
+
+NTO           1791 u
+Aerozine 50   1803 u
+
 

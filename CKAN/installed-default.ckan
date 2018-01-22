@@ -3,17 +3,17 @@
 	"abstract": "A list of modules installed on the default KSP instance",
 	"name": "installed-default",
 	"license": "unknown",
-	"version": "2017.11.08.05.26.38",
+	"version": "2018.01.22.04.32.12",
 	"identifier": "installed-default",
 	"spec_version": "v1.6",
 	"depends": [
 		{
-			"name": "AstronomersVisualPack",
-			"version": "v3.53"
+			"name": "surfacelights",
+			"version": "1.6"
 		},
 		{
-			"name": "surfacelights",
-			"version": "1.5"
+			"name": "AstronomersVisualPack",
+			"version": "v3.63"
 		},
 		{
 			"name": "Scatterer-config",
@@ -29,11 +29,11 @@
 		},
 		{
 			"name": "ModuleManager",
-			"version": "2.8.1"
+			"version": "3.0.1"
 		},
 		{
-			"name": "Kopernicus",
-			"version": "2:release-1.3.0-6"
+			"name": "PreciseManeuver",
+			"version": "2:2.3.2"
 		},
 		{
 			"name": "ModularFlightIntegrator",
@@ -72,12 +72,12 @@
 			"version": "v2.1.12"
 		},
 		{
-			"name": "RasterPropMonitor",
-			"version": "1:v0.29.0"
+			"name": "RasterPropMonitor-Core",
+			"version": "1:v0.29.3"
 		},
 		{
-			"name": "RasterPropMonitor-Core",
-			"version": "1:v0.29.0"
+			"name": "RasterPropMonitor",
+			"version": "1:v0.29.3"
 		},
 		{
 			"name": "EasyVesselSwitch",
@@ -100,8 +100,8 @@
 			"version": "1:0.4.3"
 		},
 		{
-			"name": "PreciseManeuver",
-			"version": "2:2.3.1"
+			"name": "Kopernicus",
+			"version": "2:release-1.3.0-8"
 		},
 		{
 			"name": "RealFuels",
@@ -120,8 +120,8 @@
 			"version": "v3.3"
 		},
 		{
-			"name": "SCANsat",
-			"version": "v18.0"
+			"name": "AVP-8kTextures",
+			"version": "v1.6"
 		},
 		{
 			"name": "RealPlume",
@@ -132,8 +132,8 @@
 			"version": "2.7.5.0"
 		},
 		{
-			"name": "AVP-8kTextures",
-			"version": "v1.4"
+			"name": "SCANsat",
+			"version": "v18.2"
 		},
 		{
 			"name": "WaypointManager",
